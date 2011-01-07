@@ -10,3 +10,6 @@ sont rappelées ci-dessous :
  * Séance 4 : Mardi 18/01
  * Séance 5 : Vendredi 21/01
  * Réstitution : Jeudi 27/01
+
+Notre projet consiste en l'élaboration d'une réponse à un appel d'offre émis
+par COPEVUE, qui doit être remise en S4 2011.
