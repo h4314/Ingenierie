@@ -8,7 +8,7 @@ Estimation des besoins de énergie pour une station, sur un an.
 
 Pile
 ------
-La pile doit pouvoir fournir continuellement et pendant le maximum de temps l'énergie nécessaire au système embarqué et ses annexes. La pile ne doit pas nécessiter des maintenances pour ajouter de l'électrolyte à l'acide. Dans le cas ou cette pile serait couplée à d'autres sources électriques, elle devrait se recharger.
+La pile doit pouvoir fournir continuellement et pendant le maximum de temps l'énergie nécessaire au système embarqué et ses annexes. La pile ne doit pas avoir besoin des maintenances pour ajouter de l'électrolyte à l'acide. Dans le cas ou cette pile serait couplée à d'autres sources électriques, elle devrait se recharger.
 
 Exemples de piles
 1) Acker Drill Company Ace Battery (1995-90)
