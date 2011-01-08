@@ -1,0 +1,67 @@
+Synthèse séance 7/01 
+====================
+
+
+Objectifs du document 
+---------------------
+
+Etude de l'existant (draft) : comment actuellement ces sites distants son gérés.
+Fonctionnement actuel :
+ * absence de système centralisé
+ * pas de surveillance à distance
+Dysfonctionnements constatés : 
+ * pertes d'argent
+ * risques environnementaux
+
+
+Reste à faire 
+-------------
+
+ * finir la rédaction 
+ * continuer d'inventer le fonctionnement actuel
+ * continuer d'inventer les dysfonctionnements
+
+
+
+
+
+actuellement la surveillance de ces lieux est assurée par le propriétaire du lieu de travail, qui en fonction du niveau qu'il constate, avertit la société chargée de s'occuper du réservoir pour qu'elle vienne le remplir/la vid+er.
+
+
+chaque site distant est indépendant, pas de centralisation
+contact direct des prestataires par utilisateur/propriétaire des sites distants
+
+des opérationnels vont vérifier eux mêmes le niveau des cuves, besoin de maintenance
+=> mesure manuelle du niveau (ex sonde manuelle) => pas de lecture de valeur avec un quelconque systeme electronique
+=> maintenance, ex : fuite (avec un capteur on pourra detecter une fuite à distance)
+le niveau seuil dépend des cuves 
+tous les combien ? => 3 mois
+Si la cuve nécessite un ravitaillement/maintenance => appel au centre
+
+contenance : 1m3 à 10 m3
+
+nombre de sites ? env. 100
+nombre de cuves par site ? env. 10
+quels types ? liquide, uniquement anti-incendie, donc eau/produit anti-feu
+cuves d'un site réparties dans un diamètre de 100m
+
+Coûts :
+- 1000€ les frais de déplacement d'un camion
+
+couverture geographique : scandinavie
+
+
+
+disfonctionnements :
+- cout important
+  - pas de mise en commun des achats fournisseurs
+  - pas de mise en commun/planification des livraisons/enlevements
+- faible exigences de surveillance => risques
+- pas de traçabilité
+
+
+
+
+
+
+
