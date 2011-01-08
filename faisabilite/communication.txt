@@ -1,0 +1,118 @@
+Synthèse séance 7/01 
+====================
+
+
+Objectifs du document 
+---------------------
+
+Etude (draft) de faisabilité des moyens de communication longue distance entre les sites distants et le site central.
+
+Fait
+----
+
+ * recherche sur les moyens de communication courte distance (réseaux de capteur type Zigbee) => redondance avec les recherches de Paul et Pierrick
+ * recherche sur les moyens de communication à distance
+   * GPS
+   * Courant porteur libre
+   * réseau GSM/GPRS/UMTS
+ * avantages/inconvénients
+   * disponibilité
+   * fiabilité
+   * couts
+   * adaptation à nos besoins
+
+Reste à faire 
+-------------
+
+ * finir la rédaction 
+ * comparatifs des solutions en termes de :
+  * couts
+  * utilisation (dépend de la zone géographique)
+  * difficulté d'implémentation (technique ou politique)
+ * quel système embarqué sera chargé de gérer la communication au site distant ?
+  * un modem + puce GPRS ?
+  * voir avec Paul et Pierrick
+
+
+
+communication longue distance :
+
+- GSM = 2G => que la voix ? mais pas seulement : données, ex : fax, wap, sms, mms
+- GPRS = 2.5G ou 2G+, reseau IP, services de type Data
+- EDGE = 2.75G, 
+- UMTS = 3G, services multimédia
+- GPS ? => à considérer pour des stations vraiment reculé de montagnes, zones peu développées ou les pôles
+- courant porteur ?
+
+GSM : facturation à la durée 
+GPRS : facturation au débit => permet de rester connecté, utilise GSM pour la voix et IP pour les données
+
+GSM : Pour le GSM Data, tout se passe comme pour une connexion Internet par modem classique; vous devez donc posséder un compte auprès d'un FAI. Si vous avez déjà un fournisseur d'accès Internet pour la maison, vous pouvez utiliser le même compte sans problème
+
+GPRS : votre opérateur télécom qui jouera le rôle de FAI
+Le GPRS permet de nouveaux usages que ne permettait pas la norme GSM, généralement catégorisés par les classes de services suivants :
+
+    * Services point à point (PTP), c'est-à-dire la capacité à se connecter en mode client-serveur à une machine d'un réseau IP,
+    * Services point à multipoint (PTMP), c'est-à-dire l'aptitude à envoyer un paquet à un groupe de destinataires (Multicast).
+    * Services de messages courts (SMS),
+
+Couverture GSM : http://www.mobileworldlive.com/maps/
+
+In order to gain access to GSM services, a user needs three things:
+
+    * A billing relationship with a mobile phone operator. This is usually either where services are paid for in advance of them being consumed (prepaid), or where bills are issued and settled after the service has been consumed (postpaid).
+    * A mobile phone which is GSM compliant and operates at the same frequency as the operator. Most phone companies sell phones from third-party manufacturers.
+    * A SIM ("Subscriber Identity Module") card which is activated by the operator once the billing relationship is established. After activation the card is then programmed with the subscriber's MSISDN ("Mobile Subscriber Integrated Services Digital Network Number") (the telephone number). Personal information such as contact numbers of friends and family can also be stored on the SIM by the subscriber.
+
+
+
+
+réseaux de capteurs sans-fil 
+
+http://sensorscope.epfl.ch/index.php/SensorScope_Technology
+
+=> low energy consumption, long communication range, low cost, simple installation, energy autonomy, high-quality data, water resistant, and to retrieve data in real-time.
+
+
+
+Standards les plus aptes : double pile protocolaire Bluetooth/Zigbee
+
+Bluetooth => trop consommateurs en energie
+Zigbee => debit de données moindre mais consomme moins + fiable débit n'est pas un problème car fréquences de 
+transmission faibles
+
+comparatif zigbee avec bluetooth et wifi :
+http://fr.wikipedia.org/wiki/ZigBee#Zigbee_par_rapport_.C3.A0_d.27autres_protocoles_sans_fil
+
+Les nœuds sont conçus pour fonctionner plusieurs mois (jusqu’à dix ans pour les moins consommant) en autonomie complète grâce à une simple pile alcaline de 1,5 V.
+
+De nouvelles techniques influenceront l'avenir des réseaux de capteurs. par exemple, UWB (Ultra wideband) est une technique de transmission permettant des consommations extrêmement basses grâce à sa simplicité matérielle. De plus, l'atténuation du signal engendré par des obstacles est moindre qu'avec les systèmes radio à bande étroite conventionnels.
+
+OS:
+TinyOS développé à l'Université de Berkeley ; un système d'exploitation "open source" conçu pour les capteurs embarqués sans-fil. La réalisation de programmes sur cette plateforme s'effectue exclusivement en NesC (dialecte du C). Cet OS a notamment pour particularité une taille extrêmement réduite en termes de mémoire (quelques kilo-octets).
+
+Architecture :
+Un « nœud capteur » contient quatre unités de base : l'unité de captage, l'unité de traitement, l'unité de transmission, et l'unité de contrôle d'énergie. Selon le domaine d'application, il peut aussi contenir des modules supplémentaires tels qu'un système de localisation (GPS), ou bien un système générateur d'énergie (cellule solaire). Quelques micro-capteurs, plus volumineux, sont dotés d'un système mobilisateur chargé de les déplacer en cas de nécessité.
+
+L'unité de captage
+L'unité de traitement (TinyOS)
+L'unité de transmission
+L'unité de contrôle d'énergie
+
+Architectures Réseau de capteurs:
+
+La Topologie en étoile
+Avantage : simplicité et faible consommation d’énergie des nœuds, moindre latence de communication entre les nœuds et la station de base.
+Inconvénient : la station de base est vulnérable, car tout le réseau est géré par un seul nœud
+
+La topologie « en toile » ou « en grille » (Mesh Network)
+Avantage : Possibilité de passer à l’échelle du réseau, avec redondance et tolérance aux fautes,
+Inconvénient : Une consommation d’énergie plus importante est induite par la communication multi-sauts. Une latence est créée par le passage des messages des nœuds par plusieurs autres avant d’arriver à la station de base.
+
+La topologie hybride
+
+
+
+Dash7 > Zigbee
+http://www.dash7.org/index.php?option=com_content&view=article&id=148&Itemid=203
+
