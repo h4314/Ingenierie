@@ -4,7 +4,7 @@ Synthèse séance 7/01
 Objectifs du document 
 ---------------------
 
-Etude (draft) de faisabilité des moyens de communication longue distance entre les sites distants et le site central.
+Étude (draft) de faisabilité des moyens de communication longue distance entre les sites distants et le site central.
 
 Fait
 ----
@@ -48,17 +48,17 @@ Communication longue distance
 Problématique
 -------------
 
-Cette étude a pour objectifs d'effectuer un état de l'art en termes de communication longue distance. En l'occurence, ici, il s'agit de trouver des solutions potentielles permettant de répondre à la question suivante : *comment s'effectuera la communication entre les sites distants et le site central de monitoring ?*
+Cette étude a pour objectifs d'effectuer un état de l'art en termes de communication longue distance. En l'occurrence, ici, il s'agit de trouver des solutions potentielles permettant de répondre à la question suivante : *comment s'effectuera la communication entre les sites distants et le site central de monitoring ?*
 
-Pour répondre à cette question, il convient dans un premier temps de rappeller les contraintes inhérentes :
- * le site central pourra être déployé (voir migré à tout moment) partout en Europe, et a forciori n'importe où dans le monde.
+Pour répondre à cette question, il convient dans un premier temps de rappeler les contraintes inhérentes :
+ * le site central pourra être déployé (voir migré à tout moment) partout en Europe, et a fortiori n'importe où dans le monde.
  * les sites distants sont situés n'importe où en Europe, y compris les endroits les plus reculés et les moins bien desservis, que ce soit en terme de d'énergie, de télécommunications ou d'infrastructures routières.
  * la communication devra être fiable
    * les informations ne doivent pas être perdues
    * certaines stations critiques doivent inclure des capacité de reprise ou de capacité de redondance pour garder une disponibilité maximale
  * la communication doit être la moins coûteuse possible
 
-Dans un deuxième temps, les critères de selection d'une solution se porteront également sur la teneur des communications : *quelles données seront amenées à circuler dans un sens, comme dans l'autre ?*
+Dans un deuxième temps, les critères de sélection d'une solution se porteront également sur la teneur des communications : *quelles données seront amenées à circuler dans un sens, comme dans l'autre ?*
 
 Du site central vers les sites distants :
  * mises à jour des logiciels (fréquence : maximum toutes les semaines, mais certainement beaucoup plus espacé)
@@ -129,7 +129,7 @@ Lien vers la doc                            http://bit.ly/ejBbMS
 
 Sources :
  * couverture GSM : http://www.mobileworldlive.com/maps/
- * comparatifs modems chez erco&gener : http://www.ercogener.com/comparatif-modem-gsm-gprs-gps.html
+ * comparatifs modems chez ercogener : http://www.ercogener.com/comparatif-modem-gsm-gprs-gps.html
 
 
 Utilisation du réseau GPS
