@@ -1,0 +1,14 @@
+Synth¨¨se 
+
+Temps pass¨¦: 1h
+
+Ce qui est fait: 
+
+- la recherche des piles, des panneaux solaires, des ¨¦oliennes
+- r¨¦daction de draft, mais ¨¤ finaliser
+
+
+A faire:
+- Estimation de la consommation d'¨¦nergie d'une station.
+
+- En fonction de r¨¦sultat de calcul, choisir les ¨¦quipements appropri¨¦s. 
