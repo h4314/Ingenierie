@@ -38,6 +38,33 @@ spécifiquement conçus pour que des ingénieurs testent des solutions dans leur
 environnement spécifique, pour s'assurer de l'adéquation du matériel avec la
 résolution de leur problème.
 
+Solution 2 : Solution tout intégrée à base de chip Atmel
+========================================================
+
+Atmel est une entreprise américaine, basée en Californie, qui conçoit et
+fabrique des semi-conducteurs depuis 1984.
+
+Cette entreprise des solutions pour plusieurs corps de métier (Domotique,
+applications industrielles, solutions d'éclairage automatisée, solutions pour
+capteurs, etc.).
+
+Elle propose, tout comme Ember, un ensemble de solution intégrée, ou à intégrer,
+afin d'avoir une plus grande flexibilité, les composants étant standards. La
+plupart des solutions proposent des fonctionnalités de communication sans-fil
+(ZigBee) et des convertisseurs, afin de brancher des capteurs. Un mode de veille
+profonde est supporté, afin de baisser la consommation jusqu'à 250 nA
+(le minimum de composants sont alimentés, et un timer tourne pour savoir quand
+repasser dans autre mode). Cela permet une durée de vie extrêmement longue.
+
+L'environnement de développement se base sur Eclipse, et est donc portable sur
+Windows, Linux et MacOS, tout en assurant une bonne intégration avec les
+solutions matérielles.
+
+Comme pour la solution Ember, il est possible d'acheter, pour environ $400, un
+kit comprenant 5 ATmega1281V (microcontrôleurs) et 5 AT86RF230 (transmetteurs
+sans fils), ainsi que les logiciels pour mettre en œuvre une solution de
+démonstration de type réseau maillé.
+
 =============================               ==========================      =============================
 Caractéristique                             Ember EM250                     Atmel ATmega128RFA1
 =============================               ==========================      =============================
@@ -76,4 +103,46 @@ Lien vers la doc                            http://bit.ly/iaLOmN            http
 
 =============================               ==========================      =============================
 
-TODO : Faire un benchmark des systèmes : L4, Contiki, TinyOS (très spécialisé).
+Solution 3 : Intégration manuelle de composants
+===============================================
+
+En dehors des solutions toute intégrées, il est envisageable d'intégrer des
+composants de différents constructeurs, par exemple, un microcontrôleur, un
+périphérique réseau, des capteurs, un système temps réel, pour former une
+solution calquée sur les besoins.
+
+Systèmes d'exploitation
+-----------------------
+
+=====================       =========================   =======================   =======================   ======================= 
+Caractéristique             TinyOS                      L4 Fiasco                 Contiki                   VxWorks
+=====================       =========================   =======================   =======================   ======================= 
+Matériel                                                                                                    
+    - Architecture          ATMega8, AVRMote, Mica,     x86 (32 et 65bits)        Atmel AVR, TI MSP430,     Tous µc et CPU modernes
+                            Mica2, Micadot, Mica128,    ARM (v4 - v7)             Nintendo Gameboy et NES   
+                            Micaz, MSP430, Rene2,       nVidia Tegra2             x86, Apple II             
+                            Telos, Telos2, PC           PowerPC                                             
+    - Réseau                TI CC1000 et CC2420,        Varié, possibilité de     Varié, possibilité de     Grand nombre de chip
+                            Infineon TDA5250,           coder des pilotes.        coder des pilotes.        
+                            Atmel RF212 et RF230,                                                           
+                            Semtech XE1205                                                                  
+                                                                                                            
+Usage                       Réseau de capteurs          Variés                    Variés, dont réseaux      Variés
+                                                                                  de capteurs.              
+                                                                                                            
+Licence                     New BSD                     GPL ou commerciale         BSD                      Commerciale
+                                                                                                            
+Langage                                                                                                     
+    - Système               NesC                        C++ / x86 ASM             C                         C
+    - Applications          NesC                        C, C++                    C                         Ada, C, C++, Java
+                                                                                                            
+Modèle                      Évènementiel                Micro-noyau               Évènementiel              Monolithique
+                                                                                                            
+Ordonnancement              Non-préemptif                                         Préemptif                 Préemptif
+                                                                                                            
+Consommation                Très faible                 Variable                  Très faible               Variable
+                                                                                                            
+Temps réel                  Non                         Oui                       Oui                       Oui
+                                                                                                            
+=====================       =========================   =======================   =======================   =======================
+
