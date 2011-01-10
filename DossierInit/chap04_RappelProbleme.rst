@@ -15,8 +15,10 @@ naturelles et technologiques fortes : risques climatiques, difficultés d'accès
 ou d'approvisionnement.
 
 Les objectifs d'un système de monitoring, dans ce contexte, sont les suivants :
- * Améliorer la fiabilité des relevés de leur communication
- * 
+ * Autonomiser le processus et le système de relevés (fonctionnement, energie,...),
+ * améliorer la fiabilité des relevés et de leur communication,
+ * permettre des économies de fonctionnement,
+ * réduire l'impact écologique des sites consernés.
 
 Les objectifs
 =============
