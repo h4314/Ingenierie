@@ -32,3 +32,9 @@ Ce projet à pour objectifs :
  * la rédaction d'un cahier des charges exhaustif,
  * la proposition d'au moins une conception d'un système répondant aux besoins
    du client.
+
+La solution proposée devra inclure :
+ * l'étude de capteurs,
+ * un système embarqué de manipulation des capteurs,
+ * une solution type serveur collectant l'ensemble des donnés d'un site à distance,
+ * un logiciel de traitement des données collectées.
