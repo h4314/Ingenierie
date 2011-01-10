@@ -1,33 +1,3 @@
-Synthèse séance 7/01 
-====================
-
-Objectifs du document 
----------------------
-
-Etude de l'existant (draft) : comment actuellement ces sites distants son gérés.
-Fonctionnement actuel :
- * absence de système centralisé
- * pas de surveillance à distance
-Dysfonctionnements constatés : 
- * pertes d'argent
- * risques environnementaux
-
-Reste à faire 
--------------
-
- * finir la rédaction 
- * continuer d'inventer le fonctionnement actuel
- * continuer d'inventer les dysfonctionnements
-
-Modifications (08/01) 
----------------------
-
- * découpage avec un plan
- * rédaction
- * ajouts d'éléments pour le fonctionnement + nouveaux dysfonctionnements
- * *a faire : relecture*
-
-
 Etude de l'existant
 ===================
 
