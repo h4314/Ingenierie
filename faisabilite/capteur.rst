@@ -2,38 +2,78 @@
 CAPTEURS
 ========
 
-Dans le cadre de notre étude, les capteurs peuvent faire l'objet d'une classification par type de sortie.
+Dans le cadre de notre ï¿½tude, les capteurs peuvent faire l'objet d'une classification par type de sortie.
 
-Ils peuvent être de type : analogique, numérique ou logique (TOR).
+Ils peuvent ï¿½tre de type : analogique, numï¿½rique ou logique (TOR).
 
-La difficulté est donc la multiplicité des données en sortie de chaque capteur.
+La difficultï¿½ est donc la multiplicitï¿½ des donnï¿½es en sortie de chaque capteur.
 
-Il faudra utiliser une carte d'acquisition afin d'obtenir les mêmes données de sorties de tous les capteurs.
+Il faudra utiliser une carte d'acquisition afin d'obtenir les mï¿½mes donnï¿½es de sorties de tous les capteurs.
 
-Cette carte a pour rôle de réaliser l'interface entre les capteurs et le système embarqué. 
+Cette carte a pour rï¿½le de rï¿½aliser l'interface entre les capteurs et le systï¿½me embarquï¿½. 
 
-La carte est composée :
+La carte est composï¿½e :
 
-- D'une carte électronique reliée aux capteurs et au système embarqué, elle sera chargée d’effectuer les traitements de base sur le signal, afin de les transmettre de manière exploitable au système embarqué, en particulier lorsque ce qu'il faut contrôler nécessite l'exploitation de mesures provenant de plusieurs capteurs.
+- D'une carte ï¿½lectronique reliï¿½e aux capteurs et au systï¿½me embarquï¿½, elle sera chargï¿½e dï¿½effectuer les traitements de base sur le signal, afin de les transmettre de maniï¿½re exploitable au systï¿½me embarquï¿½, en particulier lorsque ce qu'il faut contrï¿½ler nï¿½cessite l'exploitation de mesures provenant de plusieurs capteurs.
 
-- D'un logiciel dédié au traitement des informations, installé sur le système embarqué. Il sera chargé de recevoir et garder les données envoyées par les capteurs.
+- D'un logiciel dï¿½diï¿½ au traitement des informations, installï¿½ sur le systï¿½me embarquï¿½. Il sera chargï¿½ de recevoir et garder les donnï¿½es envoyï¿½es par les capteurs.
 
-Un moyen d'envoyer les données vers un équipement centralisé de gestion des capteurs d'une zone est la transmission radio.
+Un moyen d'envoyer les donnï¿½es vers un ï¿½quipement centralisï¿½ de gestion des capteurs d'une zone est la transmission radio.
 
-Il existe en effet des équipements capables d'interfacer la carte d'acquisition et pouvant être connectés à un émetteur radio qui transmet les mesures au système embarqué.
+Il existe en effet des ï¿½quipements capables d'interfacer la carte d'acquisition et pouvant ï¿½tre connectï¿½s ï¿½ un ï¿½metteur radio qui transmet les mesures au systï¿½me embarquï¿½.
 
-La centrale sera connectée à un module équipé d'un modem GPRS.
+La centrale sera connectï¿½e ï¿½ un module ï¿½quipï¿½ d'un modem GPRS.
 
 Objectifs:
 ========== 
 - Chercher tout sur les capteurs.
 
 En bref:
-On voit que différents types de capteurs existent et la difficulté est la diversité des données en sortie des capteurs.
-Une solution peut être d'utiliser une carte d'acquisition pour avoir les mêmes informations 
+On voit que diffï¿½rents types de capteurs existent et la difficultï¿½ est la diversitï¿½ des donnï¿½es en sortie des capteurs.
+Une solution peut ï¿½tre d'utiliser une carte d'acquisition pour avoir les mï¿½mes informations 
 
 Ce qu'il manque encore:
 
 - Noms des entreprises qui proposent des solutions 
 - Exemples des capteurs et prix
-- Besoin d'énergie (capteur actifs ou passifs)
+- Besoin d'ï¿½nergie (capteur actifs ou passifs)
+
+=====================
+Modifications (10/01)
+=====================
+
+=========================================
+Solution 1 : OTT RLS (Radar Level Sensor)
+=========================================
+
+http://www.hydrolab.com/web/ott_hach.nsf/id/pa_radar_level_sensor.html
+http://www.ottfrance.com/web/ott_fr.nsf/id/pa_rls_fr.html
+
+OTT FRANCE est la filiale franÃ§aise du groupe OTT Messtechnik.
+
+L'activitÃ© s'Ã©tend de la fourniture de capteurs hydromÃ©tÃ©orologiques Ã  l'installation complÃ¨te de rÃ©seaux de mesure, avec les Ã©quipements suivants:
+
+- Capteurs de mesure de hauteur, de vitesse d'Ã©coulement et de dÃ©bit, de prÃ©cipitations et de qualitÃ© des eaux - systÃ¨me d'acquisition de mesures.
+
+- SystÃ¨mes de transmission de donnÃ©es permettant l'utilisation des vecteurs de communication tels que modems RTC et GSM, radio, satellite.
+
+- Logiciels de communication et de traitement.
+
+Elle propose OTT RLS (Radar Level Sensor), est un capteur radar pour la mesure sans contact du niveau des eaux de surface. Il utilise la technologie Ã  impulsions radar pour dÃ©terminer le niveau de l'eau.
+
+Pour que les impulsions radar Ã©mises atteignent la surface de l'eau, OTT RLS est placÃ© directement au-dessus du niveau d'eau Ã  mesurer.
+Etant donnÃ© que le capteur est placÃ© hors d'eau, les problÃ¨mes de mesures liÃ©s Ã  la prÃ©sence de vÃ©gÃ©tation appartiennent au passÃ©.
+Le RLS couvre une plage de mesure allant de 0,8 Ã  35 m. Les interfaces standard permettent le raccordement d'autres capteurs et la communication avec diffÃ©rents enregistreurs et systÃ¨mes de tÃ©lÃ©transmission. 
+Compact et insubmersible, le RLS ne nÃ©cessite qu'une maintenance rÃ©duite et bÃ©nÃ©ficie d'une longue durÃ©e de vie. Sa consommation rÃ©duite et son design bien pensÃ© font de ce produit une alternative Ã©conomique, pratique et fiable aux appareils de mesure de hauteur d'eau classiques.
+
+=================================================================================
+Solution 2 : Capteur VEGAPULS 62 â€“ le gÃ©nie universel pour la mesure des liquides
+=================================================================================
+
+http://www.vega.com/fr/Mesure_de_niveau_Radar_VEGAPULS62.htm
+
+Depuis plus de 50 ans, VEGA sâ€™investit dans une politique active de dÃ©veloppement de la mesure de niveau et de pression. Tous ses capteurs sont fabriquÃ©s en Allemagne et en France selon les normes ISO 9000 et ISO 14001 avec une exigence permanente de trÃ¨s haute qualitÃ©, ce qui permet de nous offrir 3 ans de garantie.
+
+Elle nous propose le capteur radar VEGAPULS 62 qui mesure le niveau des liquides dans des conditions difficiles. Le capteur radar VEGAPULS 62  maÃ®trise facilement des conditions de process difficiles comme les tempÃ©ratures extrÃªmes, la surpression ou le vide. Le capteur mesure le niveau du liquide dans les cuves de stockage et les rÃ©servoirs de process, Ã©galement Ã  une tempÃ©rature process de -200 Â°C Ã  +450 Â°C.
+
+GrÃ¢ce Ã  la technologie radar, le capteur de niveau mesure le niveau des liquides sans contact et fournit en continu des valeurs de mesure trÃ¨s prÃ©cises.
