@@ -84,45 +84,8 @@ Exemple d'éolienne
 ----------------------
 A présent, il n'existe pas d'équipement de taille que l'on souhaite pour fournir de l'électricité à notre système. Cette source d'énergie est dans la plus part de temps utilisée pour chauffer la maison directement grâce à des pompes à chaleur. La machine la plus petite qu'on a trouvé sur internet qui peut transformer l'énergie géothermique en électricité possède une puissance de 3 kW. Mais on peut envisager l'utilisation de cette énergie dans un futur proche pour notre système.
 
+Conclusion
+-----------
+Notre solution pour l'alimentation des station en énergie se base sur l'utilisation des piles et des panneaux solaires. Nous pouvons choisir des panneaux solaires plus ou moins grands et des piles de capacité plus ou moins importantes selon la condition climatique de la région. 
 
 
-
-Synthèse 
-Ce qui est fait: 
-- la recherche des piles, des panneaux solaires, des éoliennes
-A faire: 
-- Etudier la possibilité d'utilisation es panneaux solaires dans les pays nordiques.
-- Estimation de la consommation d'énergie d'une station.
-- En fonction de résultat de calcul, choisir les équipements appropriés. 
-		 	
-
-
-1) Evergreen 200W Module Es-A-200 (B Grade)
-	$664.01
-	200 Watt
-	12 V
-	Boîte de jonction étanche, pas besoin de maintenance
-	Garantie 25 ans
-	http://www.solarhome.org/evergreen200wmodulees-a-200bgra.aspx
-
-2) Sharp NU-U240F1, 240 Watt 20 Volt Nominal Solar Panel
-	$794
-	240 Watt
-	12 V
-	Garantie 25 ans
-	http://www.affordable-solar.com/sharp-NU-U240F1-240-watt-solar-panel.htm
-
-
-4) Small Solar Panel 4V 100Ma
- 	$24.64
-	0.4 Watt
-	4 V
-	http://www.solarhome.org/smallsolarpanel4v100ma.aspx
-
-	2) Acker Drill Company CS-100 Battery (1995-92)
-	$431.95
-	12 V
-	200 Amp*h
-	Garantie 1 an
-	Pas besoin de maintenance
-	http://www.apexbattery.com/acker-drill-company-cs-100-battery-1995-92-industrial-batteries-industrial-equipment-batteries-acker.html
