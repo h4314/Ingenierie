@@ -355,8 +355,8 @@ Reférences :
     http://www.hydrolab.com/web/ott_hach.nsf/id/pa_radar_level_sensor.html
     http://www.ottfrance.com/web/ott_fr.nsf/id/pa_rls_fr.html
 
-Solution 2 : Capteur VEGAPULS 62 – Le génie universel pour la mesure des liquides
-`````````````````````````````````````````````````````````````````````````````````
+Solution 2 : Capteur VEGAPULS 62 
+````````````````````````````````
 Depuis plus de 50 ans, VEGA s’investit dans une politique active de
 développement de la mesure de niveau et de pression. Tous ses capteurs sont
 fabriqués en Allemagne et en France selon les normes ISO 9000 et ISO 14001 avec
@@ -544,8 +544,7 @@ Cette infrastructure nécessite (en exemples seront données des solutions repos
 
 Conclusions
 #############
-Synthèse du dossier de faisabilité (avantage/inconvénients)... peut-être pistes (ou axes) d'évolution ou d'amélioration avec choix des diverses solutions émergeantes de l'étude (qui pourront être remises en question plus tard)
-
+TODO
 
 Annexes
 #######
@@ -631,12 +630,28 @@ Temps réel                  Non                         Oui                    
 Tableau comparatif des capteurs de niveau de liquide
 ====================================================
 
-======================    ==============    =================
-Caractéristiques          OTT RLS           VEGAPULS 62    
-======================    ==============    =================
-Plage de mesure           0.8 à 35 m        35 m           
-Précision de mesure       ±3 mm             ±2 mm          
-Température process       -40 à +85 °C      -200 à +450 °C 
-Tension d'alimentation    9,6 à 28 V DC     14 à 36 V DC   
-Matériaux                 Pas renseigné     acier inox     
-======================    ==============    =================
++------------------------+---------------------+----------------+
+| Caractéristiques       | OTT RLS             | VEGAPULS 62    |
++========================+=====================+================+
+| Plage de mesure        | 0.8 à 35 m          | 35 m           |
++------------------------+---------------------+----------------+
+| Précision de mesure    | ±3 mm               | ±2 mm          |
++------------------------+---------------------+----------------+
+| Température process    | -40  à +85 °C       | -200 à +450 °C |
++------------------------+---------------------+----------------+
+| Tension d'alimentation | 12 mA @ 12V         | 14 à 36 V DC   |
++------------------------+---------------------+----------------+
+| Matériaux              | Inox                | acier inox     |
++------------------------+---------------------+----------------+
+| Type technologie       | impulsions radar    | radar          |
++------------------------+---------------------+----------------+
+| Type de mesure         | sans contact        | sans contact   |
++------------------------+---------------------+----------------+
+| Durée de mesure        | 20 secondes         | inconnu        +
++------------------------+---------------------+----------------+
+| Fréquence d’émission   | 24GHz (radar pulsé) | Bande K        |
++------------------------+---------------------+----------------+
+| Prix                   | Inconnu             | Inconnu        |
++------------------------+---------------------+----------------+
+
+
