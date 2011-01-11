@@ -2,7 +2,7 @@ Communication longue distance
 =============================
 
 Problématique
--------------
+`````````````
 
 Cette étude a pour objectifs d'effectuer un état de l'art en termes de communication longue distance. En l'occurence, ici, il s'agit de trouver des solutions potentielles permettant de répondre à la question suivante : *comment s'effectuera la communication entre les sites distants et le site central de monitoring ?*
 
@@ -28,7 +28,7 @@ Enfin, la taille du réseau est à prendre en compte, nous partirons d'une base 
  * 1000 sites distants * 10 cuves = 10000 cuves
 
 Solutions possibles
--------------------
+```````````````````
 
 A l'heure actuelle trois méthodes de communication longue distante peuvent être envisagées pour ce système :
  * par le réseau GPRS (2G+), autrement dit par le réseau GSM et internet
@@ -36,10 +36,10 @@ A l'heure actuelle trois méthodes de communication longue distante peuvent êtr
  * par courant porteur libre, autrement dit par les lignes électriques
 
 Détails des solutions
----------------------
+`````````````````````
 
 Utilisation du réseau GPRS
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+__________________________
 
 Cette solution nécessite l'utilisation du réseau des télécommunications GSM. Le réseau GPRS est en réalité une extension s'appuyant sur le réseau GSM et a l'avantage d'une part de pouvoir rester connecté et d'autre part d'utiliser en plus des canaux de type voix, une passerelle vers le réseau internet. La facturation ne se fait non plus à la durée mais au débit.
 
@@ -48,7 +48,7 @@ Cette solution nécessite l'utilisation du réseau des télécommunications GSM.
 
 Les prérequis sont :
  * être à portée d'une antenne de télécommunication (BTS)
- * nécessite un abonnement auprès d'un FAI/opérateur téléphonique?, donc un abonnement par site distant ? 
+ * nécessite un abonnement auprès d'un FAI/opérateur téléphonique? Donc un abonnement par site distant ? 
 
 La couverture du réseau GPRS (et donc GSM) sur le territoire européen est quasi totale. Il faudra s'assurer préalablement de choisir l'opérateur mobile offrant la meilleure couverture, ce qui sera donc variable suivant les pays. Dans la même idée il faudra veiller à traiter avec un opérateur présent dans la majorité des pays européens afin de négocier des prix intéressants avec un support de qualité.
 
@@ -77,7 +77,7 @@ Sources :
 
 
 Utilisation du réseau GPS
-~~~~~~~~~~~~~~~~~~~~~~~~~
+_________________________
 
 Les stations à distance pourraient communniquer avec la station centrale via satellite. Cette technique nécessite l'installation d'une antenne emetrice/receptrice satellite et d'un modem dédié.
 
@@ -108,7 +108,7 @@ source :
  * prix des modems GPS : http://www.kamosis.com/store/index-n-Modems_Satellite-cp-558.html
 
 Utilisation du courant porteur libre (CPL)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+__________________________________________
 
 Cette solution permettrait de faire circuler l'information par les lignes électriques.
 
@@ -122,16 +122,10 @@ Inconvénients :
 
 
 Comparaison et bilan
---------------------
-
+````````````````````
 Le courant porteur libre, bien que prometteur, pour des raisons principalement politiques ne peut pas être envisagés à une échelle européenne.
 
 Reste la solution GPRS et GPS. La dernière est la plus couteuse mais ne peut pas être écartée car elle se révèle nécessaire dans certains endroits extremement isolés non couverts par le réseau GSM/GPRS.
 
 On pourrait imagnier à ce moment là prévoir une solution par défaut GSM/GPRS et mettre en place, au cas par cas, des sites distants capable de communiquer via satellite.
-
-
-
-
-
 
