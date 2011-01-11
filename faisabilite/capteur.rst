@@ -89,6 +89,7 @@ Grâce à la technologie radar, le capteur de niveau mesure le niveau des liquid
 +------------------------+-----------------+----------------+
 | Tension d'alimentation | 9,6 à 28 V DC   | 14 à 36 V DC   |
 +------------------------+-----------------+----------------+
-| Matériaux              |   ****          | acier inox     |
+| Matériaux              | inconnu         | acier inox     |
 +------------------------+-----------------+----------------+
+
 
