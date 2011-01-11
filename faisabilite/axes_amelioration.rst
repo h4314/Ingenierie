@@ -15,7 +15,7 @@ de maintenance, les choix en termes de ressources humaines et matérielles et le
    * capteurs :
  * Communication entre le site central et les sites distants : utilisation du réseau GSM/GPRS
 
-A partir de l'étude du fonctionnement actuel et de ses dysfonctionnements, mais aussi de l'étude de faisabilité technique de la mise en place d'une solution informatisé, deux
+A partir de l'étude du fonctionnement actuel et de ses dysfonctionnements, mais aussi de l'étude de faisabilité technique de la mise en place d'une solution informatisée, deux
 grands axes d'améliorations peuvent êtres dégagés :
  * Gain en termes de coûts directs
    * Centralisation de la surveillance : économies d'échelle.
