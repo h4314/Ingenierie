@@ -1,0 +1,28 @@
+Spécifications fonctionnelles
+=============================
+
+Systeme embarque
+----------------
+
+Le système embarqué proposé doit être utilisable en environnement dangereux, comme à proximité de 
+produits chimiques, d'endroits à risques d'incendies ou difficilement atteignables par l'homme.
+Il doit être facilement reliable à différents capteurs. Actuellement, un seul capteur par cuve est
+nécessaire afin de mesurer le niveau de liquide, cependant il est raisonnable de penser qu'on 
+pourrait ajouter d'autres mesures, telles que la température ou la toxicité. On estime donc 
+qu'il faut prévoir au moins cinq capteurs possibles par cuve.
+Toutes les cuves d'un site se trouvent dans un diamètre d'une centaine de mètres. Les dispositifs
+doivent donc pouvoir communiquer entre eux à cette distance.
+Pour des raisons évidentes, le système doit disposer d'une grande autonomie afin de ne pas 
+obliger des opérations de maintenance sur site en cas de panne. De même, les maintenances
+et les mises à jour doivent pouvoir être effectuées à distance.
+
+- Performances du système embarqué :
+ - résistance à des températures extrêmes
+ - étanchéité
+ - possibilité de brancher au moins 5 capteurs par dispositif
+ - portée efficace d'environ 100m
+ - autonomie minimale d'un an
+ 
+ 
+Communication
+-------------
