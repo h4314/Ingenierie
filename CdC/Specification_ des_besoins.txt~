@@ -16,6 +16,7 @@ Pour des raisons évidentes, le système doit disposer d'une grande autonomie afin
 obliger des opérations de maintenance sur site en cas de panne. De même, les maintenances
 et les mises à jour doivent pouvoir être effectuées à distance.
 
+
 - Performances du système embarqué :
  - résistance à des températures extrêmes
  - étanchéité
@@ -26,3 +27,22 @@ et les mises à jour doivent pouvoir être effectuées à distance.
  
 Communication
 -------------
+
+La communication doit être gérée par un réseau offrant une bonne couverture sur l'ensemble de l'europe.
+La communication doit être fiable, c'est-à-dire sans pertes et au fonctionnement constant garanti.
+
+- Performances  du système de communication :
+ - le site central pourra être déployé (voir migré à tout moment) partout en Europe, et a fortiori n'importe où dans le monde.
+  - les sites distants sont situés n'importe où en Europe, y compris les endroits les plus reculés et les moins bien desservis, que ce soit en terme de d'énergie, de télécommunications ou d'infrastructures routières.
+  - la communication devra être fiable
+    - les informations ne doivent pas être perdues
+    - certaines stations critiques doivent inclure des capacité de reprise ou de capacité de redondance pour garder une disponibilité maximale
+  - la communication doit être la moins coûteuse possible
+  - le matériel devra supporter des conditions climatiques extremes
+  
+  
+
+Capteurs
+--------
+
+
