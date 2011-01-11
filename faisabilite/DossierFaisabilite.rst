@@ -355,8 +355,8 @@ Reférences :
     http://www.hydrolab.com/web/ott_hach.nsf/id/pa_radar_level_sensor.html
     http://www.ottfrance.com/web/ott_fr.nsf/id/pa_rls_fr.html
 
-Solution 2 : Capteur VEGAPULS 62 – Le génie universel pour la mesure des liquides
-`````````````````````````````````````````````````````````````````````````````````
+Solution 2 : Capteur VEGAPULS 62 
+````````````````````````````````
 Depuis plus de 50 ans, VEGA s’investit dans une politique active de
 développement de la mesure de niveau et de pression. Tous ses capteurs sont
 fabriqués en Allemagne et en France selon les normes ISO 9000 et ISO 14001 avec
@@ -544,7 +544,51 @@ Cette infrastructure nécessite (en exemples seront données des solutions repos
 
 Conclusions
 #############
-Synthèse du dossier de faisabilité (avantage/inconvénients)... peut-être pistes (ou axes) d'évolution ou d'amélioration avec choix des diverses solutions émergeantes de l'étude (qui pourront être remises en question plus tard)
+En conclusion, à l'échelle européenne il n'existe aucun organisme centralisé et
+donc aucun système de gestion chargé de la surveillance de sites distants
+isolés.  Notre solution vise donc à informatiser ce système d'information que ce
+soit au niveau des sites distants ou par la mise en place d'un site central de
+monitoring.  Il s'agit avant tout d'un projet technique mais qui pose de solides
+fondations quant à la mise en place d'un organisme visant à fédérer l'ensemble
+des acteurs européens.
+
+L'étude de faisabilité a permis de sélectionner de grandes orientations quand
+aux choix de technologies et d'infrastructure. Elles orienteront les coûts de
+déploiement et de maintenance, les choix en termes de ressources humaines et
+matérielles et les capacités du système. Parmi ces choix nous pouvons citer :
+
+* Site central :
+
+   * système de données géographiques : BDD spatiale
+   * localisation de la flotte de véhicule : balise GPS sur chaque véhicule
+
+* Sites distants :
+
+   * autonomie d'énergie :
+   * système embarqué :
+   * système d'exploitation :
+   * réseau de capteurs :
+   * capteurs :
+
+* Communication entre le site central et les sites distants : utilisation du réseau GSM/GPRS
+* Solution de réseau local : Solution intégrée Ember, réseau ZigBee maillé, et communication vers un centre du réseau local. Capteur sur chaque noeud ZigBee.
+
+A partir de l'étude du fonctionnement actuel et de ses dysfonctionnements, mais aussi de l'étude de faisabilité technique de la mise en place d'une solution informatisée, deux grands axes d'améliorations peuvent êtres dégagés :
+
+
+* Gain en termes de coûts directs
+
+   * Centralisation de la surveillance : économies d'échelle.
+   * Une meilleure logistique, notamment en termes de transport.
+   * Des ressources humaines mieux utilisées. Les opérationnels doivent passer moins de temps à la surveillance (faible valeur ajoutée) pour se concentrer sur leur métier.
+* Une qualité de surveillance accrue (des réductions de coûts indirects ou qualitatifs)
+
+   * Un meilleur contrôle des risques environnementaux
+   * Un gaspillage des ressources réduit au minimum (énergie, déchets, contenant des cuves)
+   * Automatisation de la surveillance, fiabilité augmentée
+   * Une meilleure traçabilité des opérations
+
+Ces axes de progrès seront mis en avant tout le long de notre offre, composée de la spécification des besoins et de la spécification technique.
 
 
 Annexes
@@ -631,12 +675,28 @@ Temps réel                  Non                         Oui                    
 Tableau comparatif des capteurs de niveau de liquide
 ====================================================
 
-======================    ==============    =================
-Caractéristiques          OTT RLS           VEGAPULS 62    
-======================    ==============    =================
-Plage de mesure           0.8 à 35 m        35 m           
-Précision de mesure       ±3 mm             ±2 mm          
-Température process       -40 à +85 °C      -200 à +450 °C 
-Tension d'alimentation    9,6 à 28 V DC     14 à 36 V DC   
-Matériaux                 Pas renseigné     acier inox     
-======================    ==============    =================
++------------------------+---------------------+----------------+
+| Caractéristiques       | OTT RLS             | VEGAPULS 62    |
++========================+=====================+================+
+| Plage de mesure        | 0.8 à 35 m          | 35 m           |
++------------------------+---------------------+----------------+
+| Précision de mesure    | ±3 mm               | ±2 mm          |
++------------------------+---------------------+----------------+
+| Température process    | -40  à +85 °C       | -200 à +450 °C |
++------------------------+---------------------+----------------+
+| Tension d'alimentation | 12 mA @ 12V         | 14 à 36 V DC   |
++------------------------+---------------------+----------------+
+| Matériaux              | Inox                | acier inox     |
++------------------------+---------------------+----------------+
+| Type technologie       | impulsions radar    | radar          |
++------------------------+---------------------+----------------+
+| Type de mesure         | sans contact        | sans contact   |
++------------------------+---------------------+----------------+
+| Durée de mesure        | 20 secondes         | inconnu        +
++------------------------+---------------------+----------------+
+| Fréquence d’émission   | 24GHz (radar pulsé) | Bande K        |
++------------------------+---------------------+----------------+
+| Prix                   | Inconnu             | Inconnu        |
++------------------------+---------------------+----------------+
+
+
