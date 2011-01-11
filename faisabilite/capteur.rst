@@ -77,3 +77,18 @@ Depuis plus de 50 ans, VEGA s’investit dans une politique active de développe
 Elle nous propose le capteur radar VEGAPULS 62 qui mesure le niveau des liquides dans des conditions difficiles. Le capteur radar VEGAPULS 62  maîtrise facilement des conditions de process difficiles comme les températures extrêmes, la surpression ou le vide. Le capteur mesure le niveau du liquide dans les cuves de stockage et les réservoirs de process, également à une température process de -200 °C à +450 °C.
 
 Grâce à la technologie radar, le capteur de niveau mesure le niveau des liquides sans contact et fournit en continu des valeurs de mesure très précises.
+
++------------------------+-----------------+----------------+
+| Caractéristiques       | OTT RLS         | VEGAPULS 62    |
++========================+=================+================+
+| Plage de mesure        | 0.8 à 35 m      | 35 m           |
++------------------------+-----------------+----------------+
+| Précision de mesure    | ±3 mm           | ±2 mm          |
++------------------------+-----------------+----------------+
+| Température process    | -40  à +85 °C   | -200 à +450 °C |
++------------------------+-----------------+----------------+
+| Tension d'alimentation | 9,6 à 28 V DC   | 14 à 36 V DC   |
++------------------------+-----------------+----------------+
+| Matériaux              |   ****          | acier inox     |
++------------------------+-----------------+----------------+
+
