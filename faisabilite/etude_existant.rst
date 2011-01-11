@@ -1,65 +1,65 @@
 Etude de l'existant
 ===================
 
-Problématique
+ProblÃ©matique
 -------------
 
-De nombreuses régions d'Europe sont faiblement déservies pour des raisons :
- * démographiques, le faible peuplement de ces zones fait que les infrastructures de transport sont peu développées ;
- * géographiques, certaines de ces zones sont difficilement accessibles par la difficulté et le coût d'installation d'infrastrutcures.
+De nombreuses rÃ©gions d'Europe sont faiblement dÃ©servies pour des raisons :
+ * dÃ©mographiques, le faible peuplement de ces zones fait que les infrastructures de transport sont peu dÃ©veloppÃ©es ;
+ * gÃ©ographiques, certaines de ces zones sont difficilement accessibles par la difficultÃ© et le coÃ»t d'installation d'infrastrutcures.
 
-Cependant ces régions ne sont pas pour autant vides ni inexploitées. En effet, sont constatées de nombreuses stations de travail dédiées à diverses activités :
+Cependant ces rÃ©gions ne sont pas pour autant vides ni inexploitÃ©es. En effet, sont constatÃ©es de nombreuses stations de travail dÃ©diÃ©es Ã  diverses activitÃ©s :
  * abattage de bois
- * installation de réseaux (électriques ou de télécommunications)
- * étude de la faune et de la flore
+ * installation de rÃ©seaux (Ã©lectriques ou de tÃ©lÃ©communications)
+ * Ã©tude de la faune et de la flore
  * ...
 
-D'autres stations, considérées comme passives, sont à inclure :
+D'autres stations, considÃ©rÃ©es comme passives, sont Ã  inclure :
  * stations de pompage
  * cuves 
-   * liquide anti-incendie (fortement présentes dans les régions à haut risques comme la méditérannée)
+   * liquide anti-incendie (fortement prÃ©sentes dans les rÃ©gions Ã  haut risques comme la mÃ©ditÃ©rannÃ©e)
    * carburant
-   * déchet
+   * dÃ©chet
  * ...
 
-La problématique réside ici à la capacité d'autonomie des stations isolées (en énergie, déchets, présence humaine, etc.).
-Ces stations doivent être régulièrement surveillées pour veiller à un fonctionnement optimale tout en évitant les risques environnementaux.
-Ces visites permettent de s'assurer que les stations sont bien ravitaillées, nettoyées, vidées et fonctionnelles.
+La problÃ©matique rÃ©side ici Ã  la capacitÃ© d'autonomie des stations isolÃ©es (en Ã©nergie, dÃ©chets, prÃ©sence humaine, etc.).
+Ces stations doivent Ãªtre rÃ©guliÃ¨rement surveillÃ©es pour veiller Ã  un fonctionnement optimale tout en Ã©vitant les risques environnementaux.
+Ces visites permettent de s'assurer que les stations sont bien ravitaillÃ©es, nettoyÃ©es, vidÃ©es et fonctionnelles.
 
-Domaine de l'étude
+Domaine de l'Ã©tude
 ------------------
 
-Pour cette étude de l'existant, comme pour le reste de cet appel d'offre, seront visées uniquement les stations réservoirs utilisées pour stocker des liquides (eau, carburant, autre substance) ou bien des déchets. 
-Cet appel d'offre partant d'une initiative scandinave, l'analyse de du fonctionnement actuel dans dans cet région s'impose et sera un échantillon représentatif de ce qu'il se fait en Europe.
+Pour cette Ã©tude de l'existant, comme pour le reste de cet appel d'offre, seront visÃ©es uniquement les stations rÃ©servoirs utilisÃ©es pour stocker des liquides (eau, carburant, autre substance) ou bien des dÃ©chets. 
+Cet appel d'offre partant d'une initiative scandinave, l'analyse de du fonctionnement actuel dans dans cet rÃ©gion s'impose et sera un Ã©chantillon reprÃ©sentatif de ce qu'il se fait en Europe.
 
 Fonctionnement
 --------------
 
-En Scandinavie, une centaine de sites ont été répertoriés avec pour chacun une présence moyenne de 10 cuves réparties dans un rayon de 100 mètres. Actuellement la gestion ces sites distants n'est pas centralisée et il n'est pas possible de connaître à distance l'états des cuves/réservoirs. Aucun organisme spécifique ne s'en occupe. La surveillance est assurée par ses utilisateurs ou le propriétaire des lieux. Ceux sont eux qui, en fonction de l'état de la cuve, prévienne l'organisme chargé de s'occuper des réservoirs que ce soit pour effectuer une réparation ou bien pour vider ou ravitailler la cuve.
+En Scandinavie, une centaine de sites ont Ã©tÃ© rÃ©pertoriÃ©s avec pour chacun une prÃ©sence moyenne de 10 cuves rÃ©parties dans un rayon de 100 mÃ¨tres. Actuellement la gestion ces sites distants n'est pas centralisÃ©e et il n'est pas possible de connaÃ®tre Ã  distance l'Ã©tats des cuves/rÃ©servoirs. Aucun organisme spÃ©cifique ne s'en occupe. La surveillance est assurÃ©e par ses utilisateurs ou le propriÃ©taire des lieux. Ceux sont eux qui, en fonction de l'Ã©tat de la cuve, prÃ©vienne l'organisme chargÃ© de s'occuper des rÃ©servoirs que ce soit pour effectuer une rÃ©paration ou bien pour vider ou ravitailler la cuve.
 
-Les organismes chargées de la maintenance des réservoirs s'occupe donc, en interne, ou via un prestataire de services externe, d'affréter un camion pour effectuer ces opérations. Parmi ces organisations peuvent être comptées des particuliers ou bien des organismes d'état (mairies, pompiers, communauté de communes, organisme de gestion des forêts, etc.). Les particuliers s'occupe eux mêmes de la surveillance et contactent directement les prestataires de services. Quand aux organismes d'état ils affectent des opérationnels chargés de la surveillance et ont parfois la capacité en interne de maintenir ses sites. Cependant pour la majeure partie des cas, ils externalisent ces convois de maintenance à des sociétés privées.
+Les organismes chargÃ©es de la maintenance des rÃ©servoirs s'occupe donc, en interne, ou via un prestataire de services externe, d'affrÃ©ter un camion pour effectuer ces opÃ©rations. Parmi ces organisations peuvent Ãªtre comptÃ©es des particuliers ou bien des organismes d'Ã©tat (mairies, pompiers, communautÃ© de communes, organisme de gestion des forÃªts, etc.). Les particuliers s'occupe eux mÃªmes de la surveillance et contactent directement les prestataires de services. Quand aux organismes d'Ã©tat ils affectent des opÃ©rationnels chargÃ©s de la surveillance et ont parfois la capacitÃ© en interne de maintenir ses sites. Cependant pour la majeure partie des cas, ils externalisent ces convois de maintenance Ã  des sociÃ©tÃ©s privÃ©es.
 
-Les opérationnels sont chargés de vérifier l'état de fonctionnement des stations. Il effectue régulièrement des visites de manière hebdomadaire pour certaines à plusieurs mois suivant le niveau de criticité et d'utilisation. 
-Une des opérations principales revient à vérifier manuellement le niveau du réservoir. En effet, il n'existe aucun système electronique indiquant le niveau de remplissage. Une simple constatation via l'ouverture de la cuve suffit. Quelque fois la présence d'une sonde permet une précision plus fine. Si le seuil, fixé et propre à la cuve, est atteint alors l'opérationnel le signale et déclenche la demande de ravitaillement/enlèvement. Dans d'autre cas, la cuve sera ravitaillée après chacune de ses utilisations pour s'assurer de son remplissage maximal. C'est le cas des cuves dédiées au stockage d'eau et de liquide pour lutter contre les incendies.
+Les opÃ©rationnels sont chargÃ©s de vÃ©rifier l'Ã©tat de fonctionnement des stations. Il effectue rÃ©guliÃ¨rement des visites de maniÃ¨re hebdomadaire pour certaines Ã  plusieurs mois suivant le niveau de criticitÃ© et d'utilisation. 
+Une des opÃ©rations principales revient Ã  vÃ©rifier manuellement le niveau du rÃ©servoir. En effet, il n'existe aucun systÃ¨me electronique indiquant le niveau de remplissage. Une simple constatation via l'ouverture de la cuve suffit. Quelque fois la prÃ©sence d'une sonde permet une prÃ©cision plus fine. Si le seuil, fixÃ© et propre Ã  la cuve, est atteint alors l'opÃ©rationnel le signale et dÃ©clenche la demande de ravitaillement/enlÃ¨vement. Dans d'autre cas, la cuve sera ravitaillÃ©e aprÃ¨s chacune de ses utilisations pour s'assurer de son remplissage maximal. C'est le cas des cuves dÃ©diÃ©es au stockage d'eau et de liquide pour lutter contre les incendies.
 
-Il faut noter qu'entre une demande et l'opération de maintenance peuvent s'écouler plus d'une semaine ou plus suivant les conditions affectant le transport. La taille des cuves varie de 1 mètre cube à 20 mètres cube et influe donc sur la fréquence des opérations de maintenance. Concernant les coûts de transport, hors achat du contenant, ils sont généralement établies entre 1000¤ et 3000¤ selon la distance et la difficulté d'approche du site.
+Il faut noter qu'entre une demande et l'opÃ©ration de maintenance peuvent s'Ã©couler plus d'une semaine ou plus suivant les conditions affectant le transport. La taille des cuves varie de 1 mÃ¨tre cube Ã  20 mÃ¨tres cube et influe donc sur la frÃ©quence des opÃ©rations de maintenance. Concernant les coÃ»ts de transport, hors achat du contenant, ils sont gÃ©nÃ©ralement Ã©tablies entre 1000Â¤ et 3000Â¤ selon la distance et la difficultÃ© d'approche du site.
 
 
 Dysfonctionnements
 ------------------
 
-Cette décentralisation de la surveillance des sites isolés est source de nombreux dysfonctionnements qui peuvent être déclinés en deux grandes catégories : un gaspillage financier (argent provenant pour la majorité des cas des contribuables) et un risque environnemental important, non contrôlé.
+Cette dÃ©centralisation de la surveillance des sites isolÃ©s est source de nombreux dysfonctionnements qui peuvent Ãªtre dÃ©clinÃ©s en deux grandes catÃ©gories : un gaspillage financier (argent provenant pour la majoritÃ© des cas des contribuables) et un risque environnemental important, non contrÃ´lÃ©.
 
 Plusieurs facteurs sont sources de gaspillage financier :
- * La logistique. Il n'existe pas de planification globale et donc pas d'optimisation dans les livraisons/enlèvements de contenant et systématiquement un camion se retrouve avec un chargement nul sur un des trajets (l'aller ou le retour).
- * La surveillance. Celle-ci est effectuée par des opérationnels et est donc fortement coûteuse, en particulier lorsque l'on constate que la majorité des déplacements ne débouche sur aucune opération de maintenance. Il s'agit donc d'une monopolisation des ressources humaines pour une tâche sans réelle valeur ajoutée par rapport à ce qu'elles pourraient apporter.
- * Une surveillance non globale. l'éparpillement de la gestion de ces sites empechent de faire des économies d'échelles à de nombreux niveaux que ce soit au niveau de la surveillance ou bien dans la mise en commun des achats de contenant ou de services de transport.
+ * La logistique. Il n'existe pas de planification globale et donc pas d'optimisation dans les livraisons/enlÃ¨vements de contenant et systÃ©matiquement un camion se retrouve avec un chargement nul sur un des trajets (l'aller ou le retour).
+ * La surveillance. Celle-ci est effectuÃ©e par des opÃ©rationnels et est donc fortement coÃ»teuse, en particulier lorsque l'on constate que la majoritÃ© des dÃ©placements ne dÃ©bouche sur aucune opÃ©ration de maintenance. Il s'agit donc d'une monopolisation des ressources humaines pour une tÃ¢che sans rÃ©elle valeur ajoutÃ©e par rapport Ã  ce qu'elles pourraient apporter.
+ * Une surveillance non globale. l'Ã©parpillement de la gestion de ces sites empechent de faire des Ã©conomies d'Ã©chelles Ã  de nombreux niveaux que ce soit au niveau de la surveillance ou bien dans la mise en commun des achats de contenant ou de services de transport.
 
 De nombreux points favorisent les risque environnementaux :
- * Oublis. Le système reposant uniquement sur des ressources humaines, de nombreux oublis de ravitaillement de cuves ont été constatés. C'est totalement inacceptable pour des cuves stratégiques comme celle dédiée à la lutte des incendies.
- * Fuites. En plus d'être une perte financière, les fuites, suivant le contenant de la cuve, peuvent s'avérer très dangereux écologiquement. Le problème est que ces fuites sont constatées bien souvent trop tard du fait d'une surveillance manuelle, souvent fortement espacée dans le temps.
+ * Oublis. Le systÃ¨me reposant uniquement sur des ressources humaines, de nombreux oublis de ravitaillement de cuves ont Ã©tÃ© constatÃ©s. C'est totalement inacceptable pour des cuves stratÃ©giques comme celle dÃ©diÃ©e Ã  la lutte des incendies.
+ * Fuites. En plus d'Ãªtre une perte financiÃ¨re, les fuites, suivant le contenant de la cuve, peuvent s'avÃ©rer trÃ¨s dangereux Ã©cologiquement. Le problÃ¨me est que ces fuites sont constatÃ©es bien souvent trop tard du fait d'une surveillance manuelle, souvent fortement espacÃ©e dans le temps.
 
-De manière générale, il manque une traçabilité des opérations effectuées par les divers acteurs et ne permet donc pas un monitoring global.
+De maniÃ¨re gÃ©nÃ©rale, il manque une traÃ§abilitÃ© des opÃ©rations effectuÃ©es par les divers acteurs et ne permet donc pas un monitoring global.
 
 
 
