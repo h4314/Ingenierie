@@ -1,0 +1,19 @@
+Synthèse Pierrick
+=================
+- Temps passé : 1h30 environ
+- recherches : système embarqué répondant au cahier des charges + comparaisons
+
+
+Etude du module XBee-PRO 900
+----------------------------
+ - Resultats
+
+  - Autonomie réduite par rapport à la solution de paul
+  - portée beaucoup plus importante ( jusqu'à 10km)
+  - moins paramétrable
+  - prix élevé ($300 pièce...)
+  
+ - Travail à faire : 
+  - Définir une durée compréhensible d'autonomie (en années, mois, ...)
+  - faire un tableau comparatif
+ 
