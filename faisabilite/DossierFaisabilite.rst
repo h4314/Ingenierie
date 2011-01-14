@@ -3,6 +3,7 @@ Dossier de faisabilité
 ======================
 
 .. contents:: Sommaire
+    :depth: 2
 .. sectnum::
 
 Ce document présente, de manière succincte, l'existant, ses points forts et ses
@@ -696,7 +697,7 @@ Tableau comparatif des capteurs de niveau de liquide
 +------------------------+---------------------+----------------+
 | Fréquence d’émission   | 24GHz (radar pulsé) | Bande K        |
 +------------------------+---------------------+----------------+
-| Prix                   | Inconnu             | Inconnu        |
+| Prix                   | Inconnu             | 1 437,00 € H.T |
 +------------------------+---------------------+----------------+
 
 
