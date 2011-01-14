@@ -30,3 +30,5 @@ Ce projet à pour objectifs :
  * la rédaction d'un cahier des charges exhaustif,
  * la proposition d'au moins une conception d'un système répondant aux besoins
    du client.
+
+
