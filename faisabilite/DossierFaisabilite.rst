@@ -502,7 +502,7 @@ Deux flottes de satellites couvrant l'Europe :
  * Astra, opérateurs : Vivéole, Nordnet
  * Eutelsat, opérateurs : Connexion Verte, Sat2way, Numéo
 
-Le matériel fournit par ces opérateurs se révelerait surement insuffisant par rapport aux contraintes du système et dans un souci d'intéropérabilité avec la solution mis en place du côté des sites distants.
+Le matériel fourni par ces opérateurs se révelerait surement insuffisant par rapport aux contraintes du système et dans un souci d'intéropérabilité avec la solution mis en place du côté des sites distants.
 Des constructeurs spécialisés dans l'embarqué proposent des modems répondant à ces contraintes, modems similaires à ceux présentés pour la solution GPRS. Cependant leurs prix varient de 1500¤ à 3500¤ l'unité.
 
 source : 
