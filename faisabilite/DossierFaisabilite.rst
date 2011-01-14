@@ -376,6 +376,14 @@ sans contact et fournit en continu des valeurs de mesure très précises.
 Référence: 
     http://www.vega.com/fr/Mesure_de_niveau_Radar_VEGAPULS62.htm
 
+Conclusion
+```````````
+Notre solution pour les capteurs se base sur différentes caractéristiques, 
+qui sont principalement : Précision de mesure, Tension d'alimentation et prix.
+Nous pouvons choisir le capteur OTT RLS car nécessite qu'une maintenance réduite 
+et bénéficie d'une longue durée de vie. Sa consommation réduite et son design bien 
+pensé font de ce capteur une alternative économique, pratique et fiable par rapport 
+aux appareils de mesure de hauteur de liquides.
 
 Synthèse systèmes de communication
 ==================================
@@ -494,7 +502,7 @@ Deux flottes de satellites couvrant l'Europe :
  * Astra, opérateurs : Vivéole, Nordnet
  * Eutelsat, opérateurs : Connexion Verte, Sat2way, Numéo
 
-Le matériel fournit par ces opérateurs se révelerait surement insuffisant par rapport aux contraintes du système et dans un souci d'intéropérabilité avec la solution mis en place du côté des sites distants.
+Le matériel fourni par ces opérateurs se révelerait surement insuffisant par rapport aux contraintes du système et dans un souci d'intéropérabilité avec la solution mis en place du côté des sites distants.
 Des constructeurs spécialisés dans l'embarqué proposent des modems répondant à ces contraintes, modems similaires à ceux présentés pour la solution GPRS. Cependant leurs prix varient de 1500¤ à 3500¤ l'unité.
 
 source : 
@@ -697,7 +705,7 @@ Tableau comparatif des capteurs de niveau de liquide
 +------------------------+---------------------+----------------+
 | Fréquence d’émission   | 24GHz (radar pulsé) | Bande K        |
 +------------------------+---------------------+----------------+
-| Prix                   | Inconnu             | 1 437,00 € H.T |
+| Prix                   | 85 € H.T.           | 135 € H.T      |
 +------------------------+---------------------+----------------+
 
 

@@ -18,8 +18,7 @@ et les mises à jour doivent pouvoir être effectuées à distance.
 
 
 - Performances du système embarqué :
- - résistance à des températures extrêmes
- - étanchéité
+
  - possibilité de brancher au moins 5 capteurs par dispositif
  - portée efficace d'environ 100m
  - autonomie minimale d'un an
@@ -32,22 +31,24 @@ La communication doit être gérée par un réseau offrant une bonne couverture sur 
 La communication doit être fiable, c'est-à-dire sans pertes et au fonctionnement constant garanti.
 
 - Performances  du système de communication :
+
  - le site central pourra être déployé (voir migré à tout moment) partout en Europe, et a fortiori n'importe où dans le monde.
+ 
   - les sites distants sont situés n'importe où en Europe, y compris les endroits les plus reculés et les moins bien desservis, que ce soit en terme de d'énergie, de télécommunications ou d'infrastructures routières.
   - la communication devra être fiable
-    - les informations ne doivent pas être perdues
-    - certaines stations critiques doivent inclure des capacité de reprise ou de capacité de redondance pour garder une disponibilité maximale
-  - la communication doit être la moins coûteuse possible
-  - le matériel devra supporter des conditions climatiques extremes
+    
+	- les informations ne doivent pas être perdues
+    
+	- certaines stations critiques doivent inclure des capacité de reprise ou de capacité de redondance pour garder une disponibilité maximale
+  
+  - la communication doit être la moins coûteuse possible en énergie
   
   
 
 Capteurs
 --------
 
-Comme le système embarqué et le système de communication, les capteurs doivent être utilisables en conditions extrêmes.
-Concernant la précision des relevés, elle n'est pas très importante en ce qui concerne le niveau de liquide, car on 
-veut uniquement pouvoir déterminer un ordre de grandeur du pourcentage de remplissage de la cuve.
+Les capteurs doivent être capable de mesurer grossièrement le niveau d'un liquide.
 
 
 
@@ -75,7 +76,7 @@ Production d'énergie
 Le système de gestion du contenu d'un réservoir a besoin d'énergie pour alimenter les capteurs, le système embarqué et les équipements de communication. Le système doit pouvoir fonctionner en autonome et de façon écologique au niveau d'énergie.
 
 Estimation des besoins d'énergie pour une station
-*************************************************
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Dans une station, nous avons deux principaux consommateurs d'énergie: le chipset du système embarqué et le modem GSM/GPRS. 
 Pour le chipset, nous nous basons sur un produit qui a une très bonne autonomie. La puissance à l'état repos est inférieur à 1 mWatt, qui est négligeable. Quand il est en émission ou en réception, la puissance ne dépasse pas 0,1 Watt. 
