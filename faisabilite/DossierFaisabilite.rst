@@ -3,6 +3,7 @@ Dossier de faisabilité
 ======================
 
 .. contents:: Sommaire
+    :depth: 2
 .. sectnum::
 
 Ce document présente, de manière succincte, l'existant, ses points forts et ses
