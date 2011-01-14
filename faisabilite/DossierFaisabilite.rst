@@ -243,10 +243,10 @@ Exemples de piles
 Caractéristique     Acker Drill Company Ace Battery     BA22NF Solar Battery    6 Volt Solar Panel Charger
 ==================  ===============================     ====================    ==============================
 Prix                $169.95                             $191.95                 $24.95
-Poids               -                                   38.5Kg                  3kg
-Taille              -                                   9.38*5.5*9.25 cm        6.0" x 3.5" x 0.75"
-Voltage             12V                                 12                      6V
-Amperage/wattage    75A/h                               55A/h                   630mW
+Poids               54.5kg                              38.5Kg                  3kg
+Taille              10.25*6.13*9.13 cm                  9.38*5.5*9.25 cm        6.0" x 3.5" x 0.75"
+Voltage             12V                                 12V                     6V
+Amperage/wattage    75A*h                               55A*h                   630mW
 Référence           http://bit.ly/ehm2OG                http://bit.ly/fL36k7    http://bit.ly/hQRVVU
 Remarques           Pas besoin de maintenance           Garantie 1 an           Garantie 1 an, étanche.
 ==================  ===============================     ====================    ==============================
@@ -272,10 +272,10 @@ s'alimentent en énergie solaire !
 =================== ==================== =====================  ==================
 Caractéristiques    Bp Sx305M            Power Up Bsp-112       OEM Solar Panel                               
 =================== ==================== =====================  ==================
-Prix                $47.58               $28.99                 Variable                     
+Prix                $47.58               $28.99                 $103.45                   
 Taille              269 * 251 * 23mm     98 x 238 * 16mm        537*1200*46 mm                      
 Wattage             5W                   1W                     5W                 
-Voltage             12V                  16V                    17V                  
+Voltage             12V                  16V                    12V                  
 Référence           http://bit.ly/fA5KmP http://bit.ly/h4KWIs   -                                                       
 Remarque                                                        Garantie 10 ans
 =================== ==================== =====================  ==================
