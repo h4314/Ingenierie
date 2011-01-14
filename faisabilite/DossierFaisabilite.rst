@@ -383,7 +383,7 @@ qui sont principalement : Précision de mesure, Tension d'alimentation et prix.
 Nous pouvons choisir le capteur OTT RLS car nécessite qu'une maintenance réduite 
 et bénéficie d'une longue durée de vie. Sa consommation réduite et son design bien 
 pensé font de ce capteur une alternative économique, pratique et fiable par rapport 
-aux appareils de mesure de hauteur d'eau classiques.
+aux appareils de mesure de hauteur de liquides.
 
 Synthèse systèmes de communication
 ==================================
@@ -704,10 +704,6 @@ Tableau comparatif des capteurs de niveau de liquide
 | Durée de mesure        | 20 secondes         | inconnu        +
 +------------------------+---------------------+----------------+
 | Fréquence d’émission   | 24GHz (radar pulsé) | Bande K        |
-+------------------------+---------------------+----------------+
-| Type de liquide        | Eau                 | solvants,      |
-|                        |                     | hydrocarbures  |
-|                        |                     | et carburants  |
 +------------------------+---------------------+----------------+
 | Prix                   | 85 € H.T.           | 135 € H.T      |
 +------------------------+---------------------+----------------+
