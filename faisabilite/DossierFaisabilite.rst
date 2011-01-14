@@ -696,7 +696,7 @@ Tableau comparatif des capteurs de niveau de liquide
 +------------------------+---------------------+----------------+
 | Fréquence d’émission   | 24GHz (radar pulsé) | Bande K        |
 +------------------------+---------------------+----------------+
-| Prix                   | Inconnu             | Inconnu        |
+| Prix                   | Inconnu             | 1 437,00 € H.T |
 +------------------------+---------------------+----------------+
 
 
