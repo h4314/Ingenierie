@@ -376,6 +376,14 @@ sans contact et fournit en continu des valeurs de mesure très précises.
 Référence: 
     http://www.vega.com/fr/Mesure_de_niveau_Radar_VEGAPULS62.htm
 
+Conclusion
+```````````
+Notre solution pour les capteurs se base sur différentes caractéristiques, 
+qui sont principalement : Précision de mesure, Tension d'alimentation et prix.
+Nous pouvons choisir le capteur OTT RLS car nécessite qu'une maintenance réduite 
+et bénéficie d'une longue durée de vie. Sa consommation réduite et son design bien 
+pensé font de ce capteur une alternative économique, pratique et fiable par rapport 
+aux appareils de mesure de hauteur d'eau classiques.
 
 Synthèse systèmes de communication
 ==================================
