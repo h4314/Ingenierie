@@ -1,172 +1,131 @@
-Synthèse séance 7/01 
-====================
-
-Objectifs du document 
----------------------
-
-Étude (draft) de faisabilité des moyens de communication longue distance entre les sites distants et le site central.
-
-Fait
-----
-
- * recherche sur les moyens de communication courte distance (réseaux de capteur type Zigbee) => redondance avec les recherches de Paul et Pierrick
- * recherche sur les moyens de communication longue distance
-   * GPS
-   * Courant porteur libre
-   * réseau GSM/GPRS/UMTS
- * avantages/inconvénients
-   * disponibilité
-   * fiabilité
-   * couts
-   * adaptation à nos besoins
-
-Reste à faire 
--------------
-
- * finir la rédaction 
- * comparatifs des solutions en termes de :
-  * couts
-  * utilisation (dépend de la zone géographique)
-  * difficulté d'implémentation (technique ou politique)
- * quel système embarqué sera chargé de gérer la communication au site distant ?
-  * un modem + puce GPRS ?
-  * voir avec Paul et Pierrick
-
-Modifications (08/01) 
----------------------
-
- * suite des recherches
- * découpage avec un plan
- * rédaction
- * *reste a faire : finir le détail des solutions + le bilan*
-
-
-
 Communication longue distance
 =============================
 
-Problématique
--------------
+ProblÃ©matique
+`````````````
 
-Cette étude a pour objectifs d'effectuer un état de l'art en termes de communication longue distance. En l'occurrence, ici, il s'agit de trouver des solutions potentielles permettant de répondre à la question suivante : *comment s'effectuera la communication entre les sites distants et le site central de monitoring ?*
+Cette Ã©tude a pour objectifs d'effectuer un Ã©tat de l'art en termes de communication longue distance. En l'occurence, ici, il s'agit de trouver des solutions potentielles permettant de rÃ©pondre Ã  la question suivante : *comment s'effectuera la communication entre les sites distants et le site central de monitoring ?*
 
-Pour répondre à cette question, il convient dans un premier temps de rappeler les contraintes inhérentes :
- * le site central pourra être déployé (voir migré à tout moment) partout en Europe, et a fortiori n'importe où dans le monde.
- * les sites distants sont situés n'importe où en Europe, y compris les endroits les plus reculés et les moins bien desservis, que ce soit en terme de d'énergie, de télécommunications ou d'infrastructures routières.
- * la communication devra être fiable
-   * les informations ne doivent pas être perdues
-   * certaines stations critiques doivent inclure des capacité de reprise ou de capacité de redondance pour garder une disponibilité maximale
- * la communication doit être la moins coûteuse possible
+Pour rÃ©pondre Ã  cette question, il convient dans un premier temps de rappeller les contraintes inhÃ©rentes :
+ * le site central pourra Ãªtre dÃ©ployÃ© (voir migrÃ© Ã  tout moment) partout en Europe, et a forciori n'importe oÃ¹ dans le monde.
+ * les sites distants sont situÃ©s n'importe oÃ¹ en Europe, y compris les endroits les plus reculÃ©s et les moins bien desservis, que ce soit en terme de d'Ã©nergie, de tÃ©lÃ©communications ou d'infrastructures routiÃ¨res.
+ * la communication devra Ãªtre fiable
+   * les informations ne doivent pas Ãªtre perdues
+   * certaines stations critiques doivent inclure des capacitÃ© de reprise ou de capacitÃ© de redondance pour garder une disponibilitÃ© maximale
+ * la communication doit Ãªtre la moins coÃ»teuse possible
+ * le matÃ©riel devra supporter des conditions climatiques extremes
 
-Dans un deuxième temps, les critères de sélection d'une solution se porteront également sur la teneur des communications : *quelles données seront amenées à circuler dans un sens, comme dans l'autre ?*
+Dans un deuxiÃ¨me temps, les critÃ¨res de selection d'une solution se porteront Ã©galement sur la teneur des communications : *quelles donnÃ©es seront amenÃ©es Ã  circuler dans un sens, comme dans l'autre ?*
 
 Du site central vers les sites distants :
- * mises à jour des logiciels (fréquence : maximum toutes les semaines, mais certainement beaucoup plus espacé)
+ * mises Ã  jour des logiciels (frÃ©quence : maximum toutes les semaines, mais certainement beaucoup plus espacÃ©)
 
 Des sites distants vers le site central :
- * les informations provenant des capteurs (fréquence : de l'ordre de la minute)
+ * les informations provenant des capteurs (frÃ©quence : de l'ordre de la minute)
 
-Enfin, la taille du réseau est à prendre en compte, nous partirons d'une base de simulation 10 fois plus importante que l'existant scandinave, soit :
+Enfin, la taille du rÃ©seau est Ã  prendre en compte, nous partirons d'une base de simulation 10 fois plus importante que l'existant scandinave, soit :
  * 100 sites distants * 10 = 1000 sites distants
  * 1000 sites distants * 10 cuves = 10000 cuves
 
 Solutions possibles
--------------------
+```````````````````
 
-A l'heure actuelle trois méthodes de communication longue distante peuvent être envisagées pour ce système :
- * par le réseau GPRS, autrement dit par internet
- * par le réseau GPS, autrement dit par satellite
- * par courant porteur libre, autrement dit par les lignes électriques
+A l'heure actuelle trois mÃ©thodes de communication longue distante peuvent Ãªtre envisagÃ©es pour ce systÃ¨me :
+ * par le rÃ©seau GPRS (2G+), autrement dit par le rÃ©seau GSM et internet
+ * par le rÃ©seau GPS, autrement dit par satellite
+ * par courant porteur libre, autrement dit par les lignes Ã©lectriques
 
-Détails des solutions
----------------------
+DÃ©tails des solutions
+`````````````````````
 
-Utilisation du réseau GPRS
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+Utilisation du rÃ©seau GPRS
+__________________________
 
-Cette solution nécessite l'utilisation du réseau des télécommunications. Il a l'avantage d'une part de pouvoir rester connecté et d'autre part d'utiliser en plus des canaux de type voix, une passerelle vers le réseau internet.
-La facturation ne se fait non pas à la durée mais au débit.
+Cette solution nÃ©cessite l'utilisation du rÃ©seau des tÃ©lÃ©communications GSM. Le rÃ©seau GPRS est en rÃ©alitÃ© une extension s'appuyant sur le rÃ©seau GSM et a l'avantage d'une part de pouvoir rester connectÃ© et d'autre part d'utiliser en plus des canaux de type voix, une passerelle vers le rÃ©seau internet. La facturation ne se fait non plus Ã  la durÃ©e mais au dÃ©bit.
 
-Les prérequis sont :
- * être à portée d'une antenne de télécommunication (*recherche le nom exact*)
- * nécessite un abonnement auprès d'un FAI, donc un abonnement par site distant ?
+*Architecture du rÃ©seau GSM/GPRS*
+.. image:: images/reseau_gsm.svg
 
-La couverture du réseau GPRS (et donc GSM) sur le territoire européen est quasi totale. Il faudra s'assurer préalablement de choisir l'opérateur mobile offrant la meilleure couverture, ce qui sera donc variable suivant les pays. Dans la même idée il faudra veiller à traiter avec un opérateur présent dans la majorité des pays européens afin de négocier des prix intéressants avec un support de qualité.
+Les prÃ©requis sont :
+ * Ãªtre Ã  portÃ©e d'une antenne de tÃ©lÃ©communication (BTS)
+ * nÃ©cessite un abonnement auprÃ¨s d'un FAI/opÃ©rateur tÃ©lÃ©phonique? Donc un abonnement par site distant ? 
 
-Un exemple de couverture, en Norvège (opérateur : Telenor), qui comprend un certains nombres de sites isolés, notamment dans le nord :
+La couverture du rÃ©seau GPRS (et donc GSM) sur le territoire europÃ©en est quasi totale. Il faudra s'assurer prÃ©alablement de choisir l'opÃ©rateur mobile offrant la meilleure couverture, ce qui sera donc variable suivant les pays. Dans la mÃªme idÃ©e il faudra veiller Ã  traiter avec un opÃ©rateur prÃ©sent dans la majoritÃ© des pays europÃ©ens afin de nÃ©gocier des prix intÃ©ressants avec un support de qualitÃ©.
+
+Un exemple de couverture, en NorvÃ¨ge (opÃ©rateur : Telenor), qui comprend un certains nombres de sites isolÃ©s, notamment dans le nord :
 .. image:: images/telenor.png
 
-Concernant son implémentation, il nécessite la mise en place d'un modem compatible GSM/GPRS. Deux solutions se détachent :
- * l'achat de composants et leur adaptation avec le système embarqué du site distant 
- * l'achat d'une solution complète
+L'utilisation du rÃ©seau UMTS ou 3G (qui utilise une partie du rÃ©seau GSM), bien qu'apportant une capacitÃ© de dÃ©bit bien plus Ã©levÃ©, est Ã©cartÃ© car son territoire de couverture reste trÃ¨s faible dans les zones reculÃ©es (ce type de rÃ©seau n'utilise pas les antennes BTS du rÃ©seau GSM). Ensuite, pour ce systÃ¨me, le dÃ©bit offert par le rÃ©seau GPRS sera suffisant.
 
-Exemple de solution complète (constructeur : erco&gener)
+Concernant son implÃ©mentation, il nÃ©cessite la mise en place d'un modem compatible GSM/GPRS. Deux solutions se dÃ©tachent :
+ * l'achat de composants et leur adaptation avec le systÃ¨me embarquÃ© du site distant 
+ * l'achat d'une solution complÃ¨te
 
-=============================               ==========================      =============================
-Caractéristique                             GenLoc 53e AOB                        
-=============================               ==========================      =============================
-
-GSM/GPRS			            oui			            
-
-GPS                                         oui
-
-Température de fonctionnement               -20° +60°                       
-
-Consommation
-    - Voltage                               3.8V - 20V                     
-    - Émission/Réception                    < 200mA (avec GPs)                            
-    - Veille                                10µA                             
-
-Bus CAN                                     en option
-
-Lien vers la doc                            http://bit.ly/ejBbMS            
-
-=============================               ==========================      =============================
-
-
-=> les prix (max 300¤) : http://www.kamosis.com/store/index-n-Modems_GSM_GPRS_EDGE_3G-cp-555.html
+De nombreux fabriquants proposent des solutions de modems GSM/GPRS embarquÃ©s particuliÃ¨rement adapatÃ©s aux contraintes. Les prix varient d'une centaine d'euros l'unitÃ© Ã  400Â¤ pour les modÃ¨les hauts de gamme, avec des caractÃ©ristiques techniques qui satisfont les contraintes (donnÃ©es prix sur les modÃ¨les hauts de gammme) :
+ * TempÃ©rature de fonctionnemment : -20Â°C Ã  +85Â°C
+ * TolÃ©rance Ã  l'humiditÃ© : 90%
+ * Faible taille : 10cm*5cm*10cm
+ * Consommation en communication : (< 200mA sous 14 Vdc)
+ * Consommation au repos : (< 10mA sous 14 Vdc)
 
 
 Sources :
  * couverture GSM : http://www.mobileworldlive.com/maps/
- * comparatifs modems chez ercogener : http://www.ercogener.com/comparatif-modem-gsm-gprs-gps.html
+ * comparatifs modems chez erco&gener : http://www.ercogener.com/comparatif-modem-gsm-gprs-gps.html
+ * prix (erco&gener) : http://www.kamosis.com/store/index-n-Modems_GSM_GPRS_EDGE_3G-cp-555.html
+ * wikipedia
 
 
-Utilisation du réseau GPS
-~~~~~~~~~~~~~~~~~~~~~~~~~
+Utilisation du rÃ©seau GPS
+_________________________
 
-Les prérequis sont :
- * être dans un milieu dégagé
- * abonnement spécial ?
+Les stations Ã  distance pourraient communniquer avec la station centrale via satellite. Cette technique nÃ©cessite l'installation d'une antenne emetrice/receptrice satellite et d'un modem dÃ©diÃ©.
 
-4 Mbits/s - 10 Mbits/s
+Les prÃ©requis sont :
+ * Ãªtre dans un milieu dÃ©gagÃ©
+ * souscrire un abonnement Ã  un opÃ©rateur (tarification Ã©tablit suivant le dÃ©bit allouÃ© et le volume de donnÃ©es Ã©changÃ©)
+
+Avantages :
+ * couverture totale
+ * dÃ©bit suffisant
+
+InconvÃ©nients :
+ * cout du matÃ©riel : environ 350Â¤
+ * abonnement plus Ã©levÃ© (de 25Â¤ pour 2Go Ã  100Â¤ pour 12Go)
+
+Les latences sont consÃ©quentes (autour des 650ms contre 40ms pour l'ADSL) mais nÃ©gligeables pour ce systÃ¨me.
+
+Deux flottes de satellites couvrant l'Europe :
+ * Astra, opÃ©rateurs : VivÃ©ole, Nordnet
+ * Eutelsat, opÃ©rateurs : Connexion Verte, Sat2way, NumÃ©o
+
+Le matÃ©riel fournit par ces opÃ©rateurs se rÃ©velerait surement insuffisant par rapport aux contraintes du systÃ¨me et dans un souci d'intÃ©ropÃ©rabilitÃ© avec la solution mis en place du cÃ´tÃ© des sites distants.
+Des constructeurs spÃ©cialisÃ©s dans l'embarquÃ© proposent des modems rÃ©pondant Ã  ces contraintes, modems similaires Ã  ceux prÃ©sentÃ©s pour la solution GPRS. Cependant leurs prix varient de 1500Â¤ Ã  3500Â¤ l'unitÃ©.
 
 source : 
- * solution internet par satellite en france : http://www.internet-par-satellite.com/asp-boutique/boutique/default.asp?centre=ABONNEMENTS.htm
- * satellite iridum : http://www.iridium.com/solutions/monitoring.aspx?applicationID=9
- * internet par satellite en europe : http://www.sat2way.fr/fr/defaut/index
+ * offres chez Sat2way : http://www.sat2way.fr/fr/offre_haut_debit/
+ * wikipedia : http://fr.wikipedia.org/wiki/Internet_par_satellite
+ * prix des modems GPS : http://www.kamosis.com/store/index-n-Modems_Satellite-cp-558.html
 
-Utilisation du courant porteur libre
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Utilisation du courant porteur libre (CPL)
+__________________________________________
 
-Les prérequis sont :
- * être relié aux lignes électriques
- *
+Cette solution permettrait de faire circuler l'information par les lignes Ã©lectriques.
 
-=> problème politique ? (réseau domestique ok mais réseaux nationaux pas encore prêts ?)
+Les prÃ©requis sont :
+ * Ãªtre reliÃ© aux lignes Ã©lectriques
+ * un modem spÃ©cifique
+
+InconvÃ©nients :
+ * libre d'utilisation chez les particuliers mais fortement rÃ©glementÃ© voir interdit sur le rÃ©seau public dans certains pays europÃ©en
+ * pas de normes dÃ©finitives
 
 
 Comparaison et bilan
---------------------
+````````````````````
+Le courant porteur libre, bien que prometteur, pour des raisons principalement politiques ne peut pas Ãªtre envisagÃ©s Ã  une Ã©chelle europÃ©enne.
 
-Le courant porteur libre, bien que prometteur, pour des raisons principalement politiques ne peut pas être envisagés à une échelle européenne.
+Reste la solution GPRS et GPS. La derniÃ¨re est la plus couteuse mais ne peut pas Ãªtre Ã©cartÃ©e car elle se rÃ©vÃ¨le nÃ©cessaire dans certains endroits extremement isolÃ©s non couverts par le rÃ©seau GSM/GPRS.
 
-Reste la solution GPRS et GPS, la dernière étant la plus couteuse mais ne pouvant pas être écartée car elle se révèle nécessaire dans certains endroits extremement isolés non couverts par le réseau GSM/GPRS.
-
-On pourrait imagnier à ce moment là prévoir une solution par défaut GSM/GPRS et mettre en place, au cas par cas, des sites distants capable de communiquer via satellites.
-
-
-
-
-
+On pourrait imagnier Ã  ce moment lÃ  prÃ©voir une solution par dÃ©faut GSM/GPRS et mettre en place, au cas par cas, des sites distants capable de communiquer via satellite.
 
