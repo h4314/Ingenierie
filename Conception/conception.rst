@@ -37,9 +37,13 @@ Architecture de communication
 Flux d'information
 ------------------
 
-Régles de gestion (ex: alarmes, etc.)
-scénario nominal
+Scénarios :
+Acquisition d'une valeur sur un capteur jusqu'au stockage de la donnée sur le site central
+
+
+
 scénario autres : envoie d'une commande, mise à jour, anomalie, etc.
+Régles de gestion (ex: alarmes, etc.)
 structures de données/format, protocole
 
 Stockage
@@ -59,9 +63,13 @@ Problématique sur la sécurité
 ------------------------------
 
 sécurité, anomalies
+etudes des pannes, arret urgence, erreurs, reprises sur erreur
 
 Démarrage du système
 ---------------------
+
+telechargement/lancement de l'application
+mise à jour
 
 Problématique de mise à l'échelle
 ----------------------------------
