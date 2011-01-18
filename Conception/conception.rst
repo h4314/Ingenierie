@@ -158,8 +158,8 @@ _a voir si on la déplace avant ?_
 Annexes 
 =======
 
-Traitement de la Sécurité
--------------------------
+Gestion de la Sécurité
+----------------------
 
 * La sécurité du système à développer sera directement liée à la sécurité des sites surveillés. On va assurer que les informations qui seront transmises à un système embarqué ne viennent pas d'une source non approuvée.
 
@@ -167,11 +167,11 @@ Traitement de la Sécurité
 
 * De même pour les données transmises automatiquement par les sites distants, on mettra  en place un protocole de communication sécurisé, tel que le protocole SSL (Secure Sockets Layer).
 
-* L’intégrité de la configuration des systèmes embarquées et l'intégrité des données captées dépendant directement des requêtes effectuées par l’interface Web, on peute mettre en place une politique de sécurisation des connexions. 
+* L’intégrité de la configuration des systèmes embarquées et l'intégrité des données captées dépendant directement des requêtes effectuées par l’interface Web, on peut mettre en place une politique de sécurisation des connexions. 
 Exemple : chaque personne qui veut accéder à l’interface Web devra posséder les authentifiant nécessaires pour réussir à s’y connecter.
 
-Traitement de la Mise à Jour du Système
----------------------------------------
+Gestion du Système
+------------------
 
 * L'isolement qu'il existe entre les différents sites nécessite de pouvoir mettre à jour la configuration du système embarqué à distance.
 
