@@ -1,7 +1,6 @@
 
 
 
-
 Objectifs : conception et définition d'un  nouveau système
 
 
@@ -79,8 +78,8 @@ dimensionnement, généricité, etc.
 Analyse de la complexité
 -------------------------
 
-où seront les difficultés et pourquoi ?
+* On travaillera avec le réseau GPRS pour réaliser la communication entre les différentes sites. Comme on le sait très bien, la technologie GPRS n’est pas vraiment fiable à 100%, on fera tout le possible afin d’anticiper les éventuels difficultés qui pourraient survenir au cours de l’exploitation.
 
-
+* Les ressources des systèmes embarqués sont un peu limitées, On réalisera le développement du système de tel façon qui soit optimisé pour que cette limite ne soit pas un empêchement au bon fonctionnement du logiciel.
 
 
