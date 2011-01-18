@@ -4,12 +4,15 @@ Architecture matérielle
 Site central
 ------------
 
-Combien de personnes ?
+Configuration du site central
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-serveurs chez un prestataire de services.
+Une dizaine de personnes, un poste de travail par personne.
+Réseau intranet entre les postes de travail, internet pour travailler avec les serveurs et les sites distants.
 
-poste de travail, serveur, etc.
-réseau, filaire, intranet, internet ?
+Serveurs chez un prestataire de services.
+
+
 
 
 
@@ -17,10 +20,17 @@ réseau, filaire, intranet, internet ?
 Sites distants
 --------------
 
+Configuration d'une station
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Un capteur et un système embarqué par cuve.
+Une cuve "master" qui sert de liaison avec le site central.
+
 Système embarqué
 ~~~~~~~~~~~~~~~~
 
 Solution intégrée Ember EM250 : une par cuve
+
 Système de cuve "chef" : à définir
 
 Capteurs
