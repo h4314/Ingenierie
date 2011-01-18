@@ -1,5 +1,4 @@
 
-
 Objectifs : conception et définition d'un  nouveau système
 
 
@@ -57,8 +56,8 @@ _a voir si on la déplace avant ?_
 Annexes 
 =======
 
-Sécurité
---------
+Traitement de la Sécurité
+-------------------------
 
 * La sécurité du système à développer sera directement liée à la sécurité des sites surveillés. On va assurer que les informations qui seront transmises à un système embarqué ne viennent pas d'une source non approuvée.
 
@@ -69,11 +68,14 @@ Sécurité
 * L’intégrité de la configuration des systèmes embarquées et l'intégrité des données captées dépendant directement des requêtes effectuées par l’interface Web, on peute mettre en place une politique de sécurisation des connexions. 
 Exemple : chaque personne qui veut accéder à l’interface Web devra posséder les authentifiant nécessaires pour réussir à s’y connecter.
 
-Démarrage du système
----------------------
+Traitement de la Mise à Jour du Système
+---------------------------------------
 
-telechargement/lancement de l'application
-mise à jour
+* L'isolement qu'il existe entre les différents sites nécessite de pouvoir mettre à jour la configuration du système embarqué à distance.
+
+* On réalisera un développement qui permettra de récupérer un ordre de mise à jour de la configuration venant du site central et mettre effectivement à jour la configuration du système embarqué ou de ses périphériques
+
+* On pourra configurer à distance des paramètres tels que la taille de la base de données pour le stockage des mesures, pour le stockage des opérations, les noms des périphériques, etc.
 
 Problématique de mise à l'échelle
 ----------------------------------
