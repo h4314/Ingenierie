@@ -149,7 +149,7 @@ coupler avec un processeur d'un autre fabricant, afin de bénéficier de plus de
 flexibilité quant au choix des composants (Nom commercial EM260). 
 
 Les solutions Ember sont capables de fonctionner en réseau de type maillé, et
-proposent une porté en extérieur d'environ 100m. La consommation est très basse
+proposent une portée en extérieur d'environ 100m. La consommation est très basse
 (40mA en émission/réception, pour 1 à 1.5µA en mode veille), ce qui assure un
 fonctionnement sur batterie de longue durée.
 
