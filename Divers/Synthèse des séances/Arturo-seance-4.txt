@@ -1,0 +1,10 @@
+J'ai travaillé sur les annexes 
+
+- Gestion de la Séurité
+- Gestion du Système
+- Problématique de mise à l'échelle (Pas fini)
+- Analyse de la complexité
+
+J'espère que tout ce que j'ai écrit soit compréhensible sinon il faut me dire pour corriger.
+
+A revoir par le Responsable Qualité ou quelqu'un d'autre.
