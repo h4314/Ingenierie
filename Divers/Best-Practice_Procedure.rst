@@ -38,4 +38,13 @@ Proposition de plan type pour une procédure:
 #. Le texte d'accompagnement du logigramme
 #. Les annexes documentaires, lorsque nécessaire
 
+Rédaction d'une procédure:
+--------------------------
+
+Voici la façon de procéder pour la rédaction d'une procédure:
+
+..image:: /schema-BP-Procedure.jpeg
+
+
+
 
