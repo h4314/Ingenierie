@@ -15,8 +15,10 @@ naturelles et technologiques fortes : risques climatiques, difficultés d'accès
 ou d'approvisionnement.
 
 Les objectifs d'un système de monitoring, dans ce contexte, sont les suivants :
- * Améliorer la fiabilité des relevés de leur communication
- * 
+ * Améliorer la fiabilité des relevés de leur communication,
+ * Réduire les coûts d'exploitation,
+ * Réduire les interventions humaines sur site qui sont potentiellement
+   risquées et sources d'erreurs.
 
 Les objectifs
 =============
@@ -29,6 +31,7 @@ Ce projet à pour objectifs :
    technologiques,
  * la rédaction d'un cahier des charges exhaustif,
  * la proposition d'au moins une conception d'un système répondant aux besoins
-   du client.
-
-
+   du client, incluant l'étude de capteurs utilisables, la réalisation d'un
+   système embarqué collectant les données, un serveur central qui collecte les
+   données des sites et un logiciel de traitement des données collectées à large
+   échelle.
