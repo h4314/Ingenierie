@@ -124,7 +124,7 @@ L'enjeu du projet est de démontrer avec un échantillon que le système peut ê
 D3 - Formation
 ~~~~~~~~~~~~~~~
 
-Préalabelement à la mise en exploitation du système des formations de personnels devront être effectués que ce soit du côté des futurs opérateurs du site central que des différents acteurs existants : opérationnels et prestataires. Il s'agit également de fournir des supports de documentation et d'aide appropriés.
+Préalablement à la mise en exploitation du système des formations de personnels devront être effectués que ce soit du côté des futurs opérateurs du site central que des différents acteurs existants : opérationnels et prestataires. Il s'agit également de fournir des supports de documentation et d'aide appropriés.
 
 Planning prévisionnel
 ######################
