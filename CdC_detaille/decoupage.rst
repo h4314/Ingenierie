@@ -25,7 +25,7 @@ A - Site central
 A1 - Infrastructure matérielle
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Choix, installation, configuration et interconnection des équipements matériels : serveurs webs, serveurs de base de données, serveurs de sauvegarde, part-feux, intranet, postes de travails, etc.
+Choix, installation, configuration et interconnection des équipements matériels : serveurs webs, serveurs de base de données, serveurs de sauvegarde, pare-feux, intranet, postes de travail, etc.
 
 A2 - Harmonisation du développement logiciel
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -130,6 +130,4 @@ Planning prévisionnel
 ######################
 
 gantt ? estimation fin projet ?
-
-
 
