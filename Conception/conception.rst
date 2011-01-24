@@ -21,61 +21,62 @@ Les prestataires sont les organisations ou entreprises chargées d'effectuer les
 Architecture globale détaillée 
 ################################
 
-_ TODO: insérer schéma complet _
+_ TODO: insérer schéma complet + description détaillée _
 
 Architecture matérielle
 ########################
 
+- TODO: manque de détails + rédaction _
+
 Site central
 ==============
 
-Configuration du site central
--------------------------------
+Postes de travail
+------------------
 
-Une dizaine de personnes, un poste de travail par personne.
-Réseau intranet entre les postes de travail, internet pour travailler avec les serveurs et les sites distants.
+L'équipe de téléopérateurs, estimée à 10 personnes, évoluera sur des postes de travail standards, ceux ci ne nécessitant finalement qu'un navigateur web compatible avec standard HTML5. Etant donné que la puissance de calcul et la totalité du stockage sont déportés du côté de l'infrastructure du serveur il ne sera pas nécessaire d'acheter des postes de travail performants. L'idée étant de limiter le coût de l'unité central. De plus l'accès au système étant indépendant du système d'exploitation, l'utilisation d'une plateforme libre comme Linux (Ubuntu ou autre distribution) est justifiée. Ces économies pourront en partie être utilisées pour offrir un maximum de confort aux téléopérateurs comme l'achat de deux écrans plats grand diamètre par poste, ce qui se révèle extrêmement adapté pour des tâches de monitoring.
 
-Serveurs chez un prestataire de services.
+Il conviendra de mettre en place un réseau local regroupant ces postes afin d'une part de partager la connexion internet et d'utiliser ce réseau à des fins de partage de documents.
 
-Tarifs serveurs
----------------
+Serveurs
+---------
 
-1000€ - 10000€ par an selon la taille de stockage.
+Tout d'abord l'hébergement et la maintenance ces serveurs seront laissé à la charge d'un prestataire externe pour des raisons de coûts, de fiabilité, de sécurité et de haute disponbilité.
+Des serveurs privées seront choisis afin de garder un contrôle total du système et de garantir des perfomances suffisantes dans les traitements. 
+
+Dans un souci d'extensibilité et de mise à l'échelle, l'architecture serveur pourra être découpée en plusieurs serveurs chacun dédié à une fonctionnalité : serveur web, serveur applicatif, serveur hébergeant la base de données, etc. Les performances pourront être améliorées grâce à la technique du load-balancing et donc exploiter la redondance.
+
+Une préférence se porte vers des serveurs fonctionnant sous des systèmes Unix pour des raisons de couts mais aussi pour garder un maximum de contrôle administratif et de compatibilité avec la partie applicative.
+
+Ces serveurs devront être suffisamment puissant suivant le nombre et le genre des traitements effectués. 
+
+Côté stockage, les serveurs devront avoir une capacité suffisante (qui reste à établir) pour stocker l'ensemble des données applicatives mais aussi les historiques d'opérations. Il faudra veiller à ce que le prestataire réplique ces données pour éviter toute perte, si possible sur un autre site géographique. 
+
+En cas de panne, le prestataire doit être en mesure de remettre en marche le système de manière fonctionnelle rapidement et le nombre de pannes doit être limité dans l'année (99,9% soit moins de 8,75 heures par an).
 
 Sites distants
 ===============
 
-Configuration d'une station
------------------------------
+_ TODO: a retravailler => reprendre les conclusions de l'étude de faisa _ 
 
-Un capteur et un système embarqué par cuve.
-Un système d'alimentation par cuve.
-Une cuve maître qui sert de liaison avec le site central et qui comporte un système de communication.
+Capteurs
+---------
+
+Chaque cuve sera équipé d'un ou plusieurs capteurs. Bien que générique, ce système ne considérera pour l'instant que la mise en place de capteur de niveau de liquide.
+Le choix est porté vers un capteur peu cher, autonome et interfaçable avec le système embarqué de la cuve :  Capteur OTT RLS (75 dollars pièce).
 
 Système embarqué
 ------------------
 
-Solution intégrée Ember EM250 : une par cuve (1 dollar par chipset + 2000 dollars pour le kit de développement unique)
-
-Système de cuve maître : à définir
-
-Capteurs
------------
-
-Capteur OTT RLS (75 dollars pièce)
-
+Chaque cuve comprendra un système embarqué. La solution intégrée Ember EM250 a été retenue (1 dollar par chipset + 2000 dollars pour le kit de développement unique).
+La noeud maitre ne sera pas différent des autres mis à part son module indépendant de gestion de la communication longue distance : modem GSM/GPRS (100€ - 300€ pièce).
+De plus il contiendra une carte de stockage utilisée pour bufferiser les données à envoyer au site central (cas du mode déconnecté).
 
 Production d'énergie
 ----------------------
 
-piles et panneaux solaires. (50€ par panneau et 50€ - 200€ par pile)
-
-
-Système de communication
--------------------------
-
-modem GSM/GPRS (100€ - 300€ pièce)
-
+Chaque composant sera hautement indépendant vis à vis de sa consommation électrique. Chaque composant consomme peu, et de plus est capable de rentrer en mode veille extremement peu consommateur.
+Ils seront alimentés via des piles et pour certaines régions couplés avec un mini panneau solaire pour la recharge (50€ par panneau et 50€ - 200€ par pile).
 
 Architecture applicative
 #########################
