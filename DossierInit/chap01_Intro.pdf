@@ -1,0 +1,185 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+% 'BasicFonts': class PDFDictionary 
+1 0 obj
+% The standard fonts dictionary
+<< /F1 2 0 R
+ /F2 3 0 R
+ /F3 4 0 R >>
+endobj
+% 'F1': class PDFType1Font 
+2 0 obj
+% Font Helvetica
+<< /BaseFont /Helvetica
+ /Encoding /WinAnsiEncoding
+ /Name /F1
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F2': class PDFType1Font 
+3 0 obj
+% Font Helvetica-Bold
+<< /BaseFont /Helvetica-Bold
+ /Encoding /WinAnsiEncoding
+ /Name /F2
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F3': class PDFType1Font 
+4 0 obj
+% Font Helvetica-Oblique
+<< /BaseFont /Helvetica-Oblique
+ /Encoding /WinAnsiEncoding
+ /Name /F3
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'Page1': class PDFPage 
+5 0 obj
+% Page dictionary
+<< /Contents 11 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 10 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'R6': class PDFCatalog 
+6 0 obj
+% Document Root
+<< /Outlines 8 0 R
+ /PageLabels 12 0 R
+ /PageMode /UseNone
+ /Pages 10 0 R
+ /Type /Catalog >>
+endobj
+% 'R7': class PDFInfo 
+7 0 obj
+<< /Author ()
+ /CreationDate (D:20110124171304-01'00')
+ /Creator (\(unspecified\))
+ /Keywords ()
+ /Producer (ReportLab PDF Library - www.reportlab.com)
+ /Subject (\(unspecified\))
+ /Title (Dossier d'initialisation) >>
+endobj
+% 'R8': class PDFOutlines 
+8 0 obj
+<< /Count 1
+ /First 9 0 R
+ /Last 9 0 R
+ /Type /Outlines >>
+endobj
+% 'Outline.0': class OutlineEntryObject 
+9 0 obj
+<< /Dest [ 5 0 R
+ /XYZ
+ 62.69291
+ 707.0236
+ 0 ]
+ /Parent 8 0 R
+ /Title (Introduction) >>
+endobj
+% 'R10': class PDFPages 
+10 0 obj
+% page tree
+<< /Count 1
+ /Kids [ 5 0 R ]
+ /Type /Pages >>
+endobj
+% 'R11': class PDFStream 
+11 0 obj
+% page stream
+<< /Length 1289 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 128.6449 0 Td (Dossier d'initialisation) Tj T* -128.6449 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 719.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (H4314 - Projet Ing\351nierie - 2011 - Insa de Lyon) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 686.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Introduction) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 668.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Ce document constitue le dossier d'initialisation du projet Ing\351nierie "R\351ponse \340 un appel d'offre".) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 638.0236 cm
+q
+BT 1 0 0 1 0 14 Tm .122488 Tw 12 TL /F1 10 Tf 0 0 0 rg (Merci de se reporter au d\351p\364t ) Tj /F3 10 Tf (Git ) Tj /F1 10 Tf (du projet pour obtenir la version la plus \340 jour du document ou consulter) Tj T* 0 Tw (ses diff\351rentes r\351visions.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 608.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .232093 Tw (Le document qui suit fait l'objet de mises \340 jour durant toute la p\351riode du projet, il constitue un document) Tj T* 0 Tw (de r\351f\351rence auxquel tous les membres de l'\351quipe doivent se reporter.) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R12': class PDFPageLabels 
+12 0 obj
+% Document Root
+<< /Nums [ 0
+ 13 0 R ] >>
+endobj
+% 'R13': class PDFPageLabel 
+13 0 obj
+% None
+<< /S /D
+ /St 1 >>
+endobj
+xref
+0 14
+0000000000 65535 f
+0000000113 00000 n
+0000000233 00000 n
+0000000398 00000 n
+0000000573 00000 n
+0000000752 00000 n
+0000001031 00000 n
+0000001187 00000 n
+0000001457 00000 n
+0000001579 00000 n
+0000001718 00000 n
+0000001825 00000 n
+0000003217 00000 n
+0000003310 00000 n
+trailer
+<< /ID 
+ % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
+ [(\017D\237\302^\206\320>*\301|\265]G\217\015) (\017D\237\302^\206\320>*\301|\265]G\217\015)] 
+
+ /Info 7 0 R
+ /Root 6 0 R
+ /Size 14 >>
+startxref
+3357
+%%EOF
