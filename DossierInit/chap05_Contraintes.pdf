@@ -1,0 +1,417 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+% 'BasicFonts': class PDFDictionary 
+1 0 obj
+% The standard fonts dictionary
+<< /F1 2 0 R
+ /F2 3 0 R >>
+endobj
+% 'F1': class PDFType1Font 
+2 0 obj
+% Font Helvetica
+<< /BaseFont /Helvetica
+ /Encoding /WinAnsiEncoding
+ /Name /F1
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F2': class PDFType1Font 
+3 0 obj
+% Font Helvetica-Bold
+<< /BaseFont /Helvetica-Bold
+ /Encoding /WinAnsiEncoding
+ /Name /F2
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'Page1': class PDFPage 
+4 0 obj
+% Page dictionary
+<< /Contents 11 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 10 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'R5': class PDFCatalog 
+5 0 obj
+% Document Root
+<< /Outlines 7 0 R
+ /PageLabels 12 0 R
+ /PageMode /UseNone
+ /Pages 10 0 R
+ /Type /Catalog >>
+endobj
+% 'R6': class PDFInfo 
+6 0 obj
+<< /Author ()
+ /CreationDate (D:20110124171309-01'00')
+ /Creator (\(unspecified\))
+ /Keywords ()
+ /Producer (ReportLab PDF Library - www.reportlab.com)
+ /Subject (\(unspecified\))
+ /Title (Contraintes g\351n\351rales) >>
+endobj
+% 'R7': class PDFOutlines 
+7 0 obj
+<< /Count 2
+ /First 8 0 R
+ /Last 9 0 R
+ /Type /Outlines >>
+endobj
+% 'Outline.0': class OutlineEntryObject 
+8 0 obj
+<< /Dest [ 4 0 R
+ /XYZ
+ 62.69291
+ 729.0236
+ 0 ]
+ /Next 9 0 R
+ /Parent 7 0 R
+ /Title (Existant) >>
+endobj
+% 'Outline.1': class OutlineEntryObject 
+9 0 obj
+<< /Dest [ 4 0 R
+ /XYZ
+ 62.69291
+ 654.0236
+ 0 ]
+ /Parent 7 0 R
+ /Prev 8 0 R
+ /Title (Exigences non fonctionnelles) >>
+endobj
+% 'R10': class PDFPages 
+10 0 obj
+% page tree
+<< /Count 1
+ /Kids [ 4 0 R ]
+ /Type /Pages >>
+endobj
+% 'R11': class PDFStream 
+11 0 obj
+% page stream
+<< /Length 6145 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 129.9149 0 Td (Contraintes g\351n\351rales) Tj T* -129.9149 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 708.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Existant) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 666.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .469988 Tw (L'\351tude de l'existant est r\351alis\351e par les GEI lors de la premi\350re \351tape du projet \(\351tude de l'existant et de) Tj T* 0 Tw 3.668651 Tw (la faisabilit\351\). Cette \351tude est r\351alis\351e gr\342ce \340 des interviews avec la ma\356trise d'ouvrage et les) Tj T* 0 Tw (intervenants sur sites.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 633.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Exigences non fonctionnelles) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 603.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.180814 Tw (Les exigences non fonctionnelles majeures d\351gag\351es du document d'appel d'offres de COP\311VUE sont) Tj T* 0 Tw (les suivants :) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 597.0236 cm
+Q
+q
+1 0 0 1 62.69291 279.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 312 cm
+Q
+q
+1 0 0 1 20 312 cm
+Q
+q
+1 0 0 1 20 288 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .438555 Tw (Robustesse : Le syst\350me doit \352tre extremement stable, capable de reprendre le travail dans un) Tj T* 0 Tw (\351tat stable en cas d'anomalie.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 282 cm
+Q
+q
+1 0 0 1 20 246 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .439269 Tw (Fiabilit\351 : Il est n\351cessaire de pouvoir assurer la fiabilit\351 des donn\351es mesur\351es et/ou produites) Tj T* 0 Tw 2.410651 Tw (par le syst\350mes. Il faut donc \352tre vigilent \340 proposer des m\351canismes de validation et de) Tj T* 0 Tw (contr\364le et pouvoir mesurer un taux d'erreur acceptable.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 240 cm
+Q
+q
+1 0 0 1 20 216 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .409982 Tw (Int\351gration de l'existant : Le syst\350me doit \352tre con\347u en respectant les proc\351dures actuellement) Tj T* 0 Tw (appliqu\351es par les entreprises cibles.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 210 cm
+Q
+q
+1 0 0 1 20 186 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .297318 Tw (\311volutivit\351 et maintenabilit\351 : Il faut que la sp\351cification et la conception du syst\350me soit pens\351e) Tj T* 0 Tw (pour permettre d'ajouter ou de corriger des fonctionnalit\351s.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 180 cm
+Q
+q
+1 0 0 1 20 168 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (G\351n\351ricit\351 : Le syst\350me doit \352tre compos\351 de sous-syst\350mes faiblement coupl\351s.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 162 cm
+Q
+q
+1 0 0 1 20 126 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.95284 Tw (Tra\347abilit\351 : Il est n\351cessaire d'une part d'assurer le suivi des donn\351es manipul\351es dans le) Tj T* 0 Tw 1.326235 Tw (syst\350me et, d'autre part de concerver et archiver une trace de l'\351laboration du projet : il sera) Tj T* 0 Tw (donc int\351gralement document\351.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 120 cm
+Q
+q
+1 0 0 1 20 84 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 3.81152 Tw (R\351utilisation : Le syst\350me sera con\347u dans l'optique de permettre d'\352tre adapt\351 \340 des) Tj T* 0 Tw .521318 Tw (environnements qui ne sont pas actuellement inclus dans le cahier des charges \(qui se limite \340) Tj T* 0 Tw (la mesure de liquide dans des cuves\).) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 78 cm
+Q
+q
+1 0 0 1 20 42 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .026136 Tw (Limitations technologiques : Il est probable que la conception du syst\350me implique l'utilisation de) Tj T* 0 Tw 1.244524 Tw (technologies d\351ploy\351es par des tiers \(op\351rateurs t\351l\351coms, etc\). L'\351tude du syst\350me implique) Tj T* 0 Tw (alors la connaissance et la d\351limitation des limites qu'imposent de telles technologies.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 36 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .686905 Tw (Ergonomie : Les utilisateurs du syst\350me ne seront g\351n\351ralement pas des informaticiens. Il faut) Tj T* 0 Tw 1.71229 Tw (donc concevoir des interfaces graphiques qui seront facile a utiliser et tiendront compte des) Tj T* 0 Tw (contraintes d'accessibilit\351 auxquelles les utilisateurs peuvent \352tre soumis.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 279.0236 cm
+Q
+ 
+endstream
+endobj
+% 'R12': class PDFPageLabels 
+12 0 obj
+% Document Root
+<< /Nums [ 0
+ 13 0 R ] >>
+endobj
+% 'R13': class PDFPageLabel 
+13 0 obj
+% None
+<< /S /D
+ /St 1 >>
+endobj
+xref
+0 14
+0000000000 65535 f
+0000000113 00000 n
+0000000221 00000 n
+0000000386 00000 n
+0000000559 00000 n
+0000000838 00000 n
+0000000994 00000 n
+0000001267 00000 n
+0000001389 00000 n
+0000001554 00000 n
+0000001723 00000 n
+0000001830 00000 n
+0000008078 00000 n
+0000008171 00000 n
+trailer
+<< /ID 
+ % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
+ [(\367\266\320\352vN\310\235\255He\0106\177\305\004) (\367\266\320\352vN\310\235\255He\0106\177\305\004)] 
+
+ /Info 6 0 R
+ /Root 5 0 R
+ /Size 14 >>
+startxref
+8218
+%%EOF

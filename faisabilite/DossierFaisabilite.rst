@@ -16,7 +16,7 @@ Introduction
 Problématique
 =============
 
-De nombreuses régions d'Europe sont faiblement déservies pour des raisons :
+De nombreuses régions d'Europe sont faiblement desservies pour des raisons :
 
 * démographiques, le faible peuplement de ces zones fait que les infrastructures de transport sont peu développées ;
 * géographiques, certaines de ces zones sont difficilement accessibles par la difficulté et le coût d'installation d'infrastructures.
@@ -32,12 +32,12 @@ D'autres stations, considérées comme passives, sont à inclure :
 
 * stations de pompage
 * cuves 
-  * liquide anti-incendie (fortement présentes dans les régions à haut risques comme la méditerranée)
+  * liquide anti-incendie (fortement présentes dans les régions à haut risque comme la méditerranée)
   * carburant
-  * déchet
+  * déchets
 * ...
 
-La problématique réside ici à la capacité d'autonomie des stations isolées (en
+La problématique réside ici en la capacité d'autonomie des stations isolées (en
 énergie, déchets, présence humaine, etc.).  Ces stations doivent être
 régulièrement surveillées pour veiller à un fonctionnement optimale tout en
 évitant les risques environnementaux.  Ces visites permettent de s'assurer que
@@ -53,8 +53,8 @@ Pour cette étude de l'existant, comme pour le reste de cet appel d'offre, seron
 visées uniquement les stations réservoirs utilisées pour stocker des liquides
 (eau, carburant, autre substance) ou bien des déchets
 
-Cet appel d'offre partant d'une initiative scandinave, l'analyse de du
-fonctionnement actuel dans dans cet région s'impose et sera un échantillon
+Cet appel d'offre partant d'une initiative scandinave, l'analyse du
+fonctionnement actuel dans cette région s'impose et sera un échantillon
 représentatif de ce qu'il se fait en Europe.
 
 
@@ -63,42 +63,42 @@ Analyse des savoir-faire et des processus
 
 En Scandinavie, une centaine de sites ont été répertoriés avec pour chacun une
 présence moyenne de 10 cuves réparties dans un rayon de 100 mètres. Actuellement
-la gestion ces sites distants n'est pas centralisée et il n'est pas possible de
+la gestion de ces sites distants n'est pas centralisée et il n'est pas possible de
 connaître à distance l'état des cuves/réservoirs. Aucun organisme spécifique ne
 s'en occupe. La surveillance est assurée par ses utilisateurs ou le propriétaire
-des lieux. Ceux sont eux qui, en fonction de l'état de la cuve, prévienne
+des lieux. Ce sont eux qui, en fonction de l'état de la cuve, préviennent
 l'organisme chargé de s'occuper des réservoirs que ce soit pour effectuer une
 réparation ou bien pour vider ou ravitailler la cuve.
 
-Les organismes chargées de la maintenance des réservoirs s'occupe donc, en
-interne, ou via un prestataire de services externe, d'affréter un camion pour
-effectuer ces opérations. Parmi ces organisations peuvent être comptées des
+Les organismes chargés de la maintenance des réservoirs s'occupent donc, en
+interne ou via un prestataire de services externe, d'affréter un camion pour
+effectuer ces opérations. Parmi ces organisations peuvent être comptés des
 particuliers ou bien des organismes d'état (mairies, pompiers, communauté de
 communes, organisme de gestion des forêts, etc.). Les particuliers
-s'occupe eux mêmes de la surveillance et contactent directement les prestataires
-de services. Quand aux organismes d'état ils affectent des opérationnels chargés
-de la surveillance et ont parfois la capacité en interne de maintenir ses sites.
+s'occupent eux-mêmes de la surveillance et contactent directement les prestataires
+de services. Quant aux organismes d'état ils affectent des opérationnels chargés
+de la surveillance et ont parfois la capacité en interne de maintenir ces sites.
 Cependant pour la majeure partie des cas, ils externalisent ces convois de
 maintenance à des sociétés privées.
 
 Les opérationnels sont chargés de vérifier l'état de fonctionnement des
-stations. Il effectue régulièrement des visites de manière hebdomadaire pour
+stations. Ils effectuent des visites de manière hebdomadaire pour
 certaines à plusieurs mois suivant le niveau de criticité et d'utilisation.  Une
 des opérations principales revient à vérifier manuellement le niveau du
 réservoir. En effet, il n'existe aucun système électronique indiquant le niveau
 de remplissage. Une simple constatation via l'ouverture de la cuve suffit.
-Quelque fois la présence d'une sonde permet une précision plus fine. Si le
+Quelques fois la présence d'une sonde permet une précision plus fine. Si le
 seuil, fixé et propre à la cuve, est atteint alors l'opérationnel le signale et
-déclenche la demande de ravitaillement/enlèvement. Dans d'autre cas, la cuve
+déclenche la demande de ravitaillement/enlèvement. Dans d'autres cas, la cuve
 sera ravitaillée après chacune de ses utilisations pour s'assurer de son
 remplissage maximal. C'est le cas des cuves dédiées au stockage d'eau et de
 liquide pour lutter contre les incendies.
 
 Il faut noter qu'entre une demande et l'opération de maintenance peuvent
-s'écouler plus d'une semaine ou plus suivant les conditions affectant le
+s'écouler plusieurs semaines ou plus suivant les conditions affectant le
 transport. La taille des cuves varie de 1 mètre cube à 20 mètres cube et influe
 donc sur la fréquence des opérations de maintenance. Concernant les coûts de
-transport, hors achat du contenant, ils sont généralement établies entre 1000€
+transport, hors achat du contenant, ils sont généralement établis entre 1000€
 et 3000€ selon la distance et la difficulté d'approche du site.
 
 Discussion sur l'adéquation de la solution actuelle
@@ -113,14 +113,14 @@ Plusieurs facteurs sont sources de gaspillage financier :
 
  * La logistique. Il n'existe pas de planification globale et donc pas d'optimisation dans les livraisons/enlèvements de contenant et systématiquement un camion se retrouve avec un chargement nul sur un des trajets (l'aller ou le retour).
  * La surveillance. Celle-ci est effectuée par des opérationnels et est donc fortement coûteuse, en particulier lorsque l'on constate que la majorité des déplacements ne débouche sur aucune opération de maintenance. Il s'agit donc d'une monopolisation des ressources humaines pour une tâche sans réelle valeur ajoutée par rapport à ce qu'elles pourraient apporter.
- * Une surveillance non globale. L'éparpillement de la gestion de ces sites empêchent de faire des économies d'échelles à de nombreux niveaux que ce soit au niveau de la surveillance ou bien dans la mise en commun des achats de contenant ou de services de transport.
+ * Une surveillance non globale. L'éparpillement de la gestion de ces sites empêche de faire des économies d'échelles à de nombreux niveaux que ce soit au niveau de la surveillance ou bien dans la mise en commun des achats de contenant ou de services de transport.
 
-De nombreux points favorisent les risque environnementaux :
+De nombreux points favorisent les risques environnementaux :
 
- * Oublis. Le système reposant uniquement sur des ressources humaines, de nombreux oublis de ravitaillement de cuves ont été constatés. C'est totalement inacceptable pour des cuves stratégiques comme celle dédiée à la lutte des incendies.
- * Fuites. En plus d'être une perte financière, les fuites, suivant le contenant de la cuve, peuvent s'avérer très dangereux écologiquement. Le problème est que ces fuites sont constatées bien souvent trop tard du fait d'une surveillance manuelle, souvent fortement espacée dans le temps.
+ * Oublis. Le système reposant uniquement sur des ressources humaines, de nombreux oublis de ravitaillement de cuves ont été constatés. C'est totalement inacceptable pour des cuves stratégiques comme celles dédiées à la lutte contre les incendies.
+ * Fuites. En plus d'être une perte financière, les fuites, suivant le contenant de la cuve, peuvent s'avérer très dangereuses écologiquement. Le problème est que ces fuites sont constatées bien souvent trop tard du fait d'une surveillance manuelle, souvent fortement espacée dans le temps.
 
-De manière générale, il manque une traçabilité des opérations effectuées par les divers acteurs et ne permet donc pas un monitoring global.
+D'une manière générale, il manque une traçabilité des opérations effectuées par les divers acteurs et ne permet donc pas un monitoring global.
 
 Étude de faisabilité 
 ####################
@@ -131,16 +131,16 @@ Synthèse sur Système embarqué
 Solution 1 : Solution tout intégré à base de chip Ember
 ```````````````````````````````````````````````````````
 
-Ember est une société américaine crée en 2001, qui s'est spécialisé dans la
+Ember est une société américaine créée en 2001, qui s'est spécialisée dans la
 production et la commercialisation de solutions ZigBee. Membre de la Zigbee
 Alliance, ses solutions sont reconnues pour leur efficacité et leur
 interopérabilité.
 
-Elle propose en ensemble de solutions intégrée à base de microcontrôleurs ARM,
+Elle propose un ensemble de solutions intégrées à base de microcontrôleurs ARM,
 comportant des mémoires flash et RAM, pouvant fonctionner sur secteur ou
 batteries, avec une grande durée de vie. Le système est conçu pour être intégré
-avec des périphérique externe, et propose par la même un grand nombre de
-convertisseurs analogique-numériques, permettant de brancher une grande variété
+avec des périphériques externes, et propose par là même un grand nombre de
+convertisseurs analogique-numérique, permettant de brancher une grande variété
 de capteurs (Nom commercial EM250).
 
 Les produits Ember sont conçus pour fonctionner dans des environnements variés.
@@ -149,14 +149,14 @@ coupler avec un processeur d'un autre fabricant, afin de bénéficier de plus de
 flexibilité quant au choix des composants (Nom commercial EM260). 
 
 Les solutions Ember sont capables de fonctionner en réseau de type maillé, et
-proposent une porté en extérieur d'environ 100m. La consommation est très basse
+proposent une portée en extérieur d'environ 100m. La consommation est très basse
 (40mA en émission/réception, pour 1 à 1.5µA en mode veille), ce qui assure un
 fonctionnement sur batterie de longue durée.
 
 Ember a conçu un environnement de développement intégré, adapté à ses produits
 (aussi bien ceux de type System on Chip (SoC) tout intégré que les solutions plus
 modulaires), qui sont conçus pour le développement et le débogage
-d'applications réseau maillée, et propose donc des outils spécifiquement
+d'applications réseau maillé, et propose donc des outils spécifiquement
 adaptés.
 
 Il est possible d'acquérir des kits de tests, peu onéreux, qui sont
@@ -212,7 +212,7 @@ Le nombre de capteurs possible n'est donc pas limité par cette technologie.
 Solution 4 : Intégration manuelle de composants
 ```````````````````````````````````````````````
 
-En dehors des solutions toute intégrées, il est envisageable d'intégrer des
+En dehors des solutions tout intégré, il est envisageable d'intégrer des
 composants de différents constructeurs, par exemple, un microcontrôleur, un
 périphérique réseau, des capteurs, un système temps réel, pour former une
 solution calquée sur les besoins.
@@ -231,16 +231,16 @@ Estimation des besoins d'énergie pour une station
 Dans une station, nous avons deux principaux consommateurs d'énergie: le chipset du système embarqué et le modem GSM/GPRS. 
 Pour le chipset, nous avons trouvé un produit qui a une très bonne autonomie. La puissance à l'état repos est inférieur à 1 mW, qui est négligeable. Quand il est en émission ou en réception, la puissance ne dépasse pas 0,1 Watt. 
 En ce qui concerne le modem, la puissance au repos est d'ordre 0,1 Watt et celle en émission/réception est au maximum 3 Watt.
-En conséquence, une alimentation de 12V et 5 Watt est suffisant pour notre système. Si on estime que les équipement échange des données avec le serveur toutes les minute pendant 1 seconde, il faut 0.2 A*h d'électricité par jour ou 6 A*h par mois sous un voltage de 12 V. 
+En conséquence, une alimentation de 12V et 5 Watt est suffisant pour notre système. Si on estime que les équipements échangent des données avec le serveur toutes les minutes pendant 1 seconde, il faut 0.2 A*h d'électricité par jour ou 6 A*h par mois sous un voltage de 12 V. 
 
 Pile
-``````
-La pile doit pouvoir fournir continuellement et pendant le maximum de temps l'énergie nécessaire au système embarqué et ses annexes. La pile ne doit pas avoir besoin des maintenances pour ajouter de l'électrolyte à l'acide. Dans le cas ou cette pile serait couplée à d'autres sources électriques, elle devrait se recharger.
+````
+La pile doit pouvoir fournir continuellement et pendant le maximum de temps l'énergie nécessaire au système embarqué et ses annexes. La pile ne doit pas avoir besoin des maintenances pour ajouter de l'électrolyte à l'acide. Dans le cas où cette pile serait couplée à d'autres sources électriques, elle devrait se recharger.
 
 Exemples de piles
 
 ==================  ===============================     ====================    ==============================
-Caractéristique     Acker Drill Company Ace Battery     BA22NF Solar Battery    6 Volt Solar Panel Charger
+Caractéristiques    Acker Drill Company Ace Battery     BA22NF Solar Battery    6 Volt Solar Panel Charger
 ==================  ===============================     ====================    ==============================
 Prix                $169.95                             $191.95                 $24.95
 Poids               54.5kg                              38.5Kg                  3kg
@@ -255,14 +255,14 @@ Remarques           Pas besoin de maintenance           Garantie 1 an           
 ``````````````` 
 
 L'utilisation de panneaux solaires est favorable dans des
-régions méditerranéennes. On peut faire coupler avec des piles qui se rechargent
+régions méditerranéennes. On peut les coupler avec des piles qui se rechargent
 lors que les panneaux solaires fournissent plus que les besoins du système. Dans
 le cas contraire, elles fournissent le manque. Aujourd'hui, les technologies de
-panneaux solaires sont assez développées et que la durée de vie dépasse 20 ans.
+panneaux solaires sont assez développées et la durée de vie dépasse 20 ans.
 Les petits panneaux fonctionnent dans toutes les conditions météo.
 
-Dans les pays nordique où l'ensoleillement est moins par rapport à d'autre
-région, les panneaux solaires peuvent également fonctionner. En Norvège par
+Dans les pays nordiques où l'ensoleillement est moins élevé par rapport à d'autres
+régions, les panneaux solaires peuvent également fonctionner. En Norvège par
 exemple, depuis les années 1970, les panneaux photovoltaïques ont été
 fréquemment utilisés pour produire de l'électricité dans les coins reculés non
 raccordés au réseau électrique: chalets en montagne et près de la mer, phares et
@@ -283,7 +283,7 @@ Remarque                                                        Garantie 10 ans
 Énergie éolienne
 `````````````````
 L'implantation éolienne nécessite la présence d'un vent régulier et d'un terrain
-approprié. Cette solution coût relativement cher et demande des intervention de
+approprié. Cette solution coûte relativement cher et demande des interventions de
 maintenance régulière. 
 
 Exemple d'éolienne
@@ -295,27 +295,27 @@ Exemple d'éolienne
 
 Énergie géothermique
 ``````````````````````
-A présent, il n'existe pas d'équipement de taille que l'on souhaite pour fournir
-de l'électricité à notre système. Cette source d'énergie est dans la plus part
-de temps utilisée pour chauffer la maison directement grâce à des pompes à
-chaleur. La machine la plus petite qu'on a trouvé sur internet qui peut
+A présent, il n'existe pas d'équipement de la taille que l'on souhaite pour fournir
+de l'électricité à notre système. Cette source d'énergie est la plupart
+du temps utilisée pour chauffer la maison directement grâce à des pompes à
+chaleur. La machine la plus petite qu'on ait trouvée sur internet qui peut
 transformer l'énergie géothermique en électricité possède une puissance de 3 kW.
 Mais on peut envisager l'utilisation de cette énergie dans un futur proche pour
 notre système.
 
 Conclusion
 ```````````
-Notre solution pour l'alimentation des station en énergie se base sur
+Notre solution pour l'alimentation des stations en énergie se base sur
 l'utilisation des piles et des panneaux solaires. Nous pouvons choisir des
 panneaux solaires plus ou moins grands et des piles de capacité plus ou moins
-importantes selon la condition climatique de la région. 
+importante selon les conditions climatiques de la région. 
 
 Synthèse sur capteurs
 ==========================================
 Dans le cadre de notre étude, les capteurs peuvent faire l'objet d'une classification par type de sortie.
 Ils peuvent être de type : analogique, numérique ou logique (TOR).
 La difficulté est donc la multiplicité des données en sortie de chaque capteur.
-Il faudra utiliser une carte d'acquisition afin d'obtenir les mêmes données de sorties, quel que soit le capteur utilisé.
+Il faudra utiliser une carte d'acquisition afin d'obtenir les mêmes données de sortie, quel que soit le capteur utilisé.
 Cette carte a pour rôle de réaliser l'interface entre les capteurs et le système embarqué. 
 La carte est composée :
 
@@ -342,8 +342,8 @@ pour la mesure sans contact du niveau des eaux de surface. Il utilise la
 technologie à impulsions radar pour déterminer le niveau de l'eau.
 
 Pour que les impulsions radar émises atteignent la surface de l'eau, OTT RLS est
-placé directement au-dessus du niveau d'eau à mesurer.  Étant donné que le
-capteur est placé hors d'eau, les problèmes de mesures liés à la présence de
+placé directement au-dessus du niveau d'eau à mesurer. Étant donné que le
+capteur est placé hors de l'eau, les problèmes de mesures liés à la présence de
 végétation ne peuvent pas apparaître. Le RLS couvre une plage de mesure allant de
 0,8 à 35 m. Les interfaces standard permettent le raccordement d'autres capteurs
 et la communication avec différents enregistreurs et systèmes de

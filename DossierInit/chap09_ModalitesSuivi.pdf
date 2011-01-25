@@ -1,0 +1,327 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+% 'BasicFonts': class PDFDictionary 
+1 0 obj
+% The standard fonts dictionary
+<< /F1 2 0 R
+ /F2 3 0 R
+ /F3 4 0 R >>
+endobj
+% 'F1': class PDFType1Font 
+2 0 obj
+% Font Helvetica
+<< /BaseFont /Helvetica
+ /Encoding /WinAnsiEncoding
+ /Name /F1
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F2': class PDFType1Font 
+3 0 obj
+% Font Helvetica-Bold
+<< /BaseFont /Helvetica-Bold
+ /Encoding /WinAnsiEncoding
+ /Name /F2
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F3': class PDFType1Font 
+4 0 obj
+% Font Helvetica-Oblique
+<< /BaseFont /Helvetica-Oblique
+ /Encoding /WinAnsiEncoding
+ /Name /F3
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'Page1': class PDFPage 
+5 0 obj
+% Page dictionary
+<< /Contents 13 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 12 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'R6': class PDFCatalog 
+6 0 obj
+% Document Root
+<< /Outlines 8 0 R
+ /PageLabels 14 0 R
+ /PageMode /UseNone
+ /Pages 12 0 R
+ /Type /Catalog >>
+endobj
+% 'R7': class PDFInfo 
+7 0 obj
+<< /Author ()
+ /CreationDate (D:20110124171313-01'00')
+ /Creator (\(unspecified\))
+ /Keywords ()
+ /Producer (ReportLab PDF Library - www.reportlab.com)
+ /Subject (\(unspecified\))
+ /Title (Modalit\351s de suivi) >>
+endobj
+% 'R8': class PDFOutlines 
+8 0 obj
+<< /Count 3
+ /First 9 0 R
+ /Last 11 0 R
+ /Type /Outlines >>
+endobj
+% 'Outline.0': class OutlineEntryObject 
+9 0 obj
+<< /Dest [ 5 0 R
+ /XYZ
+ 62.69291
+ 729.0236
+ 0 ]
+ /Next 10 0 R
+ /Parent 8 0 R
+ /Title (Les r\350gles de suivi) >>
+endobj
+% 'Outline.1': class OutlineEntryObject 
+10 0 obj
+<< /Dest [ 5 0 R
+ /XYZ
+ 62.69291
+ 624.0236
+ 0 ]
+ /Next 11 0 R
+ /Parent 8 0 R
+ /Prev 9 0 R
+ /Title (Les outils utilis\351s) >>
+endobj
+% 'Outline.2': class OutlineEntryObject 
+11 0 obj
+<< /Dest [ 5 0 R
+ /XYZ
+ 62.69291
+ 429.0236
+ 0 ]
+ /Parent 8 0 R
+ /Prev 10 0 R
+ /Title (Les proc\351dures de r\351vision du planning) >>
+endobj
+% 'R12': class PDFPages 
+12 0 obj
+% page tree
+<< /Count 1
+ /Kids [ 5 0 R ]
+ /Type /Pages >>
+endobj
+% 'R13': class PDFStream 
+13 0 obj
+% page stream
+<< /Length 4406 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 148.8049 0 Td (Modalit\351s de suivi) Tj T* -148.8049 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 708.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Les r\350gles de suivi) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 678.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.354692 Tw (Le suivi du projet sera assur\351 gr\342ce \340 l'outil de suivi de projet Redmine, dans lequel les membres) Tj T* 0 Tw (reporteront le temps qu'il ont pass\351 sur chacune des t\342ches et l'\351tat d'avancement.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 636.0236 cm
+q
+BT 1 0 0 1 0 26 Tm 1.013984 Tw 12 TL /F1 10 Tf 0 0 0 rg (Deux r\351unions de ) Tj /F3 10 Tf (synchronisation ) Tj /F1 10 Tf (seront organis\351es lors de chaque d\351but et fin de s\351ance. Lorsque la) Tj T* 0 Tw .651163 Tw (r\351union de fin de s\351ance n'a pas pu \352tre effectu\351e, les membres du projet devront r\351diger une synth\350se) Tj T* 0 Tw (de s\351ance qui sera enregistr\351e sur le wiki du projet.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 603.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Les outils utilis\351s) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 585.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Les outils utilis\351s pour suivre le projet sont les suivants :) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 579.0236 cm
+Q
+q
+1 0 0 1 62.69291 441.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 132 cm
+Q
+q
+1 0 0 1 20 132 cm
+Q
+q
+1 0 0 1 20 96 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 26 Tm 3.465366 Tw 12 TL /F2 10 Tf 0 0 0 rg (Redmine ) Tj /F1 10 Tf (: outil open-source de gestion de projet collaboratif, fournissant un wiki et un) Tj T* 0 Tw 2.114976 Tw (gestionnaire de documents \() Tj /F3 10 Tf (knowledge management) Tj /F1 10 Tf (\), un syst\350me de tra\347abilit\351 des t\342ches) Tj T* 0 Tw (\(gestion de projet\).) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 90 cm
+Q
+q
+1 0 0 1 20 54 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 26 Tm .90561 Tw 12 TL /F2 10 Tf 0 0 0 rg (git ) Tj /F1 10 Tf (et ) Tj /F2 10 Tf (github ) Tj /F1 10 Tf (: git et un syst\350me de gestion de versions d\351centralis\351 que nous utiliseront pour) Tj T* 0 Tw .077318 Tw (archiver et versionner les documents produits lors du projet. Github est la forge sur laquelle sera) Tj T* 0 Tw (h\351berg\351 le d\351p\364t git central.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 48 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 33 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 38 Tm .439983 Tw 12 TL /F2 10 Tf 0 0 0 rg (Restructured Text ) Tj /F1 10 Tf (: syntaxe utilis\351e dans des fichiers textes pour mettre en forme du contenu.) Tj T* 0 Tw 6.175976 Tw (Les documents peuvent ensuite \352tre g\351n\351r\351s. Cette solution offre l'avantage d'\352tre) Tj T* 0 Tw .280814 Tw (int\351grallement portable \(nous utilisons des fichiers textes basiques\) et plus facile \340 appr\351hender) Tj T* 0 Tw (qu'une syntaxe comme Latex.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 441.0236 cm
+Q
+q
+1 0 0 1 62.69291 408.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Les proc\351dures de r\351vision du planning) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 378.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .326235 Tw (En amont de chaque s\351ance, le chef de projet utilisera les synth\350ses des membres du projet \(ennonc\351es) Tj T* 0 Tw (en r\351union ou transmises sur le wiki\) pour adapter le planning.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 360.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Les membres du projet seront inform\351s des modifications du planning en d\351but de s\351ance.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 342.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Les modifications de planning peuvent \352tre motiv\351es par les membres du projet aupr\350s du chef de projet.) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R14': class PDFPageLabels 
+14 0 obj
+% Document Root
+<< /Nums [ 0
+ 15 0 R ] >>
+endobj
+% 'R15': class PDFPageLabel 
+15 0 obj
+% None
+<< /S /D
+ /St 1 >>
+endobj
+xref
+0 16
+0000000000 65535 f
+0000000113 00000 n
+0000000233 00000 n
+0000000398 00000 n
+0000000573 00000 n
+0000000752 00000 n
+0000001031 00000 n
+0000001187 00000 n
+0000001454 00000 n
+0000001577 00000 n
+0000001757 00000 n
+0000001952 00000 n
+0000002139 00000 n
+0000002246 00000 n
+0000006755 00000 n
+0000006848 00000 n
+trailer
+<< /ID 
+ % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
+ [({\365\017\200x\272\013l\370dG\231Wlr\034) ({\365\017\200x\272\013l\370dG\231Wlr\034)] 
+
+ /Info 7 0 R
+ /Root 6 0 R
+ /Size 16 >>
+startxref
+6895
+%%EOF

@@ -19,6 +19,8 @@ Les objectifs d'un système de monitoring, dans ce contexte, sont les suivants :
  * améliorer la fiabilité des relevés et de leur communication,
  * permettre des économies de fonctionnement,
  * réduire l'impact écologique des sites consernés.
+ * Réduire les interventions humaines sur site qui sont potentiellement
+   risquées et sources d'erreurs.
 
 Les objectifs
 =============

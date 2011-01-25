@@ -4,12 +4,20 @@ Architecture matérielle
 Site central
 ------------
 
-Combien de personnes ?
+Configuration du site central
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-serveurs chez un prestataire de services.
+Une dizaine de personnes, un poste de travail par personne.
+Réseau intranet entre les postes de travail, internet pour travailler avec les serveurs et les sites distants.
 
-poste de travail, serveur, etc.
-réseau, filaire, intranet, internet ?
+Serveurs chez un prestataire de services.
+
+Tarifs serveurs
+~~~~~~~~~~~~~~~
+
+1000€ - 10000€ par an selon la taille de stockage.
+
+
 
 
 
@@ -17,25 +25,33 @@ réseau, filaire, intranet, internet ?
 Sites distants
 --------------
 
+Configuration d'une station
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Un capteur et un système embarqué par cuve.
+Un système d'alimentation par cuve.
+Une cuve "master" qui sert de liaison avec le site central et qui comporte un système de communication.
+
 Système embarqué
 ~~~~~~~~~~~~~~~~
 
-Solution intégrée Ember EM250 : une par cuve
+Solution intégrée Ember EM250 : une par cuve (1 dollar par chipset + 2000 dollars pour le kit de développement unique)
+
 Système de cuve "chef" : à définir
 
 Capteurs
 ~~~~~~~~
 
-Capteur OTT RLS
+Capteur OTT RLS (75 dollars pièce)
 
 
 Production d'énergie
 ~~~~~~~~~~~~~~~~~~~~
 
-piles et panneaux solaires.
+piles et panneaux solaires. (50€ par panneau et 50€ - 200€ par pile)
 
 
 Système de communication
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-modem GSM/GPRS
+modem GSM/GPRS (100€ - 300€ pièce)
