@@ -41,8 +41,8 @@ Il conviendra de mettre en place un réseau local regroupant ces postes afin d'u
 Serveurs
 ---------
 
-Tout d'abord l'hébergement et la maintenance ces serveurs seront laissé à la charge d'un prestataire externe pour des raisons de coûts, de fiabilité, de sécurité et de haute disponbilité.
-Des serveurs privées seront choisis afin de garder un contrôle total du système et de garantir des perfomances suffisantes dans les traitements. 
+Tout d'abord l'hébergement et la maintenance ces serveurs seront laissé à la charge d'un prestataire externe pour des raisons de coûts, de fiabilité, de sécurité et de haute disponibilité.
+Des serveurs privées seront choisis afin de garder un contrôle total du système et de garantir des performances suffisantes dans les traitements. 
 
 Dans un souci d'extensibilité et de mise à l'échelle, l'architecture serveur pourra être découpée en plusieurs serveurs chacun dédié à une fonctionnalité : serveur web, serveur applicatif, serveur hébergeant la base de données, etc. Les performances pourront être améliorées grâce à la technique du load-balancing et donc exploiter la redondance.
 
@@ -75,7 +75,7 @@ De plus il contiendra une carte de stockage utilisée pour bufferiser les donné
 Production d'énergie
 ----------------------
 
-Chaque composant sera hautement indépendant vis à vis de sa consommation électrique. Chaque composant consomme peu, et de plus est capable de rentrer en mode veille extremement peu consommateur.
+Chaque composant sera hautement indépendant vis à vis de sa consommation électrique. Chaque composant consomme peu, et de plus est capable de rentrer en mode veille extrêmement peu consommateur.
 Ils seront alimentés via des piles et pour certaines régions couplés avec un mini panneau solaire pour la recharge (50€ par panneau et 50€ - 200€ par pile).
 
 Architecture applicative
@@ -100,11 +100,11 @@ Noyau applicatif
 Le noyau applicatif constitue le moteur du système informatique.
 Seront développées des applications en Java pour traiter des données, configurer le système, gérer la planification et des alarmes. 
 - Traitement des données
-L'application reçoit des données émites par des stations. Elle les persiste dans la base de données. Elle font également des analyses sur ces données et les fournissent à l'interface pour présenter aux utilisateurs.	
+L'application reçoit des données émises par des stations. Elle les persiste dans la base de données. Elle font également des analyses sur ces données et les fournissent à l'interface pour présenter aux utilisateurs.	
 - Configuration du système
 L'application permet aux utilisateurs à paramétrer ou commander le système.  Elles vérifient la cohérence des commandes et des paramétrage avant de les envoyer à la station destinataire. Elle se charge aussi de la mise à jour des système embarqués.
 - Planification
-L'applicaion est capable de surveiller le niveau des réservoirs grâce aux données envoyés par des capteurs et suivre en temps réel des camions équipés de GPS. Cela permet de planifier les trajets des camions.
+L'application est capable de surveiller le niveau des réservoirs grâce aux données envoyés par des capteurs et suivre en temps réel des camions équipés de GPS. Cela permet de planifier les trajets des camions.
 - Gestion des alarmes
 L'application reçoit des alarmes qui signalent un niveau faible de batterie ou d'autre dysfonctionnements de systèmes embarqués. Elle est capable de réagir de façon automatique pour résoudre certains problèmes ou avertir l'utilisateur.
 
@@ -123,19 +123,24 @@ Un OS très léger tourne sur chacun des système embarqué. Cette OS offre la p
 Système esclave
 ------------------
 
-Le système esclave se réveille à un intervalle de temps régulier qui est paramétrable. Il effectue un nombre de mesures qui est également paramétrable en tenant compte de type de capteur, niveau de batterie du système etc. Les valeurs de capteurs seront transmises au système embarqué de manière brute. Le système embarqué calcul la moyenne des valeurs mesurées et l'envoie au sysème voisin en format uniformisé en rajoutant l'identifiant de cuve, unité de valeur etc... Au cas où un dysfonctionnement est détecté, une alarme sera générée et envoyée.
+Le système esclave se réveille à un intervalle de temps régulier qui est paramétrable. Il effectue un nombre de mesures qui est également paramétrable en tenant compte de type de capteur, niveau de batterie du système etc. Les valeurs de capteurs seront transmises au système embarqué de manière brute. Le système embarqué calcul la moyenne des valeurs mesurées et l'envoie au système voisin en format uniformisé en rajoutant l'identifiant de cuve, unité de valeur etc... Au cas où un dysfonctionnement est détecté, une alarme sera générée et envoyée.
 Quand le système esclave reçoit un message, s'il s'agit du message d'un système voisin destiné au système maître, il le transmet au système suivant. Si le message lui est destiné contenant des données de configuration, le système doit se reconfigurer.
 
 Système maître
 ---------------
 
-Le système maître possède le même fonctionnement que le système esclave au niveau de récolte de données. En plus, il reçoit les données de systèmes esclaves qui se trouvent dans la même station. Il est chargé d'envoyer ces données par le réseau GSM en protocol Http au serveur central.
+Le système maître possède le même fonctionnement que le système esclave au niveau de récolte de données. En plus, il reçoit les données de systèmes esclaves qui se trouvent dans la même station. Il est chargé d'envoyer ces données par le réseau GSM en protocole Http au serveur central.
 Le système maître reçoit également des messages de configuration ou des commandes d'utilisateur. Il les redistribue aux systèmes esclaves.
 
 Synchronisation
 ----------------
 
-Dans une station, tous les systèmes embarqués seront synchronisés. Il est possible de paramétrer de sorte qu'ils se réveillent en même temps régulièrement pour effectuer la mesure, le traitement, l'emission et la réception de données. Cette synchronisation permet aux systèmes de se mettre en veille profonde (Fermeture des recepteur et émetteur) durant le reste du temps afin de réduire la consommation d'énergie.
+Dans une station, tous les systèmes embarqués seront synchronisés. Il est
+possible de paramétrer de sorte qu'ils se réveillent en même temps régulièrement
+pour effectuer la mesure, le traitement, l'émission et la réception de données.
+Cette synchronisation permet aux systèmes de se mettre en veille profonde
+(Fermeture des récepteur et émetteur) durant le reste du temps afin de réduire
+la consommation d'énergie.
 
 
 Architecture de communication
@@ -150,7 +155,7 @@ Flux d'information
 Cas nominal
 -------------
 
-Toute les noeuds du réseau de capteur sont en sommeil profond, consommant ainsi très peu d'énergie.
+Toute les noeuds du réseau de capteur sont en sommeil de réception, consommant ainsi très peu d'énergie.
 Lorsqu'un noeud se réveille, il fait l'acquisition de *n* valeurs, à raison
 d'une valeur toute les *x* secondes.  Il fait alors un filtrage sur ces *n*
 valeurs, et envoie au noeud *MASTER* un trame de ce type : ::
@@ -274,7 +279,7 @@ Problématique sur la sécurité
 
 * De même pour les données transmises automatiquement par les sites distants, on mettra  en place un protocole de communication sécurisé, tel que le protocole SSL (Secure Sockets Layer).
 
-* L’intégrité de la configuration des systèmes embarquées et l'intégrité des données captées dépendant directement des requêtes effectuées par l’interface Web, on peut mettre en place une politique de sécurisation des connexions. Exemple : chaque personne qui veut accéder à l’interface Web devra posséder les autentifiants nécessaires pour réussir à s’y connecter.
+* L’intégrité de la configuration des systèmes embarquées et l'intégrité des données captées dépendant directement des requêtes effectuées par l'interface Web, on peut mettre en place une politique de sécurisation des connexions. Exemple : chaque personne qui veut accéder à l'interface Web devra posséder les informations d'authentification nécessaires pour réussir à s’y connecter.
 
 Gestion du Système
 ===================
@@ -292,9 +297,9 @@ Le système prévu sera 10 fois plus important que l'existant scandinave, soit :
 * 100 sites distants x 10 = 1000 sites distants
 * 1000 sites distants x 10 cuves = 10000 cuves
 
-Les infrastructures matérielles seront capables de supporter à la dois les fux de données transistants sur les réseaux internes aux stations et sur les réseaux GRPS. 
+Les infrastructures matérielles seront capables de supporter à la dois les flux de données en transit sur les réseaux internes aux stations et sur les réseaux GRPS. 
 
-De plus côté site central, le serveur web d'aggrégation des données sera suffisamment puissant pour traiter l'ensemble des requêtes. De plus il devra garantir une très haute disponibilité par la mise en place de système de réplication en cas de pannes. Concernant les données stockées, le système sera capable de stocker des données sur une échelle de temps d'au moins deux ans.
+De plus côté site central, le serveur web d'agrégation des données sera suffisamment puissant pour traiter l'ensemble des requêtes. De plus il devra garantir une très haute disponibilité par la mise en place de système de réplication en cas de pannes. Concernant les données stockées, le système sera capable de stocker des données sur une échelle de temps d'au moins deux ans.
 
 Bien que prévu pour ces limites, le système pourra facilement être remis à l'échelle. D'une part l'ensemble de la conception est basé sur la généricité et l'indépendance par apport à son objectif métier. D'autre part les systèmes nécessitant la mise à l'échelle sont concentrées en certains points (serveur de base données, serveurs web, réplication, réseaux, etc.). L'intégration de nouveaux sites distants ou l'ajout de nouvelles cuves ou par extension tout autre système de surveillance se feront sans réels challenge techniques. Les connaissances acquises lors des projets de déploiement sur sites seront exploitées afin de faciliter la répétition de cette opération. 
 

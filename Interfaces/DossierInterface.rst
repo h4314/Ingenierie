@@ -59,18 +59,14 @@ Suivi en temps réel des opérations de maintenance
 Communication longue distance
 =============================
 
-Envoi de donnée d'un site distant vers le site central
+Envoi de données d'un site distant vers le site central
   Communication unidirectionnelle entre un site distant, et un site central,
   dans le but d'envoyer des valeurs de mesure.
 
-Envoi de commande du site central vers le site distant
-  Envoie d'une commande de changement de paramètre du site central vers le site
-  distant.
-
-Mise un jour du logiciel d'un site distant
-  Envoie d'un nouveau logiciel depuis le site central vers le site distant
-  (mise à jour *over the air*).
-
+Envoi de données du site central vers un site distant
+  Communication entre le site central vers le site distant, dans le but
+  d'envoyer des commandes de changement de paramètre, ou des mises à jour
+  logicielles.
 
 
 Site distant
@@ -88,7 +84,9 @@ Traitement des données au niveau noeud
   Traitement des données au niveau de chaque capteurs (par exemple moyennage).
 
 Traitement des données au niveau site
-  Traitement des données par le noeud *MASTER* de chaque site.
+  Traitement des données par le noeud *MASTER* de chaque site. Ce bloc inclue
+  aussi les fonctions pour gérer la persistance dans le cadre d'un
+  fonctionnement déconnecté.
 
 
 .. page::
@@ -154,7 +152,7 @@ Types utilisés
   sein du système. Deux appels ne pourront pas avoir la même valeur de ``callID``
   dans des temps raisonnablement long, correspondant à la valeur maximum de ce
   type numérique (ex: 65536 pour un entier 16 bits), l'identifiant étant
-  incrémenté à chaque appel'.
+  incrémenté à chaque appel.
 
 ``NodeID``
   Identifiant unique donné à un capteur. Il peut aussi s'agir du noeud *MASTER*.
@@ -181,6 +179,9 @@ Fonction commune aux différents blocs
   ``callID`` est l'entier qui est retourné à chaque appel, pour la traçabilité
   au sein du système. ``returnCode`` correspond à éventuel code d'erreur, qu'il
   s'agira de mettre en regard avec le ``callID`` pour obtenir le type d'erreur.
+
+
+.. page..
 
 Site central
 ============
@@ -283,40 +284,142 @@ fichier de journalisation associé à la tâche de maintenance.
   Ces données sont fournies par l'appareillage du technicien envoyé sur site (de
   type *smartphone*).
 
+.. page::
+
 Communication longue distance
 =============================
 
+L'API de ce bloc se base sur celle du module QNetwork, version asynchrone, de
+Qt, framework C++ développé par Nokia.  Cette API a prouvé son efficacité, dans
+l'embarqué tout comme dans le monde du logiciel standard. (Référence : 
+http://doc.qt.nokia.com/4.7/qtnetwork.html)
+
 Envoi de donnée d'un site distant vers le site central
-  Communication unidirectionnelle entre un site distant, et un site central,
-  dans le but d'envoyer des valeurs de mesure.
+------------------------------------------------------
 
-Envoi de commande du site central vers le site distant
-  Envoie d'une commande de changement de paramètre du site central vers le site
-  distant.
+``callID connectToCentral()``
+  Permet de se connecter au site central. L'adresse IP du site central est un
+  paramètre que le noeud *MASTER* connait. Il n'est donc pas nécessaire de
+  l'indiquer en paramètre.
 
-Mise un jour du logiciel d'un site distant
-  Envoie d'un nouveau logiciel depuis le site central vers le site distant
-  (mise à jour *over the air*).
+``callID connectedToCentral()``
+  Fonction de callback appelée quand le site central et le site distant sont
+  connectés.
 
-Réception de données depuis le site distant
-  Cette fonctionnalité permet de recevoir des données depuis le site distant
-  vers le site central.
+``callID newConnection()``
+  Fonction de callback appelée quand le site central se connecte au site
+  distant, par exemple après une perte de connexion, ou lors de la mise en
+  service.
+
+``callID closeConnection()``
+  Fonction à appeler lorsque le site distant veut fermer la connexion. Cela
+  permet au site central de savoir qu'il s'agit d'une perte de connexion
+  volontaire, et non d'une erreur.
+
+``callID sendData(data, length)``
+  Permet d'envoyer les données ``data`` au site central, par exemple pour
+  envoyer des résultats de capteurs, ou des messages de service.
+
+``callID dataAvailable(data, length)``
+  Fonction de callback appelée lorsque des données sont disponibles.
+
+Envoi de données du site central vers un site distant
+-----------------------------------------------------
+
+``ipAddress getIPFromSite(siteID)``
+  Permet d'obtenir l'adresse IP d'un site distant, à partir de son ``siteID``.
+
+``siteID getSiteFromIP(ipAddress)``
+  Permet d'obtenir l'identifiant de site distant depuis l'adresse IP.
+
+``callID connectToSite(ipAddress)``
+  Permet d'initier une connexion vers un site distant.
+
+``callID pollConnectToSite(ipAddress, frequency)``
+  Permet de tenter de se connecter à répétition vers un site distant, à une
+  fréquence ``frequency``, dans le cas de la perte de connection.
+
+``callID connected(callID, fd)``
+  Fonction de callback appelée quand la connexion est établie. ``callID``
+  correspond à celui reçu lors de l'appel à ``connectToSite``, et ``fd`` est un
+  petit entier permettant de repérer la connexion.
+
+``callID closeConnection(fd)``
+  Permet de fermer proprement une connexion au site distant, par exemple pour
+  une opération de maintenance.
+
+``void newConnection(idAdress)``
+  Fonction de callback appelée lorsqu'un site distant se connecte au site
+  central.
+
+``callID sendData(fd, data, length)``
+  Communication unidirectionnelle entre le site central et un site distant, dans
+  le but d'envoyer des commandes, ou des mises à jour logicielles.
+
+``callID dataAvailable(fd, data, length)``
+  Fonction de callback appelée lorsque des données sont disponibles. ``fd`` est
+  alors l'identifiant du site ayant envoyé ces données.
+
+``void b64Encode(inputData, inputLength, outputData, outputLenth)``
+  Fonction permettant d'encoder des données en base 64.
+
+``void sha512Encode(inputData, inputLength, outputData)``
+  Fonction permettant de calculer le *hash* SHA-512 d'une donnée.
+
+.. page::
 
 Site distant
 ============
 
-Ce bloc peut de la même manière être découpé en plusieurs blocs fonctionnels :
-
 Acquisition de données brutes
-  Obtentions de données de capteurs, sans se soucier de leur format.
+-----------------------------
+
+``int getRawData(sensor, value)``
+  Appel synchrone. Permet de prendre une valeur depuis le capteur. L'entier en
+  valeur de retour permet de détecter une erreur. Ce prototype permet de passer
+  un capteur en paramètre pour anticiper le fait qu'il y ait plusieurs capteurs
+  par noeud.
 
 Communication interne
-  Communication entre les noeuds ZigBee (routage, etc.).
+---------------------
+
+``int sendDataToNode(NodeID, data, length)``
+  Envoie une donnée vers un noeud, en routant les données de manière
+  transparente à travers le réseau maillé ZigBee.
+
+``NodeID getMasterNodeID()``
+  Renvoie le ``NodeID`` du noeud maitre d'un site. Il doit être unique au sein
+  d'un même site. 
 
 Traitement des données au niveau noeud
-  Traitement des données au niveau de chaque capteurs (par exemple moyennage).
+--------------------------------------
+
+``void addFunctionToPipeline(function)``
+  Permet d'ajouter une fonction au pipeline de calcul d'un noeud. La fonction
+  est ajouté en fin de pipeline. ``function`` est un pointeur de fonction (ou
+  équivalent dans un autre langage), prenant en paramètre un tableau de donnée
+  numérique, et ayant comme sortie un tableau de donnée numériques.
+
+``void clearPipeline()``
+  Permet de vider le pipeline. Les fonctions doivent être ajoutées de nouveau,
+  dans l'ordre de traitement.
+
+``void executePipeline(inputData, inputLength, outputData, outputLength)``
+  Permet d'exécuter le pipeline de fonctions de traitement, et d'obtenir les
+  données de sortie, pour pouvoir les envoyer au noeud maitre.
 
 Traitement des données au niveau site
-  Traitement des données par le noeud *MASTER* de chaque site.
+-------------------------------------
+``void xmlEncode(data, length, xmlEncodedData, length)``
+  Permet d'encoder les données reçues des capteurs en XML, pour les envoyer par
+  le réseau.
+
+``void storeDataToFlash(id, data, length)``
+  Permet de stocker de manière persistantes les données dans le module de
+  persistance. ``id`` correspond à une clé avec laquelle les données pourront
+  être récupérées.
+
+``void getDataFromFlash(id, data, length)``
+  Permet de récupérer les données stockées dans le module de persistance.
 
 
