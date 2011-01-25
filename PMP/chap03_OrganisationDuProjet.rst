@@ -86,3 +86,14 @@ Cette équipe sera également charger d'effectuer des audits des infrastructures
 de communications en place à l'échelle européenne.
 
 L'équipe est composée de deux personnes.
+
+Schéma récapitulatif
+~~~~~~~~~~~~~~~~~~~~
+
+TODO ajouter schéma
+
+La maîtrise d'ouvrage interviendra lors des commités de pilotage et validation
+du projet aurpès des directeur et chef de projet ou de l'architecte technique.
+
+Un responsable technique d'équipe peut prendre part à une réunion avec la
+maîtrise d'ouvrage si l'ordre du jour le concerne.
