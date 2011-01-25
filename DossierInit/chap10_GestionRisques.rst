@@ -55,4 +55,35 @@ dans la définition et l'attribution des tâches.
 Risques propres au projet
 =========================
 
-TODO
+Incompétence du chef de projet
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Il est possible que le chef de projet ne soit pas en mesure d'assurer
+correctement sa fonction. Le planning risque d'être difficilement respecté et
+l'organisation du projet défaillante.
+
+**Prévention** : le chef de projet présentera régulièrement son travail aux
+autres membres du projet qui commenteront son travail. Le chef de projet suivra
+à chaque séance les revues avec Régis Aubry.
+
+Incompétence du responsable qualité
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Le responsable qualité peut ne pas être en mesure d'assurer correctement sa
+fonction, ce qui pourrait nuire à l'organisation du projet et à la cohérence
+des livrables.
+
+**Prévention** : le chef de projet validera régulièrement le travail du
+responsable qualité (une à deux fois par séance). Le responsable qualité
+participera à chaque séance aux revues avec Régis Aubry.
+
+Incompétence du groupe d'étude
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Des choix fonctionnels ou technologiques peuvent entrer en contradiction avec
+les exigences du client.
+
+**Prévention** : des échanges réguliers entre les ingénieurs d'études et les
+clients seront à prévoir afin de garantir la cohérence de la proposition avec
+les exigences du client. Une revue intermédiaire sera planifiée avec le
+référant pour valider la proposition de conception établie par l'équipe.
