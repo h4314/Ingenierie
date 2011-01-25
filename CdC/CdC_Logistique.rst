@@ -26,10 +26,10 @@ Objectifs, principe du logiciel
 
 Formulation des besoins généraux
 ---------------------------------
-	Consulter les convois qui sont actuellement en mission et consulter les différents informations les concernant. 
-	La consultation du trajet devra se faire sur une carte. 
-	Lancer un ordre de mission: choisir le camion, son trajet, les tâches a effectuer sur chaque sites et le personnel qui a besoion.
-	Il doit être possible de consulter un inventaire des ressources disponibles: nombre de camion, chauffeurs, techniciens,... 
+	- Consulter les convois qui sont actuellement en mission et consulter les différents informations les concernant. 
+	- La consultation du trajet devra se faire sur une carte. 
+	- Lancer un ordre de mission: choisir le camion, son trajet, les tâches a effectuer sur chaque sites et le personnel qui a besoin.
+	- Il doit être possible de consulter un inventaire des ressources disponibles: nombre de camion, chauffeurs, techniciens,... 
 
 Portée, développement, mise en oeuvre, organisation de la maintenance
 ---------------------------------------------------------------------
@@ -43,11 +43,11 @@ Exigences fonctionnelles
 ========================
 Fonctions de base, performances et aptitudes
 --------------------------------------------
-	Les systèmes embarqués lèvent un certain nombre d'alarmes : pannes matérielles, dépassement d'un seuil, etc.
+	- Les systèmes embarqués lèvent un certain nombre d'alarmes : pannes matérielles, dépassement d'un seuil, etc.
 
-	Le sous-système GPRS reçoit les différentes alarmes et les transmet au sous-système de Logistique qui va les analyser avant de les stocker.
+	- Le sous-système GPRS reçoit les différentes alarmes et les transmet au sous-système de Logistique qui va les analyser avant de les stocker.
 	
-	Lorsqu'un convoi est mis en place suite à une alarme, cette alarme passe dans le statut "en cours", après passera dans l'état "résolue" et n'apparaitra plus dans la liste des alarmes "non résolues".
+	- Lorsqu'un convoi est mis en place suite à une alarme, cette alarme passe dans le statut "en cours", après passera dans l'état "résolue" et n'apparaitra plus dans la liste des alarmes "non résolues".
  
 
 Contraintes d'utilisation
