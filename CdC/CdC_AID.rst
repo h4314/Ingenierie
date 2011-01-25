@@ -12,9 +12,6 @@ Présentation du document
 ------------------------
 	Ce document est un cahier des charges détaillé, c'est-à-dire qu'il décrit de manière précise le système en question, afin de pouvoir aborder la phase de développement en connaissant exactement ce qu'on attend du produit.
 
-Terminologie et abbréviations
-------------------------------
-
 
 Présentation du problème
 ========================
@@ -24,7 +21,10 @@ Objectifs, principe du logiciel
 
 Formulation des besoins généraux
 ---------------------------------
-
+	Le programme permet de fournir une aide aux décisions prises par l'administrateur et superviseur du système au niveau opérationnel et stratégique.
+	Le superviseur a besoin d'assurer le bon fonctionnement du système grâce à l'utilisation du logiciel. Il souhaite pouvoi surveiller les sites en mettant en relation les données situées sur une certaine plage de temps.
+	L'administrateur du système a besoin de redimensionner et d'améliorer le système en continue. Pour cet objectif, il souhaite pouvoir comparer les sites entre eux au niveau d'efficacité, état de fonctionnement, coût etc.
+	Le logiciel doit leur permettre de réaliser ces opérations et doit être simple d'utilisation.
 
 Portée, développement, mise en oeuvre, organisation de la maintenance
 ---------------------------------------------------------------------
@@ -34,7 +34,7 @@ Portée, développement, mise en oeuvre, organisation de la maintenance
 
 Limites
 --------
-	C'est à utilisateur de choisir des données qui les intéressent et de définir certains indicateurs. Le logiciel se charge de présenter des données sous forme souhaité (Tableaux, Graphiques, Diagrammes etc) et fournir une aide à la décision des utilisateurs. Par contre, il n'a aucune intelligence de prendre des décision à la place des utilisateurs.
+	Le système fournit au début quelques indicateurs prédéfinis selon les besoins initiales. Mais dans le file de temps, c'est à utilisateur de choisir des données qui les intéressent avec l'expert métier et d'en définir plus. Le logiciel se charge de présenter des données sous forme souhaité (Tableaux, Graphiques, Diagrammes etc) et fournir une aide à la décision des utilisateurs. Par contre, il n'a aucune intelligence de prendre des décision à la place des utilisateurs.
 
 Exigences fonctionnelles
 ========================
@@ -43,19 +43,21 @@ Fonctions de base, performances et aptitudes
 Les fonctionnalités générals du logiciel se découpent en plusieurs parties:
  - L'expert métier crée des indicateurs en définissant le nom, les sources de données et la formule de calcul si nécessaire. ex. le niveau de liquide d'une cuve sur un an; le nombre d'interventions par station; 
  - On peut visualiser les valeurs de chaque indicateur dans les grilles de données.
- - On peut visualiser les graphiques ou les histogrammes des 
+ - On peut visualiser les graphiques ou les histogrammes de chaque indicateur
+ - On peut générer un rapport personalisé contenant des tableaux de valeurs et des graphiques
  
 Contraintes d'utilisation
 -------------------------
-	Ce programme n'est utilisable que par le personnel qualifié et ayant un niveau de responsabilité suffisant.
+	Ce programme n'est utilisable que par le personnel qualifié et ayant un niveau de responsabilité suffisant. 
 
 Critères d'appréciation de la réalisation effective de la fonction
 ------------------------------------------------------------------
-	Les critères d'appréciation de ce logiciel est la facilité d'utilisation et la possibilité infini qu'il offre à COPEVUE d'exploiter au maximum les données selon leur souhaits. Cela facilitera la prise de décisions stratégiques. 
+	Les critères d'appréciation de ce logiciel est la facilité d'utilisation et la possibilité infini qu'il offre à COPEVUE d'exploiter au maximum les données selon leur souhaits. Cela facilitera la prise de décisions opérationnelles et stratégiques. 
 
 Flexibilité, variation de coût associé
 --------------------------------------
-	Le logiciel est très flexible car l'utilisateur peut définir des indicateurs s'il le souhaite.
+	Le logiciel est très flexible car l'utilisateur peut définir des indicateurs s'il le souhaite et choisir le format d'affichage de données. Le rapport est personnalisable.
+	Il est relativement facile d'ajouter des modules pour des formats d'affichages supplémentaires ou de nouveaux type de fichier rapport.
 
 
 Contraintes imposées, faisabilité technologiques et éventuellement moyens
@@ -70,7 +72,7 @@ Sûreté, planning, organisation, communication
 
 Complexité
 ----------
-	Les parties complexes du logiciel est la définition des indicateurs appropriés et l'affichage des graphiques. 
+	Les parties complexes du développement de logiciel est la l'affichage des graphiques et génération de rapport en plusieur type de fichier.
 
 Compétences, moyen et règles
 ----------------------------
@@ -85,16 +87,34 @@ Configuration cible
 ====================
 Matériel et logiciels
 ----------------------
-Le matériel relié au logiciel est le serveur et la Base de Données centrale. Le logiciel doit pouvoir être compatible avec ces derniers, et être configuré pour travailler avec.
-
-Stabilité de la configuration
-------------------------------
+Le matériel relié au logiciel est le serveur et la base de données centrale. Le logiciel doit pouvoir être compatible avec ces derniers, et être configuré pour travailler avec.
+L'utilisateur se connecte avec un client web sur un autre poste disposé d'un navigateur web.
 
 Interfaces
 -----------
+	L'interface du logiciel est composé de quatre onglets.	
+ - Gestion de l'indicateur : permet d'effectuer des opérations de création, MAJ et suppression des indicateurs
+ - Affichage de valeurs dans les grilles :  permet d'afficher les valeurs des indicateurs sous forme de tableau
+ - Affichage de graphiques ou histogrammes : permet d'afficher les graphiques ou les histogrammes
+ - Génération de rapport : permet de consitituer et personnaliser un rapport 
+	
 
 Guide de réponse au cahier des charges
 =======================================
 Grille d'évaluation
 --------------------
+Le logiciel pssède 4 fonctionnalités : gestion des indicateurs, affichage de valeurs, affichage de graphiques, génération de rapport
+
++------------------------+---------------------+----------------+
+| Fonction               | Priorité            | Complexité     |
++========================+=====================+================+
+| gestion des indicateurs| Haute               | Petite         |
++------------------------+---------------------+----------------+
+| affichage de valeurs   | Haute               | Petite         |
++------------------------+---------------------+----------------+
+| affichage de graphiques| Moyenne             | Grande         |
++------------------------+---------------------+----------------+
+| génération de rapport  | Basse               | Grande         |
++------------------------+---------------------+----------------+
+
 
