@@ -1,0 +1,2505 @@
+%PDF-1.3
+1 0 obj
+<<
+/Kids [ 4 0 R 5 0 R 6 0 R 7 0 R 8 0 R 9 0 R 10 0 R 11 0 R 12 0 R 13 0 R 14 0 R 15 0 R ]
+/Type /Pages
+/Count 12
+>>
+endobj
+2 0 obj
+<<
+/Producer (Python PDF Library \055 http\072\057\057pybrary\056net\057pyPdf\057)
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 16 0 R
+/Parent 1 0 R
+/Resources <<
+/Font 17 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Trans <<
+>>
+/Rotate 0
+/MediaBox [ 0 0 595.27560 841.88980 ]
+/Type /Page
+>>
+endobj
+5 0 obj
+<<
+/Contents 21 0 R
+/Parent 1 0 R
+/Resources <<
+/Font 22 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Trans <<
+>>
+/Rotate 0
+/MediaBox [ 0 0 595.27560 841.88980 ]
+/Type /Page
+>>
+endobj
+6 0 obj
+<<
+/Contents 25 0 R
+/Parent 1 0 R
+/Resources <<
+/Font 26 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Trans <<
+>>
+/Rotate 0
+/MediaBox [ 0 0 595.27560 841.88980 ]
+/Type /Page
+>>
+endobj
+7 0 obj
+<<
+/Contents 29 0 R
+/Parent 1 0 R
+/Resources <<
+/Font 30 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Trans <<
+>>
+/Rotate 0
+/MediaBox [ 0 0 595.27560 841.88980 ]
+/Type /Page
+>>
+endobj
+8 0 obj
+<<
+/Contents 33 0 R
+/Parent 1 0 R
+/Resources <<
+/Font 34 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Trans <<
+>>
+/Rotate 0
+/MediaBox [ 0 0 595.27560 841.88980 ]
+/Type /Page
+>>
+endobj
+9 0 obj
+<<
+/Contents 37 0 R
+/Parent 1 0 R
+/Resources <<
+/Font 38 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Trans <<
+>>
+/Rotate 0
+/MediaBox [ 0 0 595.27560 841.88980 ]
+/Type /Page
+>>
+endobj
+10 0 obj
+<<
+/Contents 41 0 R
+/Parent 1 0 R
+/Resources <<
+/Font 42 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Trans <<
+>>
+/Rotate 0
+/MediaBox [ 0 0 595.27560 841.88980 ]
+/Type /Page
+>>
+endobj
+11 0 obj
+<<
+/Contents 45 0 R
+/Parent 1 0 R
+/Resources <<
+/Font 46 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Trans <<
+>>
+/Rotate 0
+/MediaBox [ 0 0 595.27560 841.88980 ]
+/Type /Page
+>>
+endobj
+12 0 obj
+<<
+/Contents 49 0 R
+/Parent 1 0 R
+/Resources <<
+/Font 50 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Trans <<
+>>
+/Rotate 0
+/MediaBox [ 0 0 595.27560 841.88980 ]
+/Type /Page
+>>
+endobj
+13 0 obj
+<<
+/Contents 54 0 R
+/Parent 1 0 R
+/Resources <<
+/Font 55 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Trans <<
+>>
+/Rotate 0
+/MediaBox [ 0 0 595.27560 841.88980 ]
+/Type /Page
+>>
+endobj
+14 0 obj
+<<
+/Contents 59 0 R
+/Parent 1 0 R
+/Resources <<
+/Font 55 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Trans <<
+>>
+/Rotate 0
+/MediaBox [ 0 0 595.27560 841.88980 ]
+/Type /Page
+>>
+endobj
+15 0 obj
+<<
+/Contents 60 0 R
+/Parent 1 0 R
+/Resources <<
+/Font 61 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Trans <<
+>>
+/Rotate 0
+/MediaBox [ 0 0 595.27560 841.88980 ]
+/Type /Page
+>>
+endobj
+16 0 obj
+<<
+/Length 1289
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 128.6449 0 Td (Dossier d'initialisation) Tj T* -128.6449 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 719.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (H4314 - Projet Ing\351nierie - 2011 - Insa de Lyon) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 686.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Introduction) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 668.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Ce document constitue le dossier d'initialisation du projet Ing\351nierie "R\351ponse \340 un appel d'offre".) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 638.0236 cm
+q
+BT 1 0 0 1 0 14 Tm .122488 Tw 12 TL /F1 10 Tf 0 0 0 rg (Merci de se reporter au d\351p\364t ) Tj /F3 10 Tf (Git ) Tj /F1 10 Tf (du projet pour obtenir la version la plus \340 jour du document ou consulter) Tj T* 0 Tw (ses diff\351rentes r\351visions.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 608.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .232093 Tw (Le document qui suit fait l'objet de mises \340 jour durant toute la p\351riode du projet, il constitue un document) Tj T* 0 Tw (de r\351f\351rence auxquel tous les membres de l'\351quipe doivent se reporter.) Tj T* ET
+Q
+Q
+ 
+
+endstream
+endobj
+17 0 obj
+<<
+/F2 18 0 R
+/F3 19 0 R
+/F1 20 0 R
+>>
+endobj
+18 0 obj
+<<
+/Encoding /WinAnsiEncoding
+/Type /Font
+/Name /F2
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+>>
+endobj
+19 0 obj
+<<
+/Encoding /WinAnsiEncoding
+/Type /Font
+/Name /F3
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+>>
+endobj
+20 0 obj
+<<
+/Encoding /WinAnsiEncoding
+/Type /Font
+/Name /F1
+/BaseFont /Helvetica
+/Subtype /Type1
+>>
+endobj
+21 0 obj
+<<
+/Length 2762
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 126.6049 0 Td (Contexte du document) Tj T* -126.6049 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 719.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Ce document est utilis\351 dans le cadre du projet Ing\351nierie, dont les dates cl\351s sont rappel\351es ci-dessous :) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 713.0236 cm
+Q
+q
+1 0 0 1 62.69291 605.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 102 cm
+Q
+q
+1 0 0 1 20 102 cm
+Q
+q
+1 0 0 1 20 90 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (S\351ance 1 : Vendredi 7/01) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 84 cm
+Q
+q
+1 0 0 1 20 72 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (S\351ance 2 : Mardi 11/01) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 66 cm
+Q
+q
+1 0 0 1 20 54 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (S\351ance 3 : Vendredi 14/01) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 48 cm
+Q
+q
+1 0 0 1 20 36 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (S\351ance 4 : Mardi 18/01) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 30 cm
+Q
+q
+1 0 0 1 20 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (S\351ance 5 : Vendredi 21/01) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 12 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (R\351stitution : Jeudi 27/01) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 605.0236 cm
+Q
+q
+1 0 0 1 62.69291 575.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .732485 Tw (Notre projet consiste en l'\351laboration d'une r\351ponse \340 un appel d'offre \351mis par COPEVUE, qui doit \352tre) Tj T* 0 Tw (remise en S4 2011.) Tj T* ET
+Q
+Q
+ 
+
+endstream
+endobj
+22 0 obj
+<<
+/F2 23 0 R
+/F1 24 0 R
+>>
+endobj
+23 0 obj
+<<
+/Encoding /WinAnsiEncoding
+/Type /Font
+/Name /F2
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+>>
+endobj
+24 0 obj
+<<
+/Encoding /WinAnsiEncoding
+/Type /Font
+/Name /F1
+/BaseFont /Helvetica
+/Subtype /Type1
+>>
+endobj
+25 0 obj
+<<
+/Length 3536
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 118.2449 0 Td (Documents de r\351f\351rence) Tj T* -118.2449 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 707.0236 cm
+q
+BT 1 0 0 1 0 14 Tm .632927 Tw 12 TL /F1 10 Tf 0 0 0 rg (Les documents de r\351f\351rence du projet sont paratag\351s sur le d\351p\364t du projet. Ils sont disponibles dans le) Tj T* 0 Tw (r\351pertoire /Divers/.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 689.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (En voici les principaux :) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 673.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Manuel du chef de projet) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 658.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Synth\350se des points cl\351s que le chef de projet doit mettre en oeuvre lors des s\351ances de projet.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 642.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Manuel du responsable Qualit\351) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 615.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 14 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .88311 Tw (Document de r\351f\351rence pour le responsable qualit\351 du projet, il contient les points cl\351s \340 mettre en) Tj T* 0 Tw (oeuvre dans le cadre du projet.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 599.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Manuel du GEI) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 572.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 14 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.726342 Tw (Document de r\351f\351rence contenant des \351l\351ments m\351thodologiques pour la r\351alisation de l'\351tude) Tj T* 0 Tw (demand\351e dans le cadre du projet.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 556.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Dossier d'initialisation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 529.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 14 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.665318 Tw (Le pr\351sent document, qui doit permettre aux acteurs du projet d'avoir une vue synth\351tique de sa) Tj T* 0 Tw (gestion, son organisation, sa planification et son avancement.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 513.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Cours de G\351nie Logiciel de 3e ann\351e \(R. Aubry\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 486.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 14 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.994983 Tw (Le cours de G\351nie Logiciel de 3e ann\351e \(et plus particuli\350rement certains chapitres relatifs \340) Tj T* 0 Tw (l'acquisition, etc\).) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 470.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Cours de qualit\351 logicielle de 4e ann\351e \(R. Aubry\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 443.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 14 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .119985 Tw (Le cours de qualit\351 logicielle doit servir de r\351f\351rence au responsable qualit\351 du projet, mais sert aussi) Tj T* 0 Tw (de guide de travail pour l'organisation des GEI et la r\351daction des documents.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+ 
+
+endstream
+endobj
+26 0 obj
+<<
+/F2 27 0 R
+/F1 28 0 R
+>>
+endobj
+27 0 obj
+<<
+/Encoding /WinAnsiEncoding
+/Type /Font
+/Name /F2
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+>>
+endobj
+28 0 obj
+<<
+/Encoding /WinAnsiEncoding
+/Type /Font
+/Name /F1
+/BaseFont /Helvetica
+/Subtype /Type1
+>>
+endobj
+29 0 obj
+<<
+/Length 4679
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 138.8149 0 Td (Rappel du probl\350me) Tj T* -138.8149 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 708.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Le contexte) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 654.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .277674 Tw (COPEVUE est un organisme ind\351pendant \351tabli \340 l'echelle europ\351enne travaillant \340 l'\351tude des questions) Tj T* 0 Tw .130651 Tw (de protection de l'environnement. Afin d'assurer une gestion plus efficace et plus fiable de sites industriels) Tj T* 0 Tw .890697 Tw (\(potentiellement \340 risques\), COPEVUE souhaite \351tudier un syst\350me de monitoring \340 distance de ce ces) Tj T* 0 Tw (sites isol\351s.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 624.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .621647 Tw (Les sites industriels concern\351s sont g\351n\351ralement soumis \340 des contraintes naturelles et technologiques) Tj T* 0 Tw (fortes : risques climatiques, difficult\351s d'acc\350s ou d'approvisionnement.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 608.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Les objectifs d'un syst\350me de monitoring, dans ce contexte, sont les suivants :) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 539.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 56 Tm  T* ET
+q
+1 0 0 1 20 60 cm
+Q
+q
+1 0 0 1 20 60 cm
+Q
+q
+1 0 0 1 20 48 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Am\351liorer la fiabilit\351 des relev\351s de leur communication,) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 42 cm
+Q
+q
+1 0 0 1 20 30 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (R\351duire les co\373ts d'exploitation,) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 24 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 3.439979 Tw (R\351duire les interventions humaines sur site qui sont potentiellement risqu\351es et sources) Tj T* 0 Tw (d'erreurs.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 506.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Les objectifs) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 476.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .197633 Tw (Nous souhaitons \351tablir une r\351ponse \340 un appel d'offre qui porte sur l'\351tude de faisabilit\351 d'un syst\350me de) Tj T* 0 Tw (monitoring \340 distance de sites isol\351s.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 460.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Ce projet \340 pour objectifs :) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 367.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 80 Tm  T* ET
+q
+1 0 0 1 20 84 cm
+Q
+q
+1 0 0 1 20 84 cm
+Q
+q
+1 0 0 1 20 72 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (l'\351tude de la faisabilit\351 du projet notamment sur les crit\350res technologiques,) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 66 cm
+Q
+q
+1 0 0 1 20 54 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (la r\351daction d'un cahier des charges exhaustif,) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 48 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 33 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .048443 Tw (la proposition d'au moins une conception d'un syst\350me r\351pondant aux besoins du client, incluant) Tj T* 0 Tw .563314 Tw (l'\351tude de capteurs utilisables, la r\351alisation d'un syst\350me embarqu\351 collectant les donn\351es, un) Tj T* 0 Tw 2.105697 Tw (serveur central qui collecte les donn\351es des sites et un logiciel de traitement des donn\351es) Tj T* 0 Tw (collect\351es \340 large \351chelle.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+ 
+
+endstream
+endobj
+30 0 obj
+<<
+/F2 31 0 R
+/F1 32 0 R
+>>
+endobj
+31 0 obj
+<<
+/Encoding /WinAnsiEncoding
+/Type /Font
+/Name /F2
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+>>
+endobj
+32 0 obj
+<<
+/Encoding /WinAnsiEncoding
+/Type /Font
+/Name /F1
+/BaseFont /Helvetica
+/Subtype /Type1
+>>
+endobj
+33 0 obj
+<<
+/Length 6145
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 129.9149 0 Td (Contraintes g\351n\351rales) Tj T* -129.9149 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 708.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Existant) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 666.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .469988 Tw (L'\351tude de l'existant est r\351alis\351e par les GEI lors de la premi\350re \351tape du projet \(\351tude de l'existant et de) Tj T* 0 Tw 3.668651 Tw (la faisabilit\351\). Cette \351tude est r\351alis\351e gr\342ce \340 des interviews avec la ma\356trise d'ouvrage et les) Tj T* 0 Tw (intervenants sur sites.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 633.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Exigences non fonctionnelles) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 603.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.180814 Tw (Les exigences non fonctionnelles majeures d\351gag\351es du document d'appel d'offres de COP\311VUE sont) Tj T* 0 Tw (les suivants :) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 597.0236 cm
+Q
+q
+1 0 0 1 62.69291 279.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 312 cm
+Q
+q
+1 0 0 1 20 312 cm
+Q
+q
+1 0 0 1 20 288 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .438555 Tw (Robustesse : Le syst\350me doit \352tre extremement stable, capable de reprendre le travail dans un) Tj T* 0 Tw (\351tat stable en cas d'anomalie.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 282 cm
+Q
+q
+1 0 0 1 20 246 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .439269 Tw (Fiabilit\351 : Il est n\351cessaire de pouvoir assurer la fiabilit\351 des donn\351es mesur\351es et/ou produites) Tj T* 0 Tw 2.410651 Tw (par le syst\350mes. Il faut donc \352tre vigilent \340 proposer des m\351canismes de validation et de) Tj T* 0 Tw (contr\364le et pouvoir mesurer un taux d'erreur acceptable.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 240 cm
+Q
+q
+1 0 0 1 20 216 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .409982 Tw (Int\351gration de l'existant : Le syst\350me doit \352tre con\347u en respectant les proc\351dures actuellement) Tj T* 0 Tw (appliqu\351es par les entreprises cibles.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 210 cm
+Q
+q
+1 0 0 1 20 186 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .297318 Tw (\311volutivit\351 et maintenabilit\351 : Il faut que la sp\351cification et la conception du syst\350me soit pens\351e) Tj T* 0 Tw (pour permettre d'ajouter ou de corriger des fonctionnalit\351s.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 180 cm
+Q
+q
+1 0 0 1 20 168 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (G\351n\351ricit\351 : Le syst\350me doit \352tre compos\351 de sous-syst\350mes faiblement coupl\351s.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 162 cm
+Q
+q
+1 0 0 1 20 126 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.95284 Tw (Tra\347abilit\351 : Il est n\351cessaire d'une part d'assurer le suivi des donn\351es manipul\351es dans le) Tj T* 0 Tw 1.326235 Tw (syst\350me et, d'autre part de concerver et archiver une trace de l'\351laboration du projet : il sera) Tj T* 0 Tw (donc int\351gralement document\351.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 120 cm
+Q
+q
+1 0 0 1 20 84 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 3.81152 Tw (R\351utilisation : Le syst\350me sera con\347u dans l'optique de permettre d'\352tre adapt\351 \340 des) Tj T* 0 Tw .521318 Tw (environnements qui ne sont pas actuellement inclus dans le cahier des charges \(qui se limite \340) Tj T* 0 Tw (la mesure de liquide dans des cuves\).) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 78 cm
+Q
+q
+1 0 0 1 20 42 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .026136 Tw (Limitations technologiques : Il est probable que la conception du syst\350me implique l'utilisation de) Tj T* 0 Tw 1.244524 Tw (technologies d\351ploy\351es par des tiers \(op\351rateurs t\351l\351coms, etc\). L'\351tude du syst\350me implique) Tj T* 0 Tw (alors la connaissance et la d\351limitation des limites qu'imposent de telles technologies.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 36 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .686905 Tw (Ergonomie : Les utilisateurs du syst\350me ne seront g\351n\351ralement pas des informaticiens. Il faut) Tj T* 0 Tw 1.71229 Tw (donc concevoir des interfaces graphiques qui seront facile a utiliser et tiendront compte des) Tj T* 0 Tw (contraintes d'accessibilit\351 auxquelles les utilisateurs peuvent \352tre soumis.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 279.0236 cm
+Q
+ 
+
+endstream
+endobj
+34 0 obj
+<<
+/F2 35 0 R
+/F1 36 0 R
+>>
+endobj
+35 0 obj
+<<
+/Encoding /WinAnsiEncoding
+/Type /Font
+/Name /F2
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+>>
+endobj
+36 0 obj
+<<
+/Encoding /WinAnsiEncoding
+/Type /Font
+/Name /F1
+/BaseFont /Helvetica
+/Subtype /Type1
+>>
+endobj
+37 0 obj
+<<
+/Length 4590
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 126.0249 0 Td (Organisation du travail) Tj T* -126.0249 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 719.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Ce chapitre d\351crit les r\364les des membres de l'\351quipe.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 686.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Chef de projet et coordinateur) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 656.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .148409 Tw (Le projet est dirig\351 par Martin Richard, il a pour r\364le d'organiser, planifier et r\351partir le travail \340 r\351aliser par) Tj T* 0 Tw (les membres de l'\351quipe.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 638.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Il assurera \351galement un r\364le d'animation de l'\351quipe et de suivi.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 605.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Responsable Qualit\351, M\351thode, Documentation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 563.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .916235 Tw (Etienne Guerin aura pour responsabilit\351 la gestion de la qualit\351 du projet. Il r\351digera des documents de) Tj T* 0 Tw 1.887984 Tw (m\351thodologie et de directives pour la r\351daction et l'organisation des documents, aura \340 sa charge la) Tj T* 0 Tw (gestion des plateformes de travail collaboratif et l'organisation des documents produits et o\371 obtenus.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 509.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .277485 Tw (Le responsable Qualit\351 assurera \351galement un suivi des productions. Sur la forme d'une part, car il devra) Tj T* 0 Tw .558651 Tw (s'assurer du bon respect des directives de r\351daction et d'organisation de la documentation qu'il a r\351dig\351.) Tj T* 0 Tw 2.404692 Tw (Puis sur le fond d'autre part, car il devra notamment se charger de s'assurer de la coh\351rence des) Tj T* 0 Tw (documents produits par rapport aux autres productions du projet et aux exigences du client.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 476.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Groupe d'\311tude Informatique) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 458.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Le groupe d\351tude est compos\351 de :) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 365.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 80 Tm  T* ET
+q
+1 0 0 1 20 84 cm
+Q
+q
+1 0 0 1 20 84 cm
+Q
+q
+1 0 0 1 20 72 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Paul Adenot,) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 66 cm
+Q
+q
+1 0 0 1 20 54 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Yoann Buch,) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 48 cm
+Q
+q
+1 0 0 1 20 36 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Pierrick Grandjer,) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 30 cm
+Q
+q
+1 0 0 1 20 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Arturo Major,) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 12 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Yi Quan Zhou.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 311.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL 2.159213 Tw (Le groupe d'\351tude est constitu\351 d'experts techniques qui seront charg\351s de rechercher, comparer et) Tj T* 0 Tw .902651 Tw (selectionner des solutions r\351pondant aux besoins et exigences du client. Le GEI proc\351dera ensuite \340 la) Tj T* 0 Tw 2.819983 Tw (conception d'une solution technique qui sera pr\351sent\351e lors de notre r\351ponse \340 l'appel d'offres de) Tj T* 0 Tw (COPEVUE.) Tj T* ET
+Q
+Q
+ 
+
+endstream
+endobj
+38 0 obj
+<<
+/F2 39 0 R
+/F1 40 0 R
+>>
+endobj
+39 0 obj
+<<
+/Encoding /WinAnsiEncoding
+/Type /Font
+/Name /F2
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+>>
+endobj
+40 0 obj
+<<
+/Encoding /WinAnsiEncoding
+/Type /Font
+/Name /F1
+/BaseFont /Helvetica
+/Subtype /Type1
+>>
+endobj
+41 0 obj
+<<
+/Length 5904
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 103.7849 0 Td (Liste des livrables attendus) Tj T* -103.7849 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 708.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Chef de projet) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 690.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Le chef de projet devra produire les documents suivants :) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 684.0236 cm
+Q
+q
+1 0 0 1 62.69291 648.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 30 cm
+Q
+q
+1 0 0 1 20 30 cm
+Q
+q
+1 0 0 1 20 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Le pr\351sent dossier d'initialisation,) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 12 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Le document de proc\351dure de d\351composition d'un syst\350me en sous-syst\350mes,) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 648.0236 cm
+Q
+q
+1 0 0 1 62.69291 615.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Responsable Qualit\351) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 603.0236 cm
+Q
+q
+1 0 0 1 62.69291 567.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 30 cm
+Q
+q
+1 0 0 1 20 30 cm
+Q
+q
+1 0 0 1 20 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (La proc\351dure de r\351daction d'un Cahier des charges \(Best Practices\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 18 cm
+Q
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (TODO) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 567.0236 cm
+Q
+q
+1 0 0 1 62.69291 534.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Groupe d'\311tude Informatique) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 516.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Les GEI devront produire trois documents lors de la premi\350re phase du projet :) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 510.0236 cm
+Q
+q
+1 0 0 1 62.69291 456.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 48 cm
+Q
+q
+1 0 0 1 20 48 cm
+Q
+q
+1 0 0 1 20 36 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (L'\351tude de faisabilit\351 et de l'existant \(Dossier n\2601\),) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 30 cm
+Q
+q
+1 0 0 1 20 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (L'\351tude des besoins du client \(sp\351cifications techniques des besoins\) \(Dossier n\2602\),) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 12 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (L'architecture globale du syst\350me \(Dossier n\2603\).) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 456.0236 cm
+Q
+q
+1 0 0 1 62.69291 426.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.451751 Tw (Une fois ces documents valid\351s par le responsable qualit\351 et le client, les GEI auront pour charge de) Tj T* 0 Tw (r\351diger les documents suivants :) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 420.0236 cm
+Q
+q
+1 0 0 1 62.69291 366.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 48 cm
+Q
+q
+1 0 0 1 20 48 cm
+Q
+q
+1 0 0 1 20 36 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (D\351composition du syst\350me en sous-syst\350me et identifications des sous-projets logiciels,) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 30 cm
+Q
+q
+1 0 0 1 20 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Document d'\351tude de la communication et des API entre les sous-syst\350mes,) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 12 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Quatre cahiers des charges correspondant aux sous-projets logiciels choisis par les GEI.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 366.0236 cm
+Q
+q
+1 0 0 1 62.69291 312.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL 2.935697 Tw (La r\351daction de ces document s'effectue en plusieurs phases. Les GEI devront rendre des Drafts) Tj T* 0 Tw .01832 Tw (\(brouillons r\351dig\351s\) de leur travail qui sera valid\351 sur le fond par l'ensemble de l'\351quipe lors des relev\351s de) Tj T* 0 Tw .71061 Tw (d\351cision. La finalisation des documents, les corrections et la mise en forme sont ensuite r\351alis\351s par les) Tj T* 0 Tw (GEI.) Tj T* ET
+Q
+Q
+ 
+
+endstream
+endobj
+42 0 obj
+<<
+/F2 43 0 R
+/F1 44 0 R
+>>
+endobj
+43 0 obj
+<<
+/Encoding /WinAnsiEncoding
+/Type /Font
+/Name /F2
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+>>
+endobj
+44 0 obj
+<<
+/Encoding /WinAnsiEncoding
+/Type /Font
+/Name /F1
+/BaseFont /Helvetica
+/Subtype /Type1
+>>
+endobj
+45 0 obj
+<<
+/Length 668
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 109.3449 0 Td (Organigramme des t\342ches) Tj T* -109.3449 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 708.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Macro-phasage) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 690.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (TODO depuis redmine) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 657.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Digramme de Gantt) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 639.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (TODO depuis redmine) Tj T* ET
+Q
+Q
+ 
+
+endstream
+endobj
+46 0 obj
+<<
+/F2 47 0 R
+/F1 48 0 R
+>>
+endobj
+47 0 obj
+<<
+/Encoding /WinAnsiEncoding
+/Type /Font
+/Name /F2
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+>>
+endobj
+48 0 obj
+<<
+/Encoding /WinAnsiEncoding
+/Type /Font
+/Name /F1
+/BaseFont /Helvetica
+/Subtype /Type1
+>>
+endobj
+49 0 obj
+<<
+/Length 4406
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 148.8049 0 Td (Modalit\351s de suivi) Tj T* -148.8049 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 708.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Les r\350gles de suivi) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 678.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.354692 Tw (Le suivi du projet sera assur\351 gr\342ce \340 l'outil de suivi de projet Redmine, dans lequel les membres) Tj T* 0 Tw (reporteront le temps qu'il ont pass\351 sur chacune des t\342ches et l'\351tat d'avancement.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 636.0236 cm
+q
+BT 1 0 0 1 0 26 Tm 1.013984 Tw 12 TL /F1 10 Tf 0 0 0 rg (Deux r\351unions de ) Tj /F3 10 Tf (synchronisation ) Tj /F1 10 Tf (seront organis\351es lors de chaque d\351but et fin de s\351ance. Lorsque la) Tj T* 0 Tw .651163 Tw (r\351union de fin de s\351ance n'a pas pu \352tre effectu\351e, les membres du projet devront r\351diger une synth\350se) Tj T* 0 Tw (de s\351ance qui sera enregistr\351e sur le wiki du projet.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 603.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Les outils utilis\351s) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 585.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Les outils utilis\351s pour suivre le projet sont les suivants :) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 579.0236 cm
+Q
+q
+1 0 0 1 62.69291 441.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 132 cm
+Q
+q
+1 0 0 1 20 132 cm
+Q
+q
+1 0 0 1 20 96 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 26 Tm 3.465366 Tw 12 TL /F2 10 Tf 0 0 0 rg (Redmine ) Tj /F1 10 Tf (: outil open-source de gestion de projet collaboratif, fournissant un wiki et un) Tj T* 0 Tw 2.114976 Tw (gestionnaire de documents \() Tj /F3 10 Tf (knowledge management) Tj /F1 10 Tf (\), un syst\350me de tra\347abilit\351 des t\342ches) Tj T* 0 Tw (\(gestion de projet\).) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 90 cm
+Q
+q
+1 0 0 1 20 54 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 26 Tm .90561 Tw 12 TL /F2 10 Tf 0 0 0 rg (git ) Tj /F1 10 Tf (et ) Tj /F2 10 Tf (github ) Tj /F1 10 Tf (: git et un syst\350me de gestion de versions d\351centralis\351 que nous utiliseront pour) Tj T* 0 Tw .077318 Tw (archiver et versionner les documents produits lors du projet. Github est la forge sur laquelle sera) Tj T* 0 Tw (h\351berg\351 le d\351p\364t git central.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 48 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 33 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 38 Tm .439983 Tw 12 TL /F2 10 Tf 0 0 0 rg (Restructured Text ) Tj /F1 10 Tf (: syntaxe utilis\351e dans des fichiers textes pour mettre en forme du contenu.) Tj T* 0 Tw 6.175976 Tw (Les documents peuvent ensuite \352tre g\351n\351r\351s. Cette solution offre l'avantage d'\352tre) Tj T* 0 Tw .280814 Tw (int\351grallement portable \(nous utilisons des fichiers textes basiques\) et plus facile \340 appr\351hender) Tj T* 0 Tw (qu'une syntaxe comme Latex.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 441.0236 cm
+Q
+q
+1 0 0 1 62.69291 408.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Les proc\351dures de r\351vision du planning) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 378.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .326235 Tw (En amont de chaque s\351ance, le chef de projet utilisera les synth\350ses des membres du projet \(ennonc\351es) Tj T* 0 Tw (en r\351union ou transmises sur le wiki\) pour adapter le planning.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 360.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Les membres du projet seront inform\351s des modifications du planning en d\351but de s\351ance.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 342.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Les modifications de planning peuvent \352tre motiv\351es par les membres du projet aupr\350s du chef de projet.) Tj T* ET
+Q
+Q
+ 
+
+endstream
+endobj
+50 0 obj
+<<
+/F2 51 0 R
+/F3 52 0 R
+/F1 53 0 R
+>>
+endobj
+51 0 obj
+<<
+/Encoding /WinAnsiEncoding
+/Type /Font
+/Name /F2
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+>>
+endobj
+52 0 obj
+<<
+/Encoding /WinAnsiEncoding
+/Type /Font
+/Name /F3
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+>>
+endobj
+53 0 obj
+<<
+/Encoding /WinAnsiEncoding
+/Type /Font
+/Name /F1
+/BaseFont /Helvetica
+/Subtype /Type1
+>>
+endobj
+54 0 obj
+<<
+/Length 5768
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 139.3549 0 Td (Gestion des risques) Tj T* -139.3549 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 708.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Risques concernant l'application du projet) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 678.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .593984 Tw (Nous relevons ci-dessous une liste de risques tri\351e selon leur probabilit\351 d'arriv\351e. Pour ces risques que) Tj T* 0 Tw (nous identifions, nous r\351fl\351chirons aux moyens de les pr\351venir si cela est jug\351 pertinent.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 648.0236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Risque de coupure de connexion \340 internet) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 606.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 2.10284 Tw (Une connexion \340 internet est un besoin critique pour l'application du projet, nous sommes fortement) Tj T* 0 Tw .739987 Tw (d\351pendants du service fourni par la DSI de l'INSA pendant les s\351ances de travail et des FAI utilis\351s par) Tj T* 0 Tw (les membres du projets lors d'un \351ventuel travail hors s\351ance ou pour des t\342ches de suivi.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 564.0236 cm
+q
+BT 1 0 0 1 0 26 Tm .448876 Tw 12 TL /F2 10 Tf 0 0 0 rg (Pr\351vention ) Tj /F1 10 Tf (: L'acc\350s \340 internet depuis les postes fixes de l'INSA est plut\364t stable, si le wifi ne fonctionne) Tj T* 0 Tw .13784 Tw (plus correctement, nous pourrons basculer sur ces postes. Par ailleurs, nous allons utiliser le gestionnaire) Tj T* 0 Tw (de versions Git qui permet de versionner du travail en mode d\351connect\351.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 534.0236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Risque de perte de donn\351es) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 516.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (La perte de donn\351es \(pour une raison o\371 une autre\) est un risque grave et fortement probable.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 474.0236 cm
+q
+BT 1 0 0 1 0 26 Tm 1.089984 Tw 12 TL /F2 10 Tf 0 0 0 rg (Pr\351vention ) Tj /F1 10 Tf (: Git va une nouvelle fois nous permettre de g\351rer diff\351rentes versions et sauvegardes des) Tj T* 0 Tw .847485 Tw (documents du projet. Un d\351p\364t git central nous permettra de travailler en collaboration et de d\351porter la) Tj T* 0 Tw (gestion des sauvegardes vers un service web fiable.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 444.0236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Risque de probl\350mes de compatibilit\351 entre les outils) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 414.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .080574 Tw (Les outils \340 disposition des membres du projet ne sont pas toujours tous les m\352me \(logiciels diff\351rents sur) Tj T* 0 Tw (les ordinateurs, etc\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 384.0236 cm
+q
+BT 1 0 0 1 0 14 Tm .275318 Tw 12 TL /F2 10 Tf 0 0 0 rg (Pr\351vention ) Tj /F1 10 Tf (: le RQ proposera des outils connus pour \352tre utilisables gratuitement et l\351galement par tous,) Tj T* 0 Tw (et proposera \351ventuellement une courte formation pour permettre \340 tous de les utiliser sans probl\350me.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 354.0236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Risque de membre indisponible) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 336.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Un membre du projet peut \352tre en retard ou indisponible pendant une s\351ance pour diverses raisons.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 306.0236 cm
+q
+BT 1 0 0 1 0 14 Tm .502485 Tw 12 TL /F2 10 Tf 0 0 0 rg (Pr\351vention ) Tj /F1 10 Tf (: le planning du projet doit r\351partir les t\342ches du ) Tj /F3 10 Tf (chemin critique ) Tj /F1 10 Tf (entre plusieurs membres du) Tj T* 0 Tw (projets, et pr\351voir une marge de manoeuvre dans la d\351finition et l'attribution des t\342ches.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 273.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Risques propres au projet) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 243.0236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Incomp\351tence du chef de projet) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 213.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .091098 Tw (Il est possible que le chef de projet ne soit pas en mesure d'assurer correctement sa fonction. Le planning) Tj T* 0 Tw (risque d'\352tre difficilement respect\351 et l'organisation du projet d\351faillante.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 183.0236 cm
+q
+BT 1 0 0 1 0 14 Tm 1.609984 Tw 12 TL /F2 10 Tf 0 0 0 rg (Pr\351vention ) Tj /F1 10 Tf (: le chef de projet pr\351sentera r\351guli\350rement son travail aux autres membres du projet qui) Tj T* 0 Tw (commenteront son travail. Le chef de projet suivra \340 chaque s\351ance les revues avec R\351gis Aubry.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 153.0236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Incomp\351tence du responsable qualit\351) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 123.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.295318 Tw (Le responsable qualit\351 peut ne pas \352tre en mesure d'assurer correctement sa fonction, ce qui pourrait) Tj T* 0 Tw (nuire \340 l'organisation du projet et \340 la coh\351rence des livrables.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 93.02362 cm
+q
+BT 1 0 0 1 0 14 Tm .144692 Tw 12 TL /F2 10 Tf 0 0 0 rg (Pr\351vention ) Tj /F1 10 Tf (: le chef de projet validera r\351guli\350rement le travail du responsable qualit\351 \(une \340 deux fois par) Tj T* 0 Tw (s\351ance\). Le responsable qualit\351 participera \340 chaque s\351ance aux revues avec R\351gis Aubry.) Tj T* ET
+Q
+Q
+ 
+
+endstream
+endobj
+55 0 obj
+<<
+/F2 56 0 R
+/F3 57 0 R
+/F1 58 0 R
+>>
+endobj
+56 0 obj
+<<
+/Encoding /WinAnsiEncoding
+/Type /Font
+/Name /F2
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+>>
+endobj
+57 0 obj
+<<
+/Encoding /WinAnsiEncoding
+/Type /Font
+/Name /F3
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+>>
+endobj
+58 0 obj
+<<
+/Encoding /WinAnsiEncoding
+/Type /Font
+/Name /F1
+/BaseFont /Helvetica
+/Subtype /Type1
+>>
+endobj
+59 0 obj
+<<
+/Length 879
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 747.0236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Incomp\351tence du groupe d'\351tude) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 729.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Des choix fonctionnels ou technologiques peuvent entrer en contradiction avec les exigences du client.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 687.0236 cm
+q
+BT 1 0 0 1 0 26 Tm .83311 Tw 12 TL /F2 10 Tf 0 0 0 rg (Pr\351vention ) Tj /F1 10 Tf (: des \351changes r\351guliers entre les ing\351nieurs d'\351tudes et les clients seront \340 pr\351voir afin de) Tj T* 0 Tw 2.717126 Tw (garantir la coh\351rence de la proposition avec les exigences du client. Une revue interm\351diaire sera) Tj T* 0 Tw (planifi\351e avec le r\351f\351rant pour valider la proposition de conception \351tablie par l'\351quipe.) Tj T* ET
+Q
+Q
+ 
+
+endstream
+endobj
+60 0 obj
+<<
+/Length 1530
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 180.4949 0 Td (Conclusion) Tj T* -180.4949 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 695.0236 cm
+q
+BT 1 0 0 1 0 26 Tm .501235 Tw 12 TL /F1 10 Tf 0 0 0 rg (Ce projet se d\351roule pendant les quatre premi\350res semaines de janvier. Il ne devrait pas \352tre n\351cessaire) Tj T* 0 Tw 1.012651 Tw (de passer beaucoup de temps hors s\351ance, sauf peut-\352tre en semaine 4, pendant laquelle nous avons) Tj T* 0 Tw (plusieurs cr\351naux horaires disponibles pour finaliser les livrables.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 629.0236 cm
+q
+BT 1 0 0 1 0 50 Tm 1.615868 Tw 12 TL /F1 10 Tf 0 0 0 rg (Ce projet se d\351roulera en m\352me temps que les premi\350res s\351ances du projet longue dur\351e et sera le) Tj T* 0 Tw .88436 Tw (premier projet r\351alis\351 par cet hexanome. Nous allons essayer, autant que faire se peut, de minimiser le) Tj T* 0 Tw .031098 Tw (travail hors s\351ance, le suivi excessif et une organisation trop ) Tj /F3 10 Tf (rigoriste) Tj /F1 10 Tf (. L'objectif \351tant de voir si le projet se) Tj T* 0 Tw .036457 Tw (d\351roule bien o\371 si il est n\351cessaire d'ajuster l'organisation afin d'assurer un suivi plus profond du travail de) Tj T* 0 Tw (l'\351quipe.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 611.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Ce document sera donc possiblement amend\351 durant le projet, il faut s'y reporter r\351guli\350rement.) Tj T* ET
+Q
+Q
+ 
+
+endstream
+endobj
+61 0 obj
+<<
+/F2 62 0 R
+/F3 63 0 R
+/F1 64 0 R
+>>
+endobj
+62 0 obj
+<<
+/Encoding /WinAnsiEncoding
+/Type /Font
+/Name /F2
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+>>
+endobj
+63 0 obj
+<<
+/Encoding /WinAnsiEncoding
+/Type /Font
+/Name /F3
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+>>
+endobj
+64 0 obj
+<<
+/Encoding /WinAnsiEncoding
+/Type /Font
+/Name /F1
+/BaseFont /Helvetica
+/Subtype /Type1
+>>
+endobj
+xref
+0 65
+0000000000 65535 f 
+0000000009 00000 n 
+0000000141 00000 n 
+0000000242 00000 n 
+0000000291 00000 n 
+0000000494 00000 n 
+0000000697 00000 n 
+0000000900 00000 n 
+0000001103 00000 n 
+0000001306 00000 n 
+0000001509 00000 n 
+0000001713 00000 n 
+0000001917 00000 n 
+0000002121 00000 n 
+0000002325 00000 n 
+0000002529 00000 n 
+0000002733 00000 n 
+0000004075 00000 n 
+0000004130 00000 n 
+0000004243 00000 n 
+0000004359 00000 n 
+0000004467 00000 n 
+0000007282 00000 n 
+0000007326 00000 n 
+0000007439 00000 n 
+0000007547 00000 n 
+0000011136 00000 n 
+0000011180 00000 n 
+0000011293 00000 n 
+0000011401 00000 n 
+0000016133 00000 n 
+0000016177 00000 n 
+0000016290 00000 n 
+0000016398 00000 n 
+0000022596 00000 n 
+0000022640 00000 n 
+0000022753 00000 n 
+0000022861 00000 n 
+0000027504 00000 n 
+0000027548 00000 n 
+0000027661 00000 n 
+0000027769 00000 n 
+0000033726 00000 n 
+0000033770 00000 n 
+0000033883 00000 n 
+0000033991 00000 n 
+0000034711 00000 n 
+0000034755 00000 n 
+0000034868 00000 n 
+0000034976 00000 n 
+0000039435 00000 n 
+0000039490 00000 n 
+0000039603 00000 n 
+0000039719 00000 n 
+0000039827 00000 n 
+0000045648 00000 n 
+0000045703 00000 n 
+0000045816 00000 n 
+0000045932 00000 n 
+0000046040 00000 n 
+0000046971 00000 n 
+0000048554 00000 n 
+0000048609 00000 n 
+0000048722 00000 n 
+0000048838 00000 n 
+trailer
+<<
+/Size 65
+/Root 3 0 R
+/Info 2 0 R
+>>
+startxref
+48946
+%%EOF
