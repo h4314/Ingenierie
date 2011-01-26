@@ -42,16 +42,17 @@ Limites
 Exigences fonctionnelles
 ========================
 Fonctions de base, performances et aptitudes
---------------------------------------------
+------------------------------------------------------------------
 	- Les systèmes embarqués lèvent un certain nombre d'alarmes : pannes matérielles, dépassement d'un seuil, etc.
-
 	- Le sous-système GPRS reçoit les différentes alarmes et les transmet au sous-système de Logistique qui va les analyser avant de les stocker.
-	
 	- Lorsqu'un convoi est mis en place suite à une alarme, cette alarme passe dans le statut "en cours", après passera dans l'état "résolue" et n'apparaitra plus dans la liste des alarmes "non résolues".
- 
+        - Consulter les convois qui sont actuellement en mission et consulter les différents informations les concernant. 
+	- La consultation du trajet devra se faire sur une carte. 
+	- Lancer un ordre de mission: choisir le camion, son trajet, les tâches a effectuer sur chaque sites et le personnel qui a besoin.
+	- Il doit être possible de consulter un inventaire des ressources disponibles: nombre de camion, chauffeurs, techniciens, etc.
 
 Contraintes d'utilisation
--------------------------
+---------------------------------
 	Le système de surveillance de sites peut être utilisé dans de nombreuses situations: surveillance de réservoirs, détection d'incendies, etc.
 	Ainsi, le nombre d'utilisateurs potentiel du système peut varier fortement. Le sous-système Logistique devra être toujours réactif et utilisable avec autant d'utilisateurs connectés. On peut considerer le logiciel utilisable et réactif s'il prends moins de 5 secondes pour charger une page.
 
@@ -64,31 +65,26 @@ Flexibilité, variation de coût associé
 
 
 Contraintes imposées, faisabilité technologiques et éventuellement moyens
-=========================================================================
+=======================================================
 
 Sûreté, planning, organisation, communication
-----------------------------------------------
-	
+-------------------------------------------------------------------
 Le sous-système de Logistique permet de gérer le trajet des camions et leurs interventions. Cette application ne doit pas être utilisable par n'importe quel technicien. Un niveau de sécurité minimum est donc requis. Pour lancer l'application de gestion des interventions, une identification de l'utilisateur avec mot de passe est nécessaire.
 De la même façon, permet d'avoir accès à des données qui pourraient être confidentielles, comme la position stratégique de sites. Alors, il est essentiel de protéger l'accès à ces informations.
-	
 
-Compétences
------------
+Complexité
+----------------
+La complexité du sous-projet de Logistique est la représentation des convois sur une carte en temps réel et pouvoir demander de différentes informations.
 
-L'application du sous-système de Logistique sera développée sous forme de services web. Il faut disposer d'un serveur d'application sur lequel seront stockés le service web.
-Le sous-système nécessite un accès aux bases de données. La base de donnée est sur le serveur de bases de données.	
-		
 
 Configuration cible
-====================
+==============
 
-Logiciels
----------
-Le sous-système gestion de Logistique sera sous forme d'une application web. Elle sera accessible à distance, les applications web seront développés en J2EE (Java Entreprise Edition).
-
-
-Stabilité de la configuration
-------------------------------
+Matériel et Logiciels
+-----------------------------
+- Le sous-système gestion de Logistique sera sous forme d'une application web.
+- Il faut disposer d'un serveur d'application sur lequel seront stockés le service web.
+- Le sous-système nécessite un accès aux bases de données. La base de donnée est sur le serveur de bases de données.
+- Elle sera accessible à distance, les applications web seront développés en J2EE (Java Entreprise Edition).
 - Les applications web seront accessibles via navigateur web. 
 - Aucune application ne sera à installer sur les postes distants.
