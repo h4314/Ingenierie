@@ -33,15 +33,14 @@ Portée, développement, mise en oeuvre, organisation de la maintenance
 
 Limites
 ----------
-L'application va afficher les disponibilités des différentes convois mais c'est à l'utilisateur de choisir lequel va utiliser en dépendant de la distance et de la taille du convoi.
-
-Le logiciel permettra de réaliser zoom sur la carte mais ça dépend beaucoup de la carte graphique à utiliser.
+ - L'application va afficher les disponibilités des différentes convois mais c'est à l'utilisateur de choisir lequel va utiliser en dépendant de la distance et de la taille du convoi.
+ - L'application ne permet pas de traiter plusieurs convois au même temps, par contre elle peut afficher les donnes de tous les convois.
+ - Le logiciel permettra de réaliser zoom sur la carte mais seulement dans les sites proches.
 
 Exigences fonctionnelles
 ========================
 Fonctions de base, performances et aptitudes
 ------------------------------------------------------------------
-	- Le sous-système GPRS reçoit les différentes alarmes et les transmet au sous-système de Logistique qui va les analyser avant de les stocker.
 	- Lorsqu'un convoi est mis en place suite à une alarme, cette alarme passe dans le statut "en cours", après passera dans l'état "résolue" et n'apparaitra plus dans la liste des alarmes "non résolues".
         - Consulter les convois qui sont actuellement en mission et consulter les différents informations les concernant. 
 	- La consultation du trajet devra se faire sur une carte. 
@@ -52,7 +51,6 @@ Contraintes d'utilisation
 ---------------------------------
 	
 - Ce logiciel n'est utilisable que par le Responsable Logistique.
-- L'application ne permet pas de traiter plusieurs convois au même temps, par contre elle peut afficher les donnes de tous les convois.
 
 
 Flexibilité
