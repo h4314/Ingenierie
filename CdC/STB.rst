@@ -31,7 +31,7 @@ Un deuxième objectif se situe aux niveau de la réduction des coûts indirects 
 FO-1 Monitoring à distance
 ==========================
 
-Un des enjeux majeur de ce nouveau système est sa capacité à surveiller à distance l'état des sites. Cette surveillance sera donc possible à partir du site central mais aussi via d'autres plateformes décentralisées que ce soit des postes fixes ou des appareils mobiles de type smartphone utiles pour les opérationnels.
+Un des enjeux majeurs de ce nouveau système est sa capacité à surveiller à distance l'état des sites. Cette surveillance sera donc possible à partir du site central mais aussi via d'autres plateformes décentralisées que ce soit des postes fixes ou des appareils mobiles de type smartphone utiles pour les opérationnels.
 
 FO-1-a Monitoring de l'état des cuves
 ``````````````````````````````````````
@@ -69,7 +69,7 @@ Chaque site doit posséder des moyens de connexion au système pour qu'un opéra
 FO-4 Traitements sur site central
 =================================
 
-FO-4-a Agrégation des données provenant des sites centraux
+FO-4-a Agrégation des données provenant des sites distants
 ``````````````````````````````````````````````````````````` 
 
 Le site central doit pouvoir stocker de manière structurée l'ensemble des données émises par les sites distants.
@@ -171,6 +171,7 @@ Ces fonctionnalités doivent être implémentées dès la première version du s
   - FO-5-d Communication de l'information vers le site central
 
 - FO-6 Traçabilité
+
   
 Lot 2 - Besoins à long terme
 =============================
