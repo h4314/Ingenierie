@@ -23,17 +23,7 @@ Ce module est étroitement lié à celui d'aide à la décision puisque que ce s
 Formulation des besoins généraux
 ---------------------------------
 
-- Identifier précisément un dysfonctionnement (numéro de cuve, site, type de panne)
 
-- Déclencher une alarme en cas de détection de dysfonctionnement.
-
-- Faire appel au module d'aide à la décision pour proposer une solution
-
-- Les techniciens doivent avoir la possibilité de prendre une solution différente de celle proposée par le système.
-
-- Consulter le module de logistique pour déterminer quels camions sont les mieux placés pour gérer une panne.
-
-- Proposer une interface permettant d'affréter un transport.
 
 Portée, développement, mise en oeuvre, organisation de la maintenance
 ---------------------------------------------------------------------
@@ -56,6 +46,17 @@ Fonctions de base, performances et aptitudes
 
 - Chaque alarme est associée à un élément, que ce soit une cuve pour indiquer un problème de niveau ou un matériel pour indiquer un malfonctionnement.
 
+- Identifier précisément un dysfonctionnement (numéro de cuve, site, type de panne)
+
+- Déclencher une alarme en cas de détection de dysfonctionnement.
+
+- Faire appel au module d'aide à la décision pour proposer une solution
+
+- Les techniciens doivent avoir la possibilité de prendre une solution différente de celle proposée par le système.
+
+- Consulter le module de logistique pour déterminer quels camions sont les mieux placés pour gérer une panne.
+
+- Proposer une interface permettant d'affréter un transport.
 Contraintes d'utilisation
 -------------------------
 
