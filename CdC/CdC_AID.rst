@@ -2,6 +2,9 @@
 Cahier des charges détaillé du sous-projet "Aide à la décision"
 ###############################################################
 
+.. contents:: Sommaire
+.. sectnum::
+
 Introduction
 =============
 Présentation du projet
@@ -93,10 +96,11 @@ L'utilisateur se connecte avec un client web sur un autre poste disposé d'un na
 Interfaces
 -----------
 	L'interface du logiciel est composé de quatre onglets.	
- - Gestion de l'indicateur : permet d'effectuer des opérations de création, MAJ et suppression des indicateurs
- - Affichage de valeurs dans les grilles :  permet d'afficher les valeurs des indicateurs sous forme de tableau
- - Affichage de graphiques ou histogrammes : permet d'afficher les graphiques ou les histogrammes
- - Génération de rapport : permet de constituer et personnaliser un rapport 
+
+- Gestion de l'indicateur : permet d'effectuer des opérations de création, MAJ et suppression des indicateurs
+- Affichage de valeurs dans les grilles :  permet d'afficher les valeurs des indicateurs sous forme de tableau
+- Affichage de graphiques ou histogrammes : permet d'afficher les graphiques ou les histogrammes
+- Génération de rapport : permet de constituer et personnaliser un rapport 
 	
 
 Guide de réponse au cahier des charges

@@ -4,6 +4,9 @@ Bonne Pratique: Rédaction d'une procédure
 
 *Contexte d'application de ce document*: rédaction d'une procédure
 
+.. contents:: Sommaire
+.. sectnum::
+
 Rappel
 ------
 

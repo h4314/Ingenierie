@@ -2,8 +2,11 @@
 Cahier des charges détaillé du sous-projet "Logistique"
 #######################################################
 
+.. contents:: Sommaire
+.. sectnum::
+
 Introduction
-=========
+============
 Présentation du projet 
 -------------------------------
         Ce projet a pour but de réaliser la meilleur gestion des convois à utiliser pour traiter les différentes besoins et sauvegarder la trace de tout le procès.
@@ -38,7 +41,9 @@ Exigences fonctionnelles
 Fonctions de base, performances et aptitudes
 ------------------------------------------------------------------
 	- Lorsqu'un convoi est mis en place suite à une alarme, cette alarme passe dans le statut "en cours", après passera dans l'état "résolue" et n'apparaitra plus dans la liste des alarmes "non résolues".
+
     - Consulter les convois qui sont actuellement en mission et consulter les différents informations les concernant. 
+
 	- La consultation du trajet devra se faire sur une carte. 
 	- Lancer un ordre de mission: choisir le camion, son trajet, les tâches a effectuer sur chaque sites et le personnel qui a besoin.
 	- Il doit être possible de consulter un inventaire des ressources disponibles: nombre de camion, chauffeurs, techniciens, etc.
@@ -55,7 +60,7 @@ Le sous-système de Logistique sera une des applications les plus flexibles du s
 
 
 Contraintes imposées, faisabilité technologiques et éventuellement moyens
-=======================================================
+=========================================================================
 
 Sûreté, planning, organisation, communication
 -------------------------------------------------------------------
@@ -68,7 +73,7 @@ La complexité du sous-projet de Logistique est la représentation des convois s
 
 
 Configuration cible
-==============
+===================
 
 Matériel et Logiciels
 -----------------------------

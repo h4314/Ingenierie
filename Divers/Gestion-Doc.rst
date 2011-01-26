@@ -2,6 +2,9 @@
 Gestion de documentation du projet
 ==================================
 
+.. contents:: Sommaire
+.. sectnum::
+
 Introduction
 ############
 	
@@ -29,13 +32,13 @@ Objectifs:
 ----------
 Les objectifs de ce dossier de gestion de la documentation sont de plusieurs ordres:
 
-*Rappel des règles générales concernant la documentation: les acteurs du projet et leurs responsabilités vis-à-vis des documents, les cycles de vie d'un document, l'organisation et la structure de la documentation etc.
+* Rappel des règles générales concernant la documentation: les acteurs du projet et leurs responsabilités vis-à-vis des documents, les cycles de vie d'un document, l'organisation et la structure de la documentation etc.
 
-*Rappel des règles de la production des documents
+* Rappel des règles de la production des documents
 
-*Présente les principaux documents qui devront être produits lors du projet, et propose des plans types pour ceux-ci.
+* Présente les principaux documents qui devront être produits lors du projet, et propose des plans types pour ceux-ci.
 
-*Indique la procédure à suivre pour mettre à jour le glossaire du projet qui sera commun à l'ensemble de l'équipe
+* Indique la procédure à suivre pour mettre à jour le glossaire du projet qui sera commun à l'ensemble de l'équipe
 
 Vocabulaire, abréviations
 #########################
@@ -107,10 +110,16 @@ RQ
 Plateforme et outils utilisés pour le projet:
 #############################################
 - Plateforme (P1) **Git** d'hébergement de projet: 
-git@github.com:h4314/Ingenierie.git
+
+::
+
+  git@github.com:h4314/Ingenierie.git
 
 - Plateforme (P2) de gestion de projet **Redmine**: 
-http://bde.insa-lyon.fr:3000/projects/ingenierie
+
+::
+
+  http://bde.insa-lyon.fr:3000/projects/ingenierie
 
 (P1) contiendra tous les documents de travail relatifs au projet (drafts, livrables finaux, documents ressources etc.)
 
@@ -199,8 +208,7 @@ document, l'équipe, et le projet associé à ce document.
 La seconde page consistera en un sommaire, qui permettra de mettre en évidence
 la structure utilisé dans le document.
 
-Les document disposeront d'un *header* et d'un *footer*, permettant de repérer le
-nom du document, le nom de l'équipe qui l'a rédigé, et le projet auquel se
+Les document disposeront d'un *header* et d'un *footer*, permettant de repérer le nom du document, le nom de l'équipe qui l'a rédigé, et le projet auquel se
 document se rapporte. Il s'agit en quelque sorte de dupliquer les informations
 de la page de garde de manière discrète, afin de replacer le document dans son
 contexte à tout moment au cours de la lecture.
@@ -276,16 +284,11 @@ Gestion des répertoires
 -----------------------
 L'organisation des répertoires pour les documents dans la plateforme P1 (Github) est la suivante:
 
-* /Documents
-	contient tous les documents produits par l'équipe de projet
-* /Documents/Livrables
-	contient tous les livrables produits par l'équipe de projet
-* /Documents/Schemas
-	contient tous les schémas et leurs fichiers sources
-* /Ressources
-	contient tous les documents qui ont été fournis à l'équipe de projet (Cahier des charges, documentation, cours etc.)
-* /Divers
-	contient les fichiers et documents qui sont en dehors du système de gestion de documentation du projet. Chaque personne du projet peut y avoir un répertoire personnel où il peut stocker des fichiers relatifs à son travail.
+:/Documents: contient tous les documents produits par l'équipe de projet
+:/Documents/Livrables: contient tous les livrables produits par l'équipe de projet
+:/Documents/Schemas: contient tous les schémas et leurs fichiers sources
+:/Ressources: contient tous les documents qui ont été fournis à l'équipe de projet (Cahier des charges, documentation, cours etc.)
+:/Divers: contient les fichiers et documents qui sont en dehors du système de gestion de documentation du projet. Chaque personne du projet peut y avoir un répertoire personnel où il peut stocker des fichiers relatifs à son travail.
 	
 
 Gestion du glossaire
@@ -296,13 +299,11 @@ Ce glossaire contiendra toutes les notions rencontrées ainsi que leur définiti
 
 Le glossaire se trouve dans */Documents/Glossaire.rst*
 
-#. Insertion d'un nouveau terme dans le glossaire:
-Si le terme que l'on veut définir est nouveau, on crée une nouvelle entrée dans le fichier glossaire, en respectant l'ordre alphabétique et la syntaxe du fichier existant.
+#. Insertion d'un nouveau terme dans le glossaire: Si le terme que l'on veut définir est nouveau, on crée une nouvelle entrée dans le fichier glossaire, en respectant l'ordre alphabétique et la syntaxe du fichier existant.
+#. Insertion d'un terme déjà existant dans le glossaire: Deux cas de figure se présentent:
 
-#. Insertion d'un terme déjà existant dans le glossaire:
-Deux cas de figure se présentent:
-- soit la personne est d'accord avec la définition existante
-- soit la personne est en désaccord avec la définition existante. Dans ce cas une tâche devra être crée dans Redmine (P2) pour résoudre ce problème.
+    - soit la personne est d'accord avec la définition existante
+    - soit la personne est en désaccord avec la définition existante. Dans ce cas une tâche devra être crée dans Redmine (P2) pour résoudre ce problème.
 
 Gestion de la documentation papier
 ##################################
@@ -316,29 +317,7 @@ Quelques régles de bonnes pratiques:
 ####################################
 
 #. Un schéma vaut mieux qu'un long discours
-#. règle des 5 lignes: être capable d'exprimer une idée à une autre personne en 5 lignes
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#. Règle des 5 lignes: être capable d'exprimer une idée à une autre personne en 5 lignes
 
 La bonne application des paragraphes précédents nécessite donc une maitrise
 parfaite des outils, relativement sophistiqués, par l'équipe de projet. Une
