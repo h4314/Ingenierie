@@ -6,15 +6,19 @@ Dossier de faisabilité
     :depth: 2
 .. sectnum::
 
-Ce document présente, de manière succincte, l'existant, ses points forts et ses
-points de faiblesses, une étude de faisabilité par rapport aux technologies
-émergentes et fiables. Il donne par ailleurs quelques pistes d'évolution.
-
 Introduction
 ##############
 
+Ce document présente, de manière succincte:
+- l'existant, ses points forts et ses points de faiblesses
+- une étude de faisabilité par rapport aux technologies émergentes et fiables, applicables au système cible
+- donne par ailleurs quelques pistes d'évolution.
+
 Problématique
-=============
+##############
+
+Le COPEVUE (Comité Pour la Protection de l'EnVironnement de l'Union Européenne) souhaite étudier un système de monitoring à distance de sites isolés. L'objectif est d'étudier et de concevoir un système complet, autonome et générique de mesure et de monitoring ainsi que le pilotage, la configuration et la maintenance à distance de ces stations. Le résultat doit constituer une solution évolutive, autonome, fiable et déployable à l'échelle européenne.
+Ce système se veut être un parfait palliatif aux dysfonctionnements actuels en apportant une réponse aux problématiques détaillées ci-dessous.
 
 De nombreuses régions d'Europe sont faiblement desservies pour des raisons :
 
@@ -32,9 +36,11 @@ D'autres stations, considérées comme passives, sont à inclure :
 
 * stations de pompage
 * cuves 
+
   * liquide anti-incendie (fortement présentes dans les régions à haut risque comme la méditerranée)
   * carburant
   * déchets
+
 * ...
 
 La problématique réside ici en la capacité d'autonomie des stations isolées (en
@@ -51,11 +57,11 @@ Analyse du métier
 
 Pour cette étude de l'existant, comme pour le reste de cet appel d'offre, seront
 visées uniquement les stations réservoirs utilisées pour stocker des liquides
-(eau, carburant, autre substance) ou bien des déchets
+(eau, carburant et autres substances) ou bien des déchets.
 
 Cet appel d'offre partant d'une initiative scandinave, l'analyse du
 fonctionnement actuel dans cette région s'impose et sera un échantillon
-représentatif de ce qu'il se fait en Europe.
+représentatif de ce qui se fait en Europe.
 
 
 Analyse des savoir-faire et des processus
@@ -67,12 +73,12 @@ la gestion de ces sites distants n'est pas centralisée et il n'est pas possible
 connaître à distance l'état des cuves/réservoirs. Aucun organisme spécifique ne
 s'en occupe. La surveillance est assurée par ses utilisateurs ou le propriétaire
 des lieux. Ce sont eux qui, en fonction de l'état de la cuve, préviennent
-l'organisme chargé de s'occuper des réservoirs que ce soit pour effectuer une
+l'organisme chargé de s'occuper des réservoirs, que ce soit pour effectuer une
 réparation ou bien pour vider ou ravitailler la cuve.
 
 Les organismes chargés de la maintenance des réservoirs s'occupent donc, en
 interne ou via un prestataire de services externe, d'affréter un camion pour
-effectuer ces opérations. Parmi ces organisations peuvent être comptés des
+effectuer ces opérations. Parmi ces organisations peuvent être comptées des
 particuliers ou bien des organismes d'état (mairies, pompiers, communauté de
 communes, organisme de gestion des forêts, etc.). Les particuliers
 s'occupent eux-mêmes de la surveillance et contactent directement les prestataires
@@ -106,33 +112,33 @@ Discussion sur l'adéquation de la solution actuelle
 
 Cette décentralisation de la surveillance des sites isolés est source de
 nombreux dysfonctionnements qui peuvent être déclinés en deux grandes catégories : 
-un gaspillage financier (argent provenant pour la majorité des cas des
-contribuables) et un risque environnemental important, non contrôlé.
+- un gaspillage financier (argent provenant pour la majorité des cas des
+contribuables) 
+- un risque environnemental important, non contrôlé.
 
 Plusieurs facteurs sont sources de gaspillage financier :
 
- * La logistique. Il n'existe pas de planification globale et donc pas d'optimisation dans les livraisons/enlèvements de contenant et systématiquement un camion se retrouve avec un chargement nul sur un des trajets (l'aller ou le retour).
- * La surveillance. Celle-ci est effectuée par des opérationnels et est donc fortement coûteuse, en particulier lorsque l'on constate que la majorité des déplacements ne débouche sur aucune opération de maintenance. Il s'agit donc d'une monopolisation des ressources humaines pour une tâche sans réelle valeur ajoutée par rapport à ce qu'elles pourraient apporter.
- * Une surveillance non globale. L'éparpillement de la gestion de ces sites empêche de faire des économies d'échelles à de nombreux niveaux que ce soit au niveau de la surveillance ou bien dans la mise en commun des achats de contenant ou de services de transport.
+* La logistique. Il n'existe pas de planification globale et donc pas d'optimisation dans les livraisons/enlèvements de contenant et systématiquement un camion se retrouve avec un chargement nul sur un des trajets (l'aller ou le retour).
+* La surveillance. Celle-ci est effectuée par des opérationnels et est donc fortement coûteuse, en particulier lorsque l'on constate que la majorité des déplacements ne débouche sur aucune opération de maintenance. Il s'agit donc d'une monopolisation des ressources humaines pour une tâche sans réelle valeur ajoutée par rapport à ce qu'elles pourraient apporter.
+* Une surveillance non globale. L'éparpillement de la gestion de ces sites empêche de faire des économies d'échelles à de nombreux niveaux que ce soit au niveau de la surveillance ou bien dans la mise en commun des achats de contenant ou de services de transport.
 
 De nombreux points favorisent les risques environnementaux :
 
- * Oublis. Le système reposant uniquement sur des ressources humaines, de nombreux oublis de ravitaillement de cuves ont été constatés. C'est totalement inacceptable pour des cuves stratégiques comme celles dédiées à la lutte contre les incendies.
- * Fuites. En plus d'être une perte financière, les fuites, suivant le contenant de la cuve, peuvent s'avérer très dangereuses écologiquement. Le problème est que ces fuites sont constatées bien souvent trop tard du fait d'une surveillance manuelle, souvent fortement espacée dans le temps.
-
+* Oublis. Le système reposant uniquement sur des ressources humaines, de nombreux oublis de ravitaillement de cuves ont été constatés. C'est totalement inacceptable pour des cuves stratégiques comme celles dédiées à la lutte contre les incendies.
+* Fuites. En plus d'être une perte financière, les fuites, suivant le contenant de la cuve, peuvent s'avérer très dangereuses d'un point de vue écologique. Le problème est que ces fuites sont constatées bien souvent trop tard du fait d'une surveillance manuelle, souvent fortement espacée dans le temps.
 D'une manière générale, il manque une traçabilité des opérations effectuées par les divers acteurs et ne permet donc pas un monitoring global.
 
 Étude de faisabilité 
 ####################
 
-Synthèse sur Système embarqué
-=============================
+Synthèse sur les systèmes embarqués
+=====================================
 
-Solution 1 : Solution tout intégré à base de chip Ember
-```````````````````````````````````````````````````````
+Solution 1 : Solution tout intégrée à base de chip Ember
+````````````````````````````````````````````````````````
 
 Ember est une société américaine créée en 2001, qui s'est spécialisée dans la
-production et la commercialisation de solutions ZigBee. Membre de la Zigbee
+production et la commercialisation de solutions Zigbee. Membre de la Zigbee
 Alliance, ses solutions sont reconnues pour leur efficacité et leur
 interopérabilité.
 
@@ -197,10 +203,10 @@ Solution 3 : Solution tout intégrée module XBee-Pro Digimesh
 
 Digi International est une société américaine fondée en 1985 et basée dans le Minnesota.
 Elle développe des solutions permettant la mise en réseau d'équipements divers en utilisant
-les réseaux cellulaires ainsi que présentant une compatibilité ZigBee et Wifi.
+les réseaux cellulaires et présentant une compatibilité ZigBee et Wifi.
 
 Digi présente ses équipements comme étudiés pour être utilisés en environnement
-dangereux, tels que les usines chimiques ou les entrepots de matières inflammables.
+dangereux, tels que les usines chimiques ou les entrepôts de matières inflammables.
 
 Digi propose un kit de développement pour 270 dollars et des modules XBee pour 20
 dollars pièce.
@@ -228,7 +234,7 @@ Le système de gestion du contenu d'un réservoir a besoin d'énergie pour alime
 
 Estimation des besoins d'énergie pour une station
 ```````````````````````````````````````````````````````````````
-Dans une station, nous avons deux principaux consommateurs d'énergie: le chipset du système embarqué et le modem GSM/GPRS. 
+Dans une station, nous avons deux principaux éléments consommateurs d'énergie: le chipset du système embarqué et le modem GSM/GPRS. 
 Pour le chipset, nous avons trouvé un produit qui a une très bonne autonomie. La puissance à l'état repos est inférieur à 1 mW, qui est négligeable. Quand il est en émission ou en réception, la puissance ne dépasse pas 0,1 Watt. 
 En ce qui concerne le modem, la puissance au repos est d'ordre 0,1 Watt et celle en émission/réception est au maximum 3 Watt.
 En conséquence, une alimentation de 12V et 5 Watt est suffisant pour notre système. Si on estime que les équipements échangent des données avec le serveur toutes les minutes pendant 1 seconde, il faut 0.2 A*h d'électricité par jour ou 6 A*h par mois sous un voltage de 12 V. 
@@ -298,7 +304,7 @@ Exemple d'éolienne
 A présent, il n'existe pas d'équipement de la taille que l'on souhaite pour fournir
 de l'électricité à notre système. Cette source d'énergie est la plupart
 du temps utilisée pour chauffer la maison directement grâce à des pompes à
-chaleur. La machine la plus petite qu'on ait trouvée sur internet qui peut
+chaleur. La machine la plus petite qu'on ait trouvée après notre étude qui peut
 transformer l'énergie géothermique en électricité possède une puissance de 3 kW.
 Mais on peut envisager l'utilisation de cette énergie dans un futur proche pour
 notre système.
@@ -310,8 +316,9 @@ l'utilisation des piles et des panneaux solaires. Nous pouvons choisir des
 panneaux solaires plus ou moins grands et des piles de capacité plus ou moins
 importante selon les conditions climatiques de la région. 
 
-Synthèse sur capteurs
+Synthèse sur les capteurs
 ==========================================
+
 Dans le cadre de notre étude, les capteurs peuvent faire l'objet d'une classification par type de sortie.
 Ils peuvent être de type : analogique, numérique ou logique (TOR).
 La difficulté est donc la multiplicité des données en sortie de chaque capteur.
@@ -319,8 +326,8 @@ Il faudra utiliser une carte d'acquisition afin d'obtenir les mêmes données de
 Cette carte a pour rôle de réaliser l'interface entre les capteurs et le système embarqué. 
 La carte est composée :
 
-- D'une carte électronique reliée aux capteurs et au système embarqué. Elle sera chargée d'effectuer les traitements de base sur le signal, afin de les transmettre de manière exploitable au système embarqué, en particulier lorsque ce qu'il faut contrôler nécessite l'exploitation de mesures provenant de plusieurs capteurs.
-- D'un logiciel dédié au traitement des informations, installé sur le système embarqué. Il sera chargé de recevoir et garder les données envoyées par les capteurs.
+- d'une carte électronique reliée aux capteurs et au système embarqué. Elle sera chargée d'effectuer les traitements de base sur le signal, afin de les transmettre de manière exploitable au système embarqué, en particulier lorsque ce qu'il faut contrôler nécessite l'exploitation de mesures provenant de plusieurs capteurs.
+- d'un logiciel dédié au traitement des informations, installé sur le système embarqué. Il sera chargé de recevoir et garder les données envoyées par les capteurs.
 
 Un moyen d'envoyer les données vers un équipement centralisé de gestion des capteurs d'une zone est la transmission radio.
 Il existe en effet des équipements capables d'interfacer la carte d'acquisition et pouvant être connectés à un émetteur radio qui transmet les mesures au système embarqué.
@@ -349,12 +356,13 @@ végétation ne peuvent pas apparaître. Le RLS couvre une plage de mesure allan
 et la communication avec différents enregistreurs et systèmes de
 télétransmission.  Compact et insubmersible, le RLS ne nécessite qu'une
 maintenance réduite et bénéficie d'une longue durée de vie. Sa consommation
-réduite et son design bien pensé font de ce produit une alternative économique,
+réduite et son design bien réfléchi font de ce produit une alternative économique,
 pratique et fiable aux appareils de mesure de hauteur d'eau classiques.
 
 Reférences :
-    http://www.hydrolab.com/web/ott_hach.nsf/id/pa_radar_level_sensor.html
-    http://www.ottfrance.com/web/ott_fr.nsf/id/pa_rls_fr.html
+
+- http://www.hydrolab.com/web/ott_hach.nsf/id/pa_radar_level_sensor.html
+- http://www.ottfrance.com/web/ott_fr.nsf/id/pa_rls_fr.html
 
 Solution 2 : Capteur VEGAPULS 62 
 ````````````````````````````````
@@ -373,8 +381,7 @@ de stockage et les réservoirs, également à une température de -200 °C à +4
 Grâce à la technologie radar, le capteur de niveau mesure le niveau des liquides
 sans contact et fournit en continu des valeurs de mesure très précises.
 
-Référence: 
-    http://www.vega.com/fr/Mesure_de_niveau_Radar_VEGAPULS62.htm
+Référence: http://www.vega.com/fr/Mesure_de_niveau_Radar_VEGAPULS62.htm
 
 Conclusion
 ```````````
@@ -385,31 +392,36 @@ et bénéficie d'une longue durée de vie. Sa consommation réduite et son desig
 pensé font de ce capteur une alternative économique, pratique et fiable par rapport 
 aux appareils de mesure de hauteur de liquides.
 
-Synthèse systèmes de communication
-==================================
+Synthèse sur les systèmes de communication longue distance
+============================================================
 
 Problématique
 `````````````
 Cette étude a pour objectifs d'effectuer un état de l'art en termes de communication longue distance. En l'occurence, ici, il s'agit de trouver des solutions potentielles permettant de répondre à la question suivante : *comment s'effectuera la communication entre les sites distants et le site central de monitoring ?*
 
-Pour répondre à cette question, il convient dans un premier temps de rappeller les contraintes inhérentes :
- * le site central pourra être déployé (voir migré à tout moment) partout en Europe, et a forciori n'importe où dans le monde.
- * les sites distants sont situés n'importe où en Europe, y compris les endroits les plus reculés et les moins bien desservis, que ce soit en terme de d'énergie, de télécommunications ou d'infrastructures routières.
- * la communication devra être fiable
-   * les informations ne doivent pas être perdues
-   * certaines stations critiques doivent inclure des capacité de reprise ou de capacité de redondance pour garder une disponibilité maximale
- * la communication doit être la moins coûteuse possible
- * le matériel devra supporter des conditions climatiques extremes
+Pour répondre à cette question, il convient dans un premier temps de rappeler les contraintes inhérentes :
 
-Dans un deuxième temps, les critères de selection d'une solution se porteront également sur la teneur des communications : *quelles données seront amenées à circuler dans un sens, comme dans l'autre ?*
+* le site central pourra être déployé (voir migré à tout moment) partout en Europe, et a fortiori n'importe où dans le monde.
+* les sites distants sont situés n'importe où en Europe, y compris les endroits les plus reculés et les moins bien desservis, que ce soit en terme de d'énergie, de télécommunications ou d'infrastructures routières.
+* la communication devra être fiable
+
+  * les informations ne doivent pas être perdues
+  * certaines stations critiques doivent inclure des capacités de reprise ou de capacité de redondance pour garder une disponibilité maximale
+
+* la communication doit être la moins coûteuse possible
+* le matériel devra supporter des conditions climatiques extrêmes
+
+Dans un deuxième temps, les critères de sélection d'une solution se porteront également sur la teneur des communications : *quelles données seront amenées à circuler dans un sens, comme dans l'autre ?*
 
 Du site central vers les sites distants :
 
 * mises à jour des logiciels (fréquence : maximum toutes les semaines, mais certainement beaucoup plus espacé)
+* configuration et paramétrage
 
 Des sites distants vers le site central :
 
 * les informations provenant des capteurs (fréquence : de l'ordre de la minute)
+* les anomalies
 
 Enfin, la taille du réseau est à prendre en compte, nous partirons d'une base de simulation 10 fois plus importante que l'existant scandinave, soit :
 
@@ -421,7 +433,7 @@ Solutions possibles
 A l'heure actuelle trois méthodes de communication longue distante peuvent être envisagées pour ce système :
 
 * par le réseau GPRS (2G+), autrement dit par le réseau GSM et internet
-* par le réseau GPS, autrement dit par satellite
+* par le réseau satellite
 * par courant porteur libre, autrement dit par les lignes électriques
 
 Détails des solutions
@@ -436,11 +448,10 @@ Architecture du réseau GSM/GPRS
 .. image:: images/reseau_gsm.png
    :scale: 50%
 
-
-Les prérequis sont :
+Les pré-requis sont :
 
 * être à portée d'une antenne de télécommunication (BTS)
-* nécessite un abonnement auprès d'un FAI/opérateur téléphonique? Donc un abonnement par site distant ? 
+* nécessite un abonnement auprès d'un FAI/opérateur téléphonique par site distant
 
 La couverture du réseau GPRS (et donc GSM) sur le territoire européen est quasi totale. Il faudra s'assurer préalablement de choisir l'opérateur mobile offrant la meilleure couverture, ce qui sera donc variable suivant les pays. Dans la même idée il faudra veiller à traiter avec un opérateur présent dans la majorité des pays européens afin de négocier des prix intéressants avec un support de qualité.
 
@@ -449,8 +460,6 @@ Un exemple de couverture, en Norvège (opérateur : Telenor), qui comprend un ce
 .. image:: images/telenor.png
    :scale: 50%
 
-L'utilisation du réseau UMTS ou 3G (qui utilise une partie du réseau GSM), bien qu'apportant une capacité de débit bien plus élevé, est écarté car son territoire de couverture reste très faible dans les zones reculées (ce type de réseau n'utilise pas les antennes BTS du réseau GSM). Ensuite, pour ce système, le débit offert par le réseau GPRS sera suffisant.
-
 Concernant son implémentation, il nécessite la mise en place d'un modem compatible GSM/GPRS. Deux solutions se détachent :
 
 * L'achat de composants et leur adaptation avec le système embarqué du site distant 
@@ -458,15 +467,17 @@ Concernant son implémentation, il nécessite la mise en place d'un modem compat
 
 De nombreux fabricants proposent des solutions de modems GSM/GPRS embarqués
 particulièrement adaptés aux contraintes. Les prix varient d'une centaine
-d'euros l'unité à 400¤ pour les modèles hauts de gamme, avec des
-caractéristiques techniques qui satisfont les contraintes (données prix sur les
+d'euros l'unité à 400€ pour les modèles hauts de gamme, avec des
+caractéristiques techniques qui satisfont les contraintes (données prises sur les
 modèles hauts de gamme) : 
 
 * Température de fonctionnement : -20°C à +85°C
 * Tolérance à l'humidité : 90%
-* Faible taille : 10cm*5cm*10cm
+* Taille : 10cm*5cm*10cm
 * Consommation en communication : (< 200mA sous 14 Vdc)
 * Consommation au repos : (< 10mA sous 14 Vdc)
+
+L'utilisation du réseau UMTS ou 3G (qui utilise une partie du réseau GSM), bien qu'apportant une capacité de débit bien plus élevé, est écarté car son territoire de couverture reste très faible dans les zones reculées (ce type de réseau n'utilise pas les antennes BTS du réseau GSM). Ensuite, pour ce système, le débit offert par le réseau GPRS sera suffisant.
 
 Sources :
 
@@ -476,15 +487,14 @@ Sources :
     http://www.ercogener.com/comparatif-modem-gsm-gprs-gps.html
 * Prix (erco&gener) :
     http://www.kamosis.com/store/index-n-Modems_GSM_GPRS_EDGE_3G-cp-555.html
-* Wikipédia
 
 
-Utilisation du réseau GPS
--------------------------
+Utilisation du réseau satellite
+-------------------------------
 
-Les stations à distance pourraient communniquer avec la station centrale via satellite. Cette technique nécessite l'installation d'une antenne emetrice/receptrice satellite et d'un modem dédié.
+Les stations à distance pourraient communiquer avec la station centrale via satellite. Cette technique nécessite l'installation d'une antenne émettrice/réceptrice satellite et d'un modem dédié.
 
-Les prérequis sont :
+Les pré-requis sont :
  * être dans un milieu dégagé
  * souscrire un abonnement à un opérateur (tarification établit suivant le débit alloué et le volume de données échangé)
 
@@ -494,7 +504,7 @@ Avantages :
 
 Inconvénients :
  * cout du matériel : environ 350€
- * abonnement plus élevé (de 25€ pour 2Go à 100€ pour 12Go)
+ * abonnement plus élevé (de 25€ pour 2Go à 100€ pour 12Go de données échangées)
 
 Les latences sont conséquentes (autour des 650ms contre 40ms pour l'ADSL) mais négligeables pour ce système.
 
@@ -502,57 +512,64 @@ Deux flottes de satellites couvrant l'Europe :
  * Astra, opérateurs : Vivéole, Nordnet
  * Eutelsat, opérateurs : Connexion Verte, Sat2way, Numéo
 
-Le matériel fourni par ces opérateurs se révelerait surement insuffisant par rapport aux contraintes du système et dans un souci d'intéropérabilité avec la solution mis en place du côté des sites distants.
-Des constructeurs spécialisés dans l'embarqué proposent des modems répondant à ces contraintes, modems similaires à ceux présentés pour la solution GPRS. Cependant leurs prix varient de 1500¤ à 3500¤ l'unité.
+Le matériel fourni par ces opérateurs se révélerait surement insuffisant par rapport aux contraintes du système et par un souci d'interopérabilité avec la solution mis en place du côté des sites distants.
+Des constructeurs spécialisés dans l'embarqué proposent des modems répondant à ces contraintes, modems similaires à ceux présentés pour la solution GPRS. Cependant leurs prix varient de 1500€ à 3500€ l'unité.
+
+Synthèse sur les systèmes de communication longue distance
 
 source : 
  * offres chez Sat2way : http://www.sat2way.fr/fr/offre_haut_debit/
- * wikipedia : http://fr.wikipedia.org/wiki/Internet_par_satellite
  * prix des modems GPS : http://www.kamosis.com/store/index-n-Modems_Satellite-cp-558.html
 
 Utilisation du courant porteur libre (CPL)
-------------------------------------------
+-------------------------------------------
 
 Cette solution permettrait de faire circuler l'information par les lignes électriques.
 
-Les prérequis sont :
+Les pré-requis sont :
  * être relié aux lignes électriques
  * un modem spécifique
 
 Inconvénients :
- * libre d'utilisation chez les particuliers mais fortement réglementé voir interdit sur le réseau public dans certains pays européen
+ * libre d'utilisation chez les particuliers mais fortement réglementé voir interdit sur le réseau public dans certains pays européens
  * pas de normes définitives
-
+ * tous les sites ne sont pas forcément reliés au réseau électrique
 
 Comparaison et bilan
 --------------------
-Le courant porteur libre, bien que prometteur, pour des raisons principalement politiques ne peut pas être envisagés à une échelle européenne.
 
-Reste la solution GPRS et GPS. La dernière est la plus couteuse mais ne peut pas être écartée car elle se révèle nécessaire dans certains endroits extremement isolés non couverts par le réseau GSM/GPRS.
+Le courant porteur libre, bien que prometteur, pour des raisons principalement politiques ne peut pas être envisagé à une échelle européenne.
 
-On pourrait imagnier à ce moment là prévoir une solution par défaut GSM/GPRS et mettre en place, au cas par cas, des sites distants capable de communiquer via satellite.
+Reste la solution GPRS et GPS. La dernière est la plus couteuse mais ne peut pas être écartée car elle se révèle nécessaire dans certains endroits extrêmement isolés non couverts par le réseau GSM/GPRS.
 
-Synthèse sur systèmes de localisation
-=====================================
+On pourrait imaginer à ce moment là de prévoir une solution par défaut GSM/GPRS et mettre en place, au cas par cas, des sites distants capable de communiquer via satellite.
+
+Synthèse sur les systèmes de localisation
+===========================================
 
 Étant donné que les stations distantes ne sont pas destinées à être déplacées, ou alors que de manière très ponctuelle, il ne sera pas nécessaire de mettre en place un système de localisation par satellite (type GPS).
 L'idée est d'enregistrer la position de chaque station/cuve existante ou bien effectuer un unique relevé pour celles qui seront mises en place.
 
 Localisation de la flotte des véhicules de ravitaillement
 `````````````````````````````````````````````````````````
-Les véhicules, étant mobiles, pourraient être équipés de balise de suivi GPS. Celles-ci utilisent le réseau satellitaire pour déduire la position en temps réel des véhicules. La communication des coordonnées pourra être ensuite effectuée par le réseau GSM/GPRS, ce qui serait moins coûteux que de le faire transiter par un réseau satellitaire.
 
-Gestion des dispositifs géolocalisés depuis le site central
-```````````````````````````````````````````````````````````
-Côté site central la position des dispositifs pourraient être présentées et traitées de différentes manières.//
-Cette infrastructure nécessite (en exemples seront données des solutions reposant sur des données libres, des protocoles standards et des technologies open source, donc potentiellement gratuites à l'acquisition et totalement intéropérable avec d'autres systèmes) :
+Les véhicules, étant mobiles, pourraient être équipés de balise de suivi GPS. Celles-ci utilisent le réseau satellitaire pour déduire la position en temps réel des véhicules. La communication des coordonnées pourra être ensuite effectuée par le réseau GSM/GPRS, ce qui serait moins coûteux que de le faire transiter par le réseau satellitaire.
+
+Gestion des dispositifs géo-localisés depuis le site central
+````````````````````````````````````````````````````````````
+
+Côté site central les positions des dispositifs pourraient être présentées et traitées de différentes manières.
+En exemples seront données des solutions reposant sur des données libres, des protocoles standards et des technologies open source, donc potentiellement gratuites à l'acquisition et totalement interopérable avec d'autres systèmes :
+
 * Une base de données spatiale. Exemple : PostgreSQL/PostGIS
 * Des données géographiques à l'échelle européenne. Exemple : données libres d'Open Street Map
 * Un serveur cartographique. Exemple : GeoServer ou MapServer
-* Des librairies de présentation et d'utilisation des services géographiques. Exemple : GeoTools (clients lourds), OpenLayers (clients légers)
+* Ou bien, en remplacement des trois solutions pré-citées, l'utilisation de services commerciaux de type Google ou Yahoo
+* Des librairies de présentation et d'utilisation des services géographiques. Exemple : GeoTools (clients lourds), OpenLayers (clients légers) ou services associés (Google, Yahoo)
 
 Conclusions
 #############
+
 En conclusion, à l'échelle européenne il n'existe aucun organisme centralisé et
 donc aucun système de gestion chargé de la surveillance de sites distants
 isolés.  Notre solution vise donc à informatiser ce système d'information que ce
@@ -562,7 +579,7 @@ fondations quant à la mise en place d'un organisme visant à fédérer l'ensemb
 des acteurs européens.
 
 L'étude de faisabilité a permis de sélectionner de grandes orientations quand
-aux choix de technologies et d'infrastructure. Elles orienteront les coûts de
+aux choix de technologies et d'infrastructures. Elles orienteront les coûts de
 déploiement et de maintenance, les choix en termes de ressources humaines et
 matérielles et les capacités du système. Parmi ces choix nous pouvons citer :
 
@@ -573,14 +590,12 @@ matérielles et les capacités du système. Parmi ces choix nous pouvons citer :
 
 * Sites distants :
 
-   * autonomie d'énergie :
-   * système embarqué :
-   * système d'exploitation :
-   * réseau de capteurs :
-   * capteurs :
+   * autonomie d'énergie : batteries et panneaux solaires
+   * système embarqué : solution tout intégrée à base de chip Ember
+   * capteurs : capteur OTT RLS
 
 * Communication entre le site central et les sites distants : utilisation du réseau GSM/GPRS
-* Solution de réseau local : Solution intégrée Ember, réseau ZigBee maillé, et communication vers un centre du réseau local. Capteur sur chaque noeud ZigBee.
+* Solution de réseau local : Solution intégrée Ember, réseau ZigBee maillé, et communication vers un centre du réseau local. Capteur sur chaque nœud ZigBee.
 
 A partir de l'étude du fonctionnement actuel et de ses dysfonctionnements, mais aussi de l'étude de faisabilité technique de la mise en place d'une solution informatisée, deux grands axes d'améliorations peuvent êtres dégagés :
 
