@@ -37,11 +37,11 @@ Exigences fonctionnelles
 ========================
 Fonctions de base, performances et aptitudes
 ------------------------------------------------------------------
-	- Lorsqu'un convoi est mis en place suite à une alarme, cette alarme passe dans le statut "en cours", après passera dans l'état "résolue" et n'apparaitra plus dans la liste des alarmes "non résolues".
-    - Consulter les convois qui sont actuellement en mission et consulter les différents informations les concernant. 
-	- La consultation du trajet devra se faire sur une carte. 
-	- Lancer un ordre de mission: choisir le camion, son trajet, les tâches a effectuer sur chaque sites et le personnel qui a besoin.
-	- Il doit être possible de consulter un inventaire des ressources disponibles: nombre de camion, chauffeurs, techniciens, etc.
+	- Localiser les convois sur une carte.
+    - Consulter la mission actuelle d'un convoi.
+	- Lancer un ordre de mission: choisir le camion, son trajet, les tâches a effectuer et le personnel dont on a besoin.
+	- Consulter un inventaire des ressources disponibles: nombre de camion, chauffeurs, techniciens, etc.
+	- Consulter l'information d'un prestataire.
 
 Contraintes d'utilisation
 ---------------------------------
@@ -72,9 +72,6 @@ Configuration cible
 
 Matériel et Logiciels
 -----------------------------
-- Le sous-système gestion de Logistique sera sous forme d'une application web.
-- Il faut disposer d'un serveur d'application sur lequel seront stockés le service web.
+- Les convois sont équipés d'équipements GPS pour être localisés.
 - Le sous-système nécessite un accès aux bases de données. La base de donnée est sur le serveur de bases de données.
-- Elle sera accessible à distance, les applications web seront développés en J2EE (Java Entreprise Edition).
 - Les applications web seront accessibles via navigateur web. 
-- Aucune application ne sera à installer sur les postes distants.
