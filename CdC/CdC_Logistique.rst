@@ -17,15 +17,11 @@ Présentation du problème
 ========================
 Objectifs, principe du logiciel
 --------------------------------
-	Le sous-système de Logistique s'occupe principalement de répondre et traiter aux besoins du sous-système Monitoring. Il met à disposition les outils permettant de planifier les convois de camions (trajet, destinations, personnel, matériel, etc). Il va aussi se communiquer avec les sites embarqués via le module GPRS qui se charge de transmettre les données entre les deux systèmes et interagit avec la base de données pour consulter et stocker des données.
-	
-	Le sous-système Logistique occupe une place vraiment importante dans notre solution, en offrant la possibilité d'optimiser les convois de camions.
+	Dans le système existant, les interventions sont ponctuelles et locales. Apres la mis en place de notre système, les informations seront mises à jours très régulièrement permettant de savoir les états de chaque réservoir. Par conséquent, nous pouvons développer un logiciel pour planifier les interventions et gérer les prestataires avec les informations disponibles. D'un côté, la planification des convois de camion permettera d'augmenter l'efficacité de l'intervention et réduire le coût ainsi que l'impact sur l'environnement. De l'autre côté, une meilleur gestion de prestataires facilitera l'approvisionnement des cuves et permettra de mieux fidéliser les prestataires.
 
 Formulation des besoins généraux
 -------------------------------------------------
- - Proposer les différentes convois prêt pour traiter les besoins
- - Permettre au module de gestion des alarmes savoir quels camions sont les mieux placés.
- - Proposer une interface permettant de voir la trace de tous les camions.
+	Le logiciel doit proposer à l'avance des interventions potentielles à effectuer en fournissant un itinéraire intéressant, le prestataire à contacter et une démarche à suivre pour une mission. L'utilisateur peut suivre les convois et planifier les nouvelles interventions à partir de propositions du logiciel.
 
 Portée, développement, mise en oeuvre, organisation de la maintenance
 ---------------------------------------------------------------------
@@ -42,7 +38,7 @@ Exigences fonctionnelles
 Fonctions de base, performances et aptitudes
 ------------------------------------------------------------------
 	- Lorsqu'un convoi est mis en place suite à une alarme, cette alarme passe dans le statut "en cours", après passera dans l'état "résolue" et n'apparaitra plus dans la liste des alarmes "non résolues".
-        - Consulter les convois qui sont actuellement en mission et consulter les différents informations les concernant. 
+    - Consulter les convois qui sont actuellement en mission et consulter les différents informations les concernant. 
 	- La consultation du trajet devra se faire sur une carte. 
 	- Lancer un ordre de mission: choisir le camion, son trajet, les tâches a effectuer sur chaque sites et le personnel qui a besoin.
 	- Il doit être possible de consulter un inventaire des ressources disponibles: nombre de camion, chauffeurs, techniciens, etc.
