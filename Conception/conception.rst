@@ -260,56 +260,49 @@ Mise à jour système
     critique. Si les sommes de contrôle diffère, la mise à jour ne sera bien sûr
     pas appliquée.
 
-
-Stockage
---------
-
-stockage, volumétrie/dimensionnement
-
-
-Annexes 
-#######
-
 Problématique sur la sécurité
-================================
+##############################
 
-* La sécurité du système à développer sera directement liée à la sécurité des sites surveillés. On va assurer que les informations qui seront transmises à un système embarqué ne viennent pas d'une source non approuvée.
+L'accès à l'application de monitoring se fera exclusivement via une interface web. Pour restreindre l'accès, les personnes habilitées à l'utiliser devront s'authentifier. De plus des rôles d'utilisateur seront mis en place pour limiter l'accès aux fonctionnalités uniquement (ex. certains téléopérateurs auront pour rôle la surveillance mais ne pourront pas accèder aux interfaces de mise à jour et configuration du site distant).
 
-* On limitera ainsi les possibilités de piratage des sites distants qui pourraient avoir des conséquences graves sur la surveillance des sites, on fera plus attention si le site surveillé est sensible.
+Les données stockées seront protégées de tout piratage. Cette problématique est déportée du côté du prestataire choisi. Il en va de même sur l'intégrité des données, le prestataire garantira une absence de pertes de données. 
 
-* De même pour les données transmises automatiquement par les sites distants, on mettra  en place un protocole de communication sécurisé, tel que le protocole SSL (Secure Sockets Layer).
-
-* L’intégrité de la configuration des systèmes embarquées et l'intégrité des données captées dépendant directement des requêtes effectuées par l'interface Web, on peut mettre en place une politique de sécurisation des connexions. Exemple : chaque personne qui veut accéder à l'interface Web devra posséder les informations d'authentification nécessaires pour réussir à s’y connecter.
-
-Gestion du Système
-===================
-
-* L'isolement qui existe entre les différents sites nécessite de pouvoir mettre à jour la configuration du système embarqué à distance.
-
-* On réalisera un développement qui permettra de récupérer un ordre de mise à jour de la configuration venant du site central et mettre effectivement à jour la configuration du système embarqué ou de ses périphériques
-
-* On pourra configurer à distance des paramètres tels que la taille de la base de données pour le stockage des mesures, pour le stockage des opérations, les noms des périphériques, etc.
+Les communications longues distances seront cryptées par l'utilisation d'un canal sécurisé basé sur le protocole SSH. Le site central ne pourra donc pas recevoir de données autre que les sites distants ou d'utilisateurs identidiés. De la même manière aucune intrusion ne sera possible sur le réseau interne des stations distantes. Les communications seront cryptées par le système embarqué. On limitera ainsi les possibilités de piratage des sites distants qui pourraient avoir des conséquences graves.
 
 Problématique de mise à l'échelle
-==================================
+##################################
 
 Le système prévu sera 10 fois plus important que l'existant scandinave, soit :
+
 * 100 sites distants x 10 = 1000 sites distants
 * 1000 sites distants x 10 cuves = 10000 cuves
 
-Les infrastructures matérielles seront capables de supporter à la dois les flux de données en transit sur les réseaux internes aux stations et sur les réseaux GRPS. 
+Les infrastructures matérielles seront capables de supporter à la fois les flux de données en transit sur les réseaux internes aux stations et sur les réseaux GRPS. 
 
 De plus côté site central, le serveur web d'agrégation des données sera suffisamment puissant pour traiter l'ensemble des requêtes. De plus il devra garantir une très haute disponibilité par la mise en place de système de réplication en cas de pannes. Concernant les données stockées, le système sera capable de stocker des données sur une échelle de temps d'au moins deux ans.
 
 Bien que prévu pour ces limites, le système pourra facilement être remis à l'échelle. D'une part l'ensemble de la conception est basé sur la généricité et l'indépendance par apport à son objectif métier. D'autre part les systèmes nécessitant la mise à l'échelle sont concentrées en certains points (serveur de base données, serveurs web, réplication, réseaux, etc.). L'intégration de nouveaux sites distants ou l'ajout de nouvelles cuves ou par extension tout autre système de surveillance se feront sans réels challenge techniques. Les connaissances acquises lors des projets de déploiement sur sites seront exploitées afin de faciliter la répétition de cette opération. 
 
 Analyse de la complexité
-==========================
+##########################
 
-* On travaillera avec le réseau GPRS pour réaliser la communication entre les différentes sites. Comme on le sait très bien, la technologie GPRS n’est pas vraiment fiable à 100%, on fera tout le possible afin d’anticiper les éventuels difficultés qui pourraient survenir au cours de l’exploitation.
+L'architecture technique ayant était désormais détaillée il est important de mettre en avant les points qui devront être en priorité étudiés plus en profondeur car complexes et source de problèmes. L'objectif est d'identifier clairement les sous-systèmes et de les découper en problématiques simples. Cette analyse est primordial pour estimer les charges et les coûts au plus juste.
 
-* Les ressources des systèmes embarqués sont un peu limitées, On réalisera le développement du système de tel façon qui soit optimisé pour que cette limite ne soit pas un empêchement au bon fonctionnement du logiciel.
+Parmi les points problématiques et qui devront nécessiter une attention plus particulière :
 
-* En cas qu'un capteur fournit des valeurs incorrectes, le système embarqué pourra reconnaître l'erreur de cette valeur et le serveur central pourra indiquer des valeurs particulières, après on passe au changement de capteur.
+* Le développement des applicatifs sur le matériel embarqué. A chaque fois il s'agit de solution tout en un livré par des fournisseurs qui proposent bien souvent des toolkits spécifiques qu'il faut s'approprier et s'assurer de leur maitrise et de leur flexibilité par rapport aux besoins visés.
+* Côté site central, le développement applicatif sera conséquent et donc nécessitera un découpage en sous-projet. Un effort important devra être apporté pour garder une cohérence dans le développement et suivre une politique de réutilisation
+* La mise à l'échelle  devra être prouvée formellement afin de vérifier que les capacités du système soient suffisantes par rapport à un fonctionnement plein régime à travers l'Europe. 
+* Les consommations réelles des matériels embarqués devront être calculés précisément pour plus de précision dans leur autonomie
+* Ce projet étant un système complexe, composés de plusieurs sous-systèmes hétérogènes, il conviendra de préciser un plan d'action et des bonnes pratiques pour que l'intégration entre les composants se fassent avec peu d'effort
+* Le déploiement de la solution sur un site pilote devra être pensé au plus tôt pour effectuer les ajustements éventuels avant de passer à une systématisation des déploiement à travers l'Europe
 
-* Le système est soumis fortement aux contraintes et/ou catastrophe naturelles, il faudra alors qu'on passe au remplacement du système embarqué.
+Bilan
+#######
+
+Cette analyse technique nous permet de nous conforter dans la faisabilité d'un tel projet. Elle a permis de mettre en évidence que la solution cible permettra de satisfaire l'ensemble des besoins fonctionnels et non fonctionnels. Elle est de plus suffisante pour établir avec une assez bonne précision le périmètre du projet en termes de délais et de coûts. Enfin, cette approche technique a permis de mettre en évidence les sous-systèmes potentiels qui pourraient être extraits. Ces sous-systèmes sont à la fois un moyen d'aplanir et contrôler toute complexité relevée et un excellent point de départ de pour établir un découpage plus fin du projet dans son ensemble.
+
+
+
+
+
