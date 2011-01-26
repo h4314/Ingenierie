@@ -32,8 +32,10 @@ Portée, développement, mise en oeuvre, organisation de la maintenance
 	Les données sont extraites de la base de données au site central accédée également par d'autre applications. L'administration de cette base de données est centralisé. Le Logiciel est utilisable depuis le client Web. Le développement de l'interface Web doit respecter la norme commune prédéfinie pour la partie interface de toutes les sous-projets.
 
 Limites
---------
-	Le système fournit au début quelques indicateurs prédéfinis selon les besoins initiales. Mais dans le file de temps, c'est à utilisateur de choisir des données qui les intéressent avec l'expert métier et d'en définir plus. Il n'a aucune intelligence de prendre des décision à la place des utilisateurs.
+----------
+L'application va afficher les disponibilités des différentes convois mais c'est à l'utilisateur de choisir lequel va utiliser en dépendant de la distance et de la taille du convoi.
+
+Le logiciel permettra de réaliser zoom sur la carte mais ça dépend beaucoup de la carte graphique à utiliser.
 
 Exigences fonctionnelles
 ========================
