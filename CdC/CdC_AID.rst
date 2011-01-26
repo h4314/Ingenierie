@@ -22,15 +22,15 @@ Objectifs, principe du logiciel
 Formulation des besoins généraux
 ---------------------------------
 	Le programme permet de fournir une aide aux décisions prises par l'administrateur et superviseur du système au niveau opérationnel et stratégique.
-	Le superviseur a besoin d'assurer le bon fonctionnement du système grâce à l'utilisation du logiciel. Il souhaite pouvoi surveiller les sites en mettant en relation les données situées sur une certaine plage de temps.
+	Le superviseur a besoin d'assurer le bon fonctionnement du système grâce à l'utilisation du logiciel. Il souhaite pouvoir surveiller les sites en mettant en relation les données situées sur une certaine plage de temps.
 	L'administrateur du système a besoin de redimensionner et d'améliorer le système en continue. Pour cet objectif, il souhaite pouvoir comparer les sites entre eux au niveau d'efficacité, état de fonctionnement, coût etc.
 	Le logiciel doit leur permettre de réaliser ces opérations et doit être simple d'utilisation.
 
-Portée, développement, mise en oeuvre, organisation de la maintenance
+Portée, développement, mise en œuvre, organisation de la maintenance
 ---------------------------------------------------------------------
 	Les données sont hybergé dans la base de données au site central accédée également par d'autre applications. L'administration de cette base de données est centralisé.
 	Le programme est utilisable depuis le client Web. Le développement de l'interface Web doit respecter la norme commune prédéfinie pour la partie interface de toutes les sous-projets. 
-	Puisque offre aux utilisateur la possiblité de définir des indicateurs, le logiciel nécessite une maintenance particulière de manière continue assurée par un expert métier compétent en informatique afin d'étendre ses fonctionnalités et améliorer ceux existant.
+	Puisque offre aux utilisateur la possibilité de définir des indicateurs, le logiciel nécessite une maintenance particulière de manière continue assurée par un expert métier compétent en informatique afin d'étendre ses fonctionnalités et améliorer ceux existant.
 
 Limites
 --------
@@ -40,11 +40,11 @@ Exigences fonctionnelles
 ========================
 Fonctions de base, performances et aptitudes
 --------------------------------------------
-Les fonctionnalités générals du logiciel se découpent en plusieurs parties:
+Les fonctionnalités générales du logiciel se découpent en plusieurs parties:
  - L'expert métier crée des indicateurs en définissant le nom, les sources de données et la formule de calcul si nécessaire. ex. le niveau de liquide d'une cuve sur un an; le nombre d'interventions par station; 
  - On peut visualiser les valeurs de chaque indicateur dans les grilles de données.
  - On peut visualiser les graphiques ou les histogrammes de chaque indicateur
- - On peut générer un rapport personalisé contenant des tableaux de valeurs et des graphiques
+ - On peut générer un rapport personnalisé contenant des tableaux de valeurs et des graphiques
  
 Contraintes d'utilisation
 -------------------------
@@ -64,7 +64,7 @@ Contraintes imposées, faisabilité technologiques et éventuellement moyens
 =========================================================================
 Sûreté, planning, organisation, communication
 ----------------------------------------------
-	Dans un premier temps, une personne doit récolter des besoins auprès personnes conernées du COPEVUE. Plus précisément, quel sont les indicateurs qu'elles souhaitent au départ, quels sont les formats et les objets graphiques qu'elles préfèrent pour l'affichage.
+	Dans un premier temps, une personne doit récolter des besoins auprès personnes concernées du COPEVUE. Plus précisément, quel sont les indicateurs qu'elles souhaitent au départ, quels sont les formats et les objets graphiques qu'elles préfèrent pour l'affichage.
 	Ensuite une équipe devra s'occuper d'écrire les spécifications fonctionnelles du logiciel, en respectant la norme commune de l'interface web et de la base de données. 
 	Lorsque les spécifications seront terminées, on pourra aborder la phase de développement. Pendant ce temps, il faut communiquer avec les futurs utilisateurs régulièrement pour demander leur avis sur l'avancement du projet et si la solution développé leur convient. Quand il y a des nouveaux besoins, il faut modifier ou ajouter des fonctionnalités. On devra également présenter l'interface web aux futurs utilisateurs avant de l'intégrer au développement.
 	Après intégration, viendra la phase de test. Il faut assurer la connexion entre la base de données, le noyau applicatif et l'interface web. 
@@ -96,14 +96,14 @@ Interfaces
  - Gestion de l'indicateur : permet d'effectuer des opérations de création, MAJ et suppression des indicateurs
  - Affichage de valeurs dans les grilles :  permet d'afficher les valeurs des indicateurs sous forme de tableau
  - Affichage de graphiques ou histogrammes : permet d'afficher les graphiques ou les histogrammes
- - Génération de rapport : permet de consitituer et personnaliser un rapport 
+ - Génération de rapport : permet de constituer et personnaliser un rapport 
 	
 
 Guide de réponse au cahier des charges
 =======================================
 Grille d'évaluation
 --------------------
-Le logiciel pssède 4 fonctionnalités : gestion des indicateurs, affichage de valeurs, affichage de graphiques, génération de rapport
+Le logiciel possède 4 fonctionnalités : gestion des indicateurs, affichage de valeurs, affichage de graphiques, génération de rapport
 
 +------------------------+---------------------+----------------+
 | Fonction               | Priorité            | Complexité     |

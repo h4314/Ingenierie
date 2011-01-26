@@ -35,7 +35,7 @@ Description des blocs
 Site de contrôle
 ================
 
-Ce bloc peut être découpé découpé en plusieurs sous blocs, donc voici un rapide
+Ce bloc peut être découpé en plusieurs sous blocs, donc voici un rapide
 descriptif :
 
 Monitoring
