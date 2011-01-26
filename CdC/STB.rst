@@ -29,7 +29,7 @@ Un deuxième objectif se situe aux niveau de la des réductions de coûts indire
 FO-1 Monitoring à distance
 ==========================
 
-Un des enjeux majeur de ce nouveau système est sa capacité à surveiller à distance l'état des sites. Cette surveillance sera donc possible à partir du site central mais aussi via d'autres plateformes décentralisées que ce soit des postes fixes ou des appareils mobiles de type smartphone utile pour les opérationnels.
+Un des enjeux majeur de ce nouveau système est sa capacité à surveiller à distance l'état des sites. Cette surveillance sera donc possible à partir du site central mais aussi via d'autres plateformes décentralisées que ce soit des postes fixes ou des appareils mobiles de type smartphone utiles pour les opérationnels.
 
 FO-1-a Monitoring de l'état des cuves
 ``````````````````````````````````````
@@ -43,14 +43,14 @@ Les sites distants doivent informer le site central de toute anomalie encourue. 
 
  - un capteur ne fonctionne plus
  - un capteur renseigne des valeurs incohérentes
- - une cuve ne transmet plus d'informations au noeud maître
+ - une cuve ne transmet plus d'informations au nœud maître
 
 De plus le site central doit être capable de détecter une perte de communication avec un site distant.
 
 FO-1-c Localisation géographique
 ````````````````````````````````
 
-Les stations doivent être localisable géographiquement tout comme les cuves. La majorités des cuves étant immobiles, cette fonctionnalité sera facile à mettre en place. Cependant certaines cuves pourraient potentiellemnt être mobiles et ce cas devrait donc être pris en compte. 
+Les stations doivent être localisables géographiquement tout comme les cuves. La majorité des cuves étant immobiles, cette fonctionnalité sera facile à mettre en place. Cependant certaines cuves pourraient potentiellement être mobiles et ce cas devrait donc être pris en compte. 
 
 FO-2 Maintenance à distance
 ===========================
