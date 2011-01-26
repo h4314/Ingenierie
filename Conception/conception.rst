@@ -1,3 +1,10 @@
+=====================
+Dossier de conception
+=====================
+
+.. contents:: Sommaire
+.. sectnum::
+
 Introduction
 #############
 
@@ -21,12 +28,13 @@ Les prestataires sont les organisations ou entreprises chargées d'effectuer les
 Architecture globale détaillée 
 ################################
 
-_ TODO: insérer schéma complet + description détaillée _
+.. image:: images/architecture.png
+   :scale: 50%
+
++ description nécessaire ?
 
 Architecture matérielle
 ########################
-
-- TODO: manque de détails + rédaction _
 
 Site central
 ==============
@@ -36,12 +44,12 @@ Postes de travail
 
 L'équipe de téléopérateurs, estimée à 10 personnes, évoluera sur des postes de travail standards, ceux ci ne nécessitant finalement qu'un navigateur web compatible avec standard HTML5. Etant donné que la puissance de calcul et la totalité du stockage sont déportés du côté de l'infrastructure du serveur il ne sera pas nécessaire d'acheter des postes de travail performants. L'idée étant de limiter le coût de l'unité central. De plus l'accès au système étant indépendant du système d'exploitation, l'utilisation d'une plateforme libre comme Linux (Ubuntu ou autre distribution) est justifiée. Ces économies pourront en partie être utilisées pour offrir un maximum de confort aux téléopérateurs comme l'achat de deux écrans plats grand diamètre par poste, ce qui se révèle extrêmement adapté pour des tâches de monitoring.
 
-Il conviendra de mettre en place un réseau local regroupant ces postes afin d'une part de partager la connexion internet et d'utiliser ce réseau à des fins de partage de documents.
+Il conviendra de mettre en place un réseau local regroupant ces postes afin d'une part de partager la connexion internet et d'autre part d'utiliser ce réseau à des fins de partage de documents.
 
 Serveurs
 ---------
 
-Tout d'abord l'hébergement et la maintenance ces serveurs seront laissé à la charge d'un prestataire externe pour des raisons de coûts, de fiabilité, de sécurité et de haute disponibilité.
+Tout d'abord l'hébergement et la maintenance de ces serveurs seront laissés à la charge d'un prestataire externe pour des raisons de coûts, de fiabilité, de sécurité et de haute disponibilité.
 Des serveurs privées seront choisis afin de garder un contrôle total du système et de garantir des performances suffisantes dans les traitements. 
 
 Dans un souci d'extensibilité et de mise à l'échelle, l'architecture serveur pourra être découpée en plusieurs serveurs chacun dédié à une fonctionnalité : serveur web, serveur applicatif, serveur hébergeant la base de données, etc. Les performances pourront être améliorées grâce à la technique du load-balancing et donc exploiter la redondance.
@@ -52,17 +60,15 @@ Ces serveurs devront être suffisamment puissant suivant le nombre et le genre d
 
 Côté stockage, les serveurs devront avoir une capacité suffisante (qui reste à établir) pour stocker l'ensemble des données applicatives mais aussi les historiques d'opérations. Il faudra veiller à ce que le prestataire réplique ces données pour éviter toute perte, si possible sur un autre site géographique. 
 
-En cas de panne, le prestataire doit être en mesure de remettre en marche le système de manière fonctionnelle rapidement et le nombre de pannes doit être limité dans l'année (99,9% soit moins de 8,75 heures par an).
+En cas de panne, le prestataire doit être en mesure de remettre en marche le système de manière fonctionnelle rapidement et le nombre de pannes doit être limité dans l'année (99,9% de disponibilité préconisée, soit moins de 8,75 heures par an).
 
 Sites distants
 ===============
 
-_ TODO: a retravailler => reprendre les conclusions de l'étude de faisa _ 
-
 Capteurs
 ---------
 
-Chaque cuve sera équipé d'un ou plusieurs capteurs. Bien que générique, ce système ne considérera pour l'instant que la mise en place de capteur de niveau de liquide.
+Chaque cuve sera équipée d'un ou plusieurs capteurs. Bien que générique, ce système ne considérera pour l'instant que la mise en place de capteur de niveau de liquide.
 Le choix est porté vers un capteur peu cher, autonome et interfaçable avec le système embarqué de la cuve :  Capteur OTT RLS (75 dollars pièce).
 
 OTT RLS (Radar Level Sensor)
@@ -181,8 +187,6 @@ modèles hauts de gamme) :
 * Taille : 10cm*5cm*10cm
 * Consommation en communication : (< 200mA sous 14 Vdc)
 * Consommation au repos : (< 10mA sous 14 Vdc)
-
-L'utilisation du réseau UMTS ou 3G (qui utilise une partie du réseau GSM), bien qu'apportant une capacité de débit bien plus élevé, est écarté car son territoire de couverture reste très faible dans les zones reculées (ce type de réseau n'utilise pas les antennes BTS du réseau GSM). Ensuite, pour ce système, le débit offert par le réseau GPRS sera suffisant.
 
 Sources :
 
@@ -432,11 +436,11 @@ Mise à jour système
 Problématique sur la sécurité
 ##############################
 
-L'accès à l'application de monitoring se fera exclusivement via une interface web. Pour restreindre l'accès, les personnes habilitées à l'utiliser devront s'authentifier. De plus des rôles d'utilisateur seront mis en place pour limiter l'accès aux fonctionnalités uniquement (ex. certains téléopérateurs auront pour rôle la surveillance mais ne pourront pas accèder aux interfaces de mise à jour et configuration du site distant).
+L'accès à l'application de monitoring se fera exclusivement via une interface web. Pour restreindre l'accès, les personnes habilitées à l'utiliser devront s'authentifier. De plus des rôles d'utilisateur seront mis en place pour limiter l'accès aux fonctionnalités (ex. certains téléopérateurs auront pour rôle la surveillance mais ne pourront pas accéder aux interfaces de mise à jour et configuration du site distant). Les fonctionnalités hautement critiques (ex. commandement des sites distants) ne seront accessibles qu'à quelques responsables et/ou experts.
 
 Les données stockées seront protégées de tout piratage. Cette problématique est déportée du côté du prestataire choisi. Il en va de même sur l'intégrité des données, le prestataire garantira une absence de pertes de données. 
 
-Les communications longues distances seront cryptées par l'utilisation d'un canal sécurisé basé sur le protocole SSH. Le site central ne pourra donc pas recevoir de données autre que les sites distants ou d'utilisateurs identidiés. De la même manière aucune intrusion ne sera possible sur le réseau interne des stations distantes. Les communications seront cryptées par le système embarqué. On limitera ainsi les possibilités de piratage des sites distants qui pourraient avoir des conséquences graves.
+Les communications longues distances seront cryptées par l'utilisation d'un canal sécurisé basé sur le protocole SSH. Le site central ne pourra donc pas recevoir de données autre que provenant des sites distants ou d'utilisateurs identifiés. De la même manière aucune intrusion ne sera possible sur le réseau interne des stations distantes. Les communications seront cryptées par le système embarqué. On limitera ainsi les possibilités de piratage des sites distants ce qui pourrait avoir des conséquences graves.
 
 Problématique de mise à l'échelle
 ##################################
@@ -450,28 +454,24 @@ Les infrastructures matérielles seront capables de supporter à la fois les flu
 
 De plus côté site central, le serveur web d'agrégation des données sera suffisamment puissant pour traiter l'ensemble des requêtes. De plus il devra garantir une très haute disponibilité par la mise en place de système de réplication en cas de pannes. Concernant les données stockées, le système sera capable de stocker des données sur une échelle de temps d'au moins deux ans.
 
-Bien que prévu pour ces limites, le système pourra facilement être remis à l'échelle. D'une part l'ensemble de la conception est basé sur la généricité et l'indépendance par apport à son objectif métier. D'autre part les systèmes nécessitant la mise à l'échelle sont concentrées en certains points (serveur de base données, serveurs web, réplication, réseaux, etc.). L'intégration de nouveaux sites distants ou l'ajout de nouvelles cuves ou par extension tout autre système de surveillance se feront sans réels challenge techniques. Les connaissances acquises lors des projets de déploiement sur sites seront exploitées afin de faciliter la répétition de cette opération. 
+Bien que prévu pour ces limites, le système pourra facilement être remis à l'échelle. D'une part l'ensemble de la conception est basée sur la généricité et l'indépendance par rapport à son objectif métier. D'autre part les systèmes nécessitant la mise à l'échelle sont concentrées en certains points (serveur de base données, serveurs web, réplication, réseaux, etc.). L'intégration de nouveaux sites distants ou l'ajout de nouvelles cuves ou par extension tout autre système de surveillance se feront sans réels challenges techniques. Les connaissances acquises lors des projets de déploiement sur sites seront exploitées afin de faciliter la répétition de cette opération. 
 
 Analyse de la complexité
 ##########################
 
-L'architecture technique ayant était désormais détaillée il est important de mettre en avant les points qui devront être en priorité étudiés plus en profondeur car complexes et source de problèmes. L'objectif est d'identifier clairement les sous-systèmes et de les découper en problématiques simples. Cette analyse est primordial pour estimer les charges et les coûts au plus juste.
+L'architecture technique ayant était désormais détaillée il est important de mettre en avant les points qui devront être en priorité étudiés plus en profondeur car complexes et source de problèmes. L'objectif est d'identifier clairement les sous-systèmes et de les découper en problématiques simples. Cette analyse est primordiale pour estimer les charges et les coûts au plus juste.
 
 Parmi les points problématiques et qui devront nécessiter une attention plus particulière :
 
-* Le développement des applicatifs sur le matériel embarqué. A chaque fois il s'agit de solution tout en un livré par des fournisseurs qui proposent bien souvent des toolkits spécifiques qu'il faut s'approprier et s'assurer de leur maitrise et de leur flexibilité par rapport aux besoins visés.
-* Côté site central, le développement applicatif sera conséquent et donc nécessitera un découpage en sous-projet. Un effort important devra être apporté pour garder une cohérence dans le développement et suivre une politique de réutilisation
+* Le développement des applicatifs sur le matériel embarqué. A chaque fois il s'agit de solution packagée livrée par des fournisseurs qui proposent bien souvent des toolkits spécifiques qu'il faut s'approprier et s'assurer de leur maitrise et de leur flexibilité par rapport aux besoins visés.
+* Côté site central, le développement applicatif sera conséquent et donc nécessitera un découpage en sous-projets. Un effort important devra être apporté pour garder une cohérence dans le développement et suivre une politique de réutilisation de composants.
 * La mise à l'échelle  devra être prouvée formellement afin de vérifier que les capacités du système soient suffisantes par rapport à un fonctionnement plein régime à travers l'Europe. 
-* Les consommations réelles des matériels embarqués devront être calculés précisément pour plus de précision dans leur autonomie
-* Ce projet étant un système complexe, composés de plusieurs sous-systèmes hétérogènes, il conviendra de préciser un plan d'action et des bonnes pratiques pour que l'intégration entre les composants se fassent avec peu d'effort
-* Le déploiement de la solution sur un site pilote devra être pensé au plus tôt pour effectuer les ajustements éventuels avant de passer à une systématisation des déploiement à travers l'Europe
+* Les consommations réelles des matériels embarqués devront être calculés précisément pour plus de précision dans leur autonomie.
+* Ce projet étant un système complexe, composé de plusieurs sous-systèmes hétérogènes, il conviendra de préciser un plan d'action et des bonnes pratiques pour que l'intégration entre les composants se fassent avec peu d'efforts.
+* Le déploiement de la solution sur un site pilote devra être pensé au plus tôt pour effectuer les ajustements éventuels avant de passer à une systématisation des déploiement à travers l'Europe.
 
 Bilan
 #######
 
-Cette analyse technique nous permet de nous conforter dans la faisabilité d'un tel projet. Elle a permis de mettre en évidence que la solution cible permettra de satisfaire l'ensemble des besoins fonctionnels et non fonctionnels. Elle est de plus suffisante pour établir avec une assez bonne précision le périmètre du projet en termes de délais et de coûts. Enfin, cette approche technique a permis de mettre en évidence les sous-systèmes potentiels qui pourraient être extraits. Ces sous-systèmes sont à la fois un moyen d'aplanir et contrôler toute complexité relevée et un excellent point de départ de pour établir un découpage plus fin du projet dans son ensemble.
-
-
-
-
+Cette analyse technique nous permet de nous conforter dans la faisabilité d'un tel projet. Elle a permis de mettre en évidence que la solution cible permettra de satisfaire l'ensemble des besoins fonctionnels et non fonctionnels. Elle est de plus suffisante pour établir avec une assez bonne précision le périmètre du projet en termes de délais et de coûts. Enfin, cette approche technique a permis de mettre en évidence les sous-systèmes potentiels qui pourraient être extraits. Ces sous-systèmes sont à la fois un moyen d'aplanir et contrôler toute complexité relevée et un excellent point de départ de pour établir un découpage plus fin du projet dans sa globalité.
 

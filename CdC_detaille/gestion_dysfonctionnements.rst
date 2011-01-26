@@ -2,7 +2,8 @@
 Suivi temps réel, gestion des alarmes et des dysfonctionnements
 ===============================================================
 
-
+.. contents:: Sommaire
+.. sectnum::
 
 Présentation du document
 ========================
@@ -57,6 +58,7 @@ Fonctions de base, performances et aptitudes
 - Consulter le module de logistique pour déterminer quels camions sont les mieux placés pour gérer une panne.
 
 - Proposer une interface permettant d'affréter un transport.
+
 Contraintes d'utilisation
 -------------------------
 
