@@ -4,11 +4,6 @@ Gestion de la configuration
 La gestion de configuration sera supportée par les outils de gestion de
 versions utilisés à l'échelle du projet (*git* et *github*).
 
-Identification des articles de la configuration
------------------------------------------------
-
-TODO ?
-
 Maîtrise de la configuration
 ----------------------------
 
