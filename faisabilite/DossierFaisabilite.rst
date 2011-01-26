@@ -35,9 +35,11 @@ D'autres stations, considérées comme passives, sont à inclure :
 
 * stations de pompage
 * cuves 
+
   * liquide anti-incendie (fortement présentes dans les régions à haut risque comme la méditerranée)
   * carburant
   * déchets
+
 * ...
 
 La problématique réside ici en la capacité d'autonomie des stations isolées (en
@@ -114,14 +116,14 @@ contribuables) et un risque environnemental important, non contrôlé.
 
 Plusieurs facteurs sont sources de gaspillage financier :
 
- * La logistique. Il n'existe pas de planification globale et donc pas d'optimisation dans les livraisons/enlèvements de contenant et systématiquement un camion se retrouve avec un chargement nul sur un des trajets (l'aller ou le retour).
- * La surveillance. Celle-ci est effectuée par des opérationnels et est donc fortement coûteuse, en particulier lorsque l'on constate que la majorité des déplacements ne débouche sur aucune opération de maintenance. Il s'agit donc d'une monopolisation des ressources humaines pour une tâche sans réelle valeur ajoutée par rapport à ce qu'elles pourraient apporter.
- * Une surveillance non globale. L'éparpillement de la gestion de ces sites empêche de faire des économies d'échelles à de nombreux niveaux que ce soit au niveau de la surveillance ou bien dans la mise en commun des achats de contenant ou de services de transport.
+* La logistique. Il n'existe pas de planification globale et donc pas d'optimisation dans les livraisons/enlèvements de contenant et systématiquement un camion se retrouve avec un chargement nul sur un des trajets (l'aller ou le retour).
+* La surveillance. Celle-ci est effectuée par des opérationnels et est donc fortement coûteuse, en particulier lorsque l'on constate que la majorité des déplacements ne débouche sur aucune opération de maintenance. Il s'agit donc d'une monopolisation des ressources humaines pour une tâche sans réelle valeur ajoutée par rapport à ce qu'elles pourraient apporter.
+* Une surveillance non globale. L'éparpillement de la gestion de ces sites empêche de faire des économies d'échelles à de nombreux niveaux que ce soit au niveau de la surveillance ou bien dans la mise en commun des achats de contenant ou de services de transport.
 
-De nombreux points favorisent les risques environnementaux :
+e nombreux points favorisent les risques environnementaux :
 
- * Oublis. Le système reposant uniquement sur des ressources humaines, de nombreux oublis de ravitaillement de cuves ont été constatés. C'est totalement inacceptable pour des cuves stratégiques comme celles dédiées à la lutte contre les incendies.
- * Fuites. En plus d'être une perte financière, les fuites, suivant le contenant de la cuve, peuvent s'avérer très dangereuses d'un point de vue écologique. Le problème est que ces fuites sont constatées bien souvent trop tard du fait d'une surveillance manuelle, souvent fortement espacée dans le temps.
+* Oublis. Le système reposant uniquement sur des ressources humaines, de nombreux oublis de ravitaillement de cuves ont été constatés. C'est totalement inacceptable pour des cuves stratégiques comme celles dédiées à la lutte contre les incendies.
+* Fuites. En plus d'être une perte financière, les fuites, suivant le contenant de la cuve, peuvent s'avérer très dangereuses d'un point de vue écologique. Le problème est que ces fuites sont constatées bien souvent trop tard du fait d'une surveillance manuelle, souvent fortement espacée dans le temps.
 
 D'une manière générale, il manque une traçabilité des opérations effectuées par les divers acteurs et ne permet donc pas un monitoring global.
 
@@ -132,7 +134,7 @@ Synthèse sur les systèmes embarqués
 =====================================
 
 Solution 1 : Solution tout intégrée à base de chip Ember
-```````````````````````````````````````````````````````
+````````````````````````````````````````````````````````
 
 Ember est une société américaine créée en 2001, qui s'est spécialisée dans la
 production et la commercialisation de solutions ZigBee. Membre de la Zigbee
@@ -397,13 +399,16 @@ Problématique
 Cette étude a pour objectifs d'effectuer un état de l'art en termes de communication longue distance. En l'occurence, ici, il s'agit de trouver des solutions potentielles permettant de répondre à la question suivante : *comment s'effectuera la communication entre les sites distants et le site central de monitoring ?*
 
 Pour répondre à cette question, il convient dans un premier temps de rappeler les contraintes inhérentes :
- * le site central pourra être déployé (voir migré à tout moment) partout en Europe, et a fortiori n'importe où dans le monde.
- * les sites distants sont situés n'importe où en Europe, y compris les endroits les plus reculés et les moins bien desservis, que ce soit en terme de d'énergie, de télécommunications ou d'infrastructures routières.
- * la communication devra être fiable
-	* les informations ne doivent pas être perdues
-	* certaines stations critiques doivent inclure des capacités de reprise ou de capacité de redondance pour garder une disponibilité maximale
- * la communication doit être la moins coûteuse possible
- * le matériel devra supporter des conditions climatiques extrêmes
+
+* le site central pourra être déployé (voir migré à tout moment) partout en Europe, et a fortiori n'importe où dans le monde.
+* les sites distants sont situés n'importe où en Europe, y compris les endroits les plus reculés et les moins bien desservis, que ce soit en terme de d'énergie, de télécommunications ou d'infrastructures routières.
+* la communication devra être fiable
+
+  * les informations ne doivent pas être perdues
+  * certaines stations critiques doivent inclure des capacités de reprise ou de capacité de redondance pour garder une disponibilité maximale
+
+* la communication doit être la moins coûteuse possible
+* le matériel devra supporter des conditions climatiques extrêmes
 
 Dans un deuxième temps, les critères de sélection d'une solution se porteront également sur la teneur des communications : *quelles données seront amenées à circuler dans un sens, comme dans l'autre ?*
 
@@ -548,10 +553,11 @@ Localisation de la flotte des véhicules de ravitaillement
 Les véhicules, étant mobiles, pourraient être équipés de balise de suivi GPS. Celles-ci utilisent le réseau satellitaire pour déduire la position en temps réel des véhicules. La communication des coordonnées pourra être ensuite effectuée par le réseau GSM/GPRS, ce qui serait moins coûteux que de le faire transiter par le réseau satellitaire.
 
 Gestion des dispositifs géo-localisés depuis le site central
-```````````````````````````````````````````````````````````
+````````````````````````````````````````````````````````````
 
 Côté site central les positions des dispositifs pourraient être présentées et traitées de différentes manières.
 En exemples seront données des solutions reposant sur des données libres, des protocoles standards et des technologies open source, donc potentiellement gratuites à l'acquisition et totalement interopérable avec d'autres systèmes :
+
 * Une base de données spatiale. Exemple : PostgreSQL/PostGIS
 * Des données géographiques à l'échelle européenne. Exemple : données libres d'Open Street Map
 * Un serveur cartographique. Exemple : GeoServer ou MapServer
@@ -586,7 +592,7 @@ matérielles et les capacités du système. Parmi ces choix nous pouvons citer :
    * capteurs : capteur OTT RLS
 
 * Communication entre le site central et les sites distants : utilisation du réseau GSM/GPRS
-* Solution de réseau local : Solution intégrée Ember, réseau ZigBee maillé, et communication vers un centre du réseau local. Capteur sur chaque noeud ZigBee.
+* Solution de réseau local : Solution intégrée Ember, réseau ZigBee maillé, et communication vers un centre du réseau local. Capteur sur chaque nœud ZigBee.
 
 A partir de l'étude du fonctionnement actuel et de ses dysfonctionnements, mais aussi de l'étude de faisabilité technique de la mise en place d'une solution informatisée, deux grands axes d'améliorations peuvent êtres dégagés :
 
