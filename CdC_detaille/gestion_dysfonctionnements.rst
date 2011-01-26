@@ -23,7 +23,7 @@ Ce module est étroitement lié à celui d'aide à la décision puisque que ce s
 Formulation des besoins généraux
 ---------------------------------
 
-
+Suivre le fonctionnement des installations en temps réel. Réagir aux alarmes et détecter les dysfonctionnements.
 
 Portée, développement, mise en oeuvre, organisation de la maintenance
 ---------------------------------------------------------------------
