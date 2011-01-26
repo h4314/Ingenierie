@@ -5,12 +5,9 @@ Cahier des charges détaillé du sous-projet "Logistique"
 Introduction
 =============
 Présentation du projet 
-----------------------
-	Le COPEVUE souhaite étudier un système de surveillance à distance de sites isolés ou difficilement accessibles pour des raisons géographiques ou climatiques qui permettrait de surveiller des objets critiques sans avoir besoin de l'intervention humaine. Actuellement la surveillance de ces lieux est assurée par le propriétaire du lieu de travail qui en fonction du niveau du liquide qu'il constate, il appelle aux responsables de la société chargée de s'occuper du réservoir pour qu'ils viennent à la remplir en envoyant des camions.
+-------------------------------
+Ce projet a pour but de réaliser la meilleur gestion des convois à utiliser pour traiter les différentes besoins et sauvegarder la trace de tout le procès.
 	
-	Ce système pourrait aussi bien être utilisé pour la prévention des incendies ou le contrôle et la surveillance d'un parc de réservoirs en Norvège. La solution à mettre en place devra faire preuve d'autonomie et de robustesse. 
-	
-
 Présentation du document
 ------------------------
 	Ce document est un cahier des charges détaillé, ses fonctionnalités répondront aux exigences fonctionnelles et non fonctionnelles émises par le client. Il sera important de indiquer les éléments du logiciel qui répondront aux exigences. Il ne faut pas oublier que le cahier des charges a une valeur contractuelle et que l'on s'engage à réaliser ce que l'on décrit.
