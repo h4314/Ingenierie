@@ -50,15 +50,14 @@ Fonctions de base, performances et aptitudes
 
 Contraintes d'utilisation
 ---------------------------------
-	Le système de surveillance de sites peut être utilisé dans de nombreuses situations: surveillance de réservoirs, détection d'incendies, etc.
-	Ainsi, le nombre d'utilisateurs potentiel du système peut varier fortement. Le sous-système Logistique devra être toujours réactif et utilisable avec autant d'utilisateurs connectés. On peut considerer le logiciel utilisable et réactif s'il prends moins de 5 secondes pour charger une page.
-
-	Le sous-système de Logistique sera une des applications les plus ergonomiques du système. En effet, les utilisateurs seront guidés dans les différentes étapes du traitement de la logistique, notamment la mise en place d'un convoi. 
 	
+- Ce logiciel n'est utilisable que par le Responsable Logistique.
+- L'application ne permet pas de traiter plusieurs convois au même temps, par contre elle peut afficher les donnes de tous les convois.
 
-Flexibilité, variation de coût associé
---------------------------------------
-	Dans un soucis de réduction des coûts de transport, on cherchera à optimiser les déplacements des convois. Ainsi, un convoi sortira rarement du parking pour effectuer une mission sur un seul site. En général, il sortira pour certaines missions sur des sites différents. 
+
+Flexibilité
+--------------
+Le sous-système de Logistique sera une des applications les plus flexives du système. En effet, les utilisateurs seront guidés dans les différentes étapes du traitement de la logistique, notamment la mise en place d'un convoi.
 
 
 Contraintes imposées, faisabilité technologiques et éventuellement moyens
