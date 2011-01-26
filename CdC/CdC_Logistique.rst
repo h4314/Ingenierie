@@ -6,7 +6,7 @@ Introduction
 =============
 Présentation du projet 
 -------------------------------
-Ce projet a pour but de réaliser la meilleur gestion des convois à utiliser pour traiter les différentes besoins et sauvegarder la trace de tout le procès.
+        Ce projet a pour but de réaliser la meilleur gestion des convois à utiliser pour traiter les différentes besoins et sauvegarder la trace de tout le procès.
 	
 Présentation du document
 ------------------------
@@ -32,14 +32,15 @@ Portée, développement, mise en oeuvre, organisation de la maintenance
 	Les données sont extraites de la base de données au site central accédée également par d'autre applications. L'administration de cette base de données est centralisé. Le Logiciel est utilisable depuis le client Web. Le développement de l'interface Web doit respecter la norme commune prédéfinie pour la partie interface de toutes les sous-projets.
 
 Limites
---------
-	Le système fournit au début quelques indicateurs prédéfinis selon les besoins initiales. Mais dans le file de temps, c'est à utilisateur de choisir des données qui les intéressent avec l'expert métier et d'en définir plus. Il n'a aucune intelligence de prendre des décision à la place des utilisateurs.
+----------
+ - L'application va afficher les disponibilités des différentes convois mais c'est à l'utilisateur de choisir lequel va utiliser en dépendant de la distance et de la taille du convoi.
+ - L'application ne permet pas de traiter plusieurs convois au même temps, par contre elle peut afficher les donnes de tous les convois.
+ - Le logiciel permettra de réaliser zoom sur la carte mais seulement dans les sites proches.
 
 Exigences fonctionnelles
 ========================
 Fonctions de base, performances et aptitudes
 ------------------------------------------------------------------
-	- Le sous-système GPRS reçoit les différentes alarmes et les transmet au sous-système de Logistique qui va les analyser avant de les stocker.
 	- Lorsqu'un convoi est mis en place suite à une alarme, cette alarme passe dans le statut "en cours", après passera dans l'état "résolue" et n'apparaitra plus dans la liste des alarmes "non résolues".
         - Consulter les convois qui sont actuellement en mission et consulter les différents informations les concernant. 
 	- La consultation du trajet devra se faire sur une carte. 
@@ -48,15 +49,13 @@ Fonctions de base, performances et aptitudes
 
 Contraintes d'utilisation
 ---------------------------------
-	Le système de surveillance de sites peut être utilisé dans de nombreuses situations: surveillance de réservoirs, détection d'incendies, etc.
-	Ainsi, le nombre d'utilisateurs potentiel du système peut varier fortement. Le sous-système Logistique devra être toujours réactif et utilisable avec autant d'utilisateurs connectés. On peut considerer le logiciel utilisable et réactif s'il prends moins de 5 secondes pour charger une page.
-
-	Le sous-système de Logistique sera une des applications les plus ergonomiques du système. En effet, les utilisateurs seront guidés dans les différentes étapes du traitement de la logistique, notamment la mise en place d'un convoi. 
 	
+- Ce logiciel n'est utilisable que par le Responsable Logistique.
 
-Flexibilité, variation de coût associé
---------------------------------------
-	Dans un soucis de réduction des coûts de transport, on cherchera à optimiser les déplacements des convois. Ainsi, un convoi sortira rarement du parking pour effectuer une mission sur un seul site. En général, il sortira pour certaines missions sur des sites différents. 
+
+Flexibilité
+--------------
+Le sous-système de Logistique sera une des applications les plus flexives du système. En effet, les utilisateurs seront guidés dans les différentes étapes du traitement de la logistique, notamment la mise en place d'un convoi.
 
 
 Contraintes imposées, faisabilité technologiques et éventuellement moyens
