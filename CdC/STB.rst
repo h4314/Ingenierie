@@ -55,14 +55,14 @@ Les stations doivent être localisables géographiquement tout comme les cuves. 
 FO-2 Maintenance à distance
 ===========================
 
-La partie logicielle doit pouvoir être maintenu depuis le site central, c'est à dire qu'il ne sera pas nécessaire d'envoyer du personnel pour effectuer une mise à jour du logiciel, le paramétrer ou bien pour analyser son fonctionnement.
+La partie logicielle doit pouvoir être maintenue depuis le site central, c'est à dire qu'il ne sera pas nécessaire d'envoyer du personnel pour effectuer une mise à jour du logiciel, le paramétrer ou bien pour analyser son fonctionnement.
 
-Concernant la partie matérielle, bien qu'impossible d'être maintenue à distance, elle doit comporter des mécanismes d'alarmes et d'indicateurs qui peuvent maintenir informé le site central de toute anomalie encourue ou bien lorsque des problèmes peuvent être anticipés (exemple : niveau de batterie faible).
+Concernant la partie matérielle, bien qu'impossible d'être maintenue à distance, elle doit comporter des mécanismes d'alarmes et d'indicateurs qui peuvent tenir le site central informé de toute anomalie encourue ou bien lorsque des problèmes peuvent être anticipés (exemple : niveau de batterie faible).
 
 FO-3 Maintenance sur site
 =========================
 
-Chaque site doit posséder des moyens de connexion au système pour qu'un opérationnel puisse monitorer le fonctionnement sur place. Il pourra à la fois lire les informations circulant sur le réseau interne (données des capteurs, état des cuves, état du réseau, etc.) et effectuer des opérations de maintenance : relance du système, paramétrage, mise à jour logicielle ou maintenance matérielle. Dans ce dernier cas il convient de rendre le matériel facilement accessible.
+Chaque site doit posséder des moyens de connexion au système pour qu'un opérationnel puisse diriger le fonctionnement sur place. Il pourra à la fois lire les informations circulant sur le réseau interne (données des capteurs, état des cuves, état du réseau, etc.) et effectuer des opérations de maintenance : relance du système, paramétrage, mise à jour logicielle ou maintenance matérielle. Dans ce dernier cas il convient de rendre le matériel facilement accessible.
 
 FO-4 Traitements sur site central
 =================================
