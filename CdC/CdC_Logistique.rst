@@ -25,11 +25,10 @@ Objectifs, principe du logiciel
 	Le sous-système Logistique occupe une place vraiment importante dans notre solution, en offrant la possibilité d'optimiser les convois de camions.
 
 Formulation des besoins généraux
----------------------------------
-	- Consulter les convois qui sont actuellement en mission et consulter les différents informations les concernant. 
-	- La consultation du trajet devra se faire sur une carte. 
-	- Lancer un ordre de mission: choisir le camion, son trajet, les tâches a effectuer sur chaque sites et le personnel qui a besoin.
-	- Il doit être possible de consulter un inventaire des ressources disponibles: nombre de camion, chauffeurs, techniciens,... 
+-------------------------------------------------
+ - Proposer les différentes convois prêt pour traiter les besoins
+ - Permettre au module de gestion des alarmes savoir quels camions sont les mieux placés.
+ - Proposer une interface permettant de voir la trace de tous les camions.
 
 Portée, développement, mise en oeuvre, organisation de la maintenance
 ---------------------------------------------------------------------
@@ -43,7 +42,6 @@ Exigences fonctionnelles
 ========================
 Fonctions de base, performances et aptitudes
 ------------------------------------------------------------------
-	- Les systèmes embarqués lèvent un certain nombre d'alarmes : pannes matérielles, dépassement d'un seuil, etc.
 	- Le sous-système GPRS reçoit les différentes alarmes et les transmet au sous-système de Logistique qui va les analyser avant de les stocker.
 	- Lorsqu'un convoi est mis en place suite à une alarme, cette alarme passe dans le statut "en cours", après passera dans l'état "résolue" et n'apparaitra plus dans la liste des alarmes "non résolues".
         - Consulter les convois qui sont actuellement en mission et consulter les différents informations les concernant. 
