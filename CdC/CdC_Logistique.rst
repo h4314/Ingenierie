@@ -17,7 +17,7 @@ Présentation du problème
 ========================
 Objectifs, principe du logiciel
 --------------------------------
-	Le sous-système de Logistique s'occupe de traiter les alarmes envoyées par le système embarqué. Il met à disposition les outils permettant de planifier les convois de camions (trajet, destinations, personnel, matériel, etc). Il communique avec les sites embarqués via le module GPRS qui se charge de transmettre les données entre les deux systèmes et interagit avec la base de données pour consulter et stocker des données.
+	Le sous-système de Logistique s'occupe principalement de répondre et traiter aux besoins du sous-système Monitoring. Il met à disposition les outils permettant de planifier les convois de camions (trajet, destinations, personnel, matériel, etc). Il va aussi se communiquer avec les sites embarqués via le module GPRS qui se charge de transmettre les données entre les deux systèmes et interagit avec la base de données pour consulter et stocker des données.
 	
 	Le sous-système Logistique occupe une place vraiment importante dans notre solution, en offrant la possibilité d'optimiser les convois de camions.
 
