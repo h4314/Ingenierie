@@ -359,8 +359,9 @@ réduite et son design bien réfléchi font de ce produit une alternative écono
 pratique et fiable aux appareils de mesure de hauteur d'eau classiques.
 
 Reférences :
-    http://www.hydrolab.com/web/ott_hach.nsf/id/pa_radar_level_sensor.html
-    http://www.ottfrance.com/web/ott_fr.nsf/id/pa_rls_fr.html
+
+- http://www.hydrolab.com/web/ott_hach.nsf/id/pa_radar_level_sensor.html
+- http://www.ottfrance.com/web/ott_fr.nsf/id/pa_rls_fr.html
 
 Solution 2 : Capteur VEGAPULS 62 
 ````````````````````````````````
@@ -379,8 +380,7 @@ de stockage et les réservoirs, également à une température de -200 °C à +4
 Grâce à la technologie radar, le capteur de niveau mesure le niveau des liquides
 sans contact et fournit en continu des valeurs de mesure très précises.
 
-Référence: 
-    http://www.vega.com/fr/Mesure_de_niveau_Radar_VEGAPULS62.htm
+Référence: http://www.vega.com/fr/Mesure_de_niveau_Radar_VEGAPULS62.htm
 
 Conclusion
 ```````````

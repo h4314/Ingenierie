@@ -17,7 +17,7 @@ Présentation du problème
 ========================
 Objectifs, principe du logiciel
 --------------------------------
-	Le sous-système de Logistique s'occupe de traiter les alarmes envoyées par le système embarqué. Il met à disposition les outils permettant de planifier les convois de camions (trajet, destinations, personnel, matériel, etc). Il communique avec les sites embarqués via le module GPRS qui se charge de transmettre les données entre les deux systèmes et interagit avec la base de données pour consulter et stocker des données.
+	Le sous-système de Logistique s'occupe principalement de répondre et traiter aux besoins du sous-système Monitoring. Il met à disposition les outils permettant de planifier les convois de camions (trajet, destinations, personnel, matériel, etc). Il va aussi se communiquer avec les sites embarqués via le module GPRS qui se charge de transmettre les données entre les deux systèmes et interagit avec la base de données pour consulter et stocker des données.
 	
 	Le sous-système Logistique occupe une place vraiment importante dans notre solution, en offrant la possibilité d'optimiser les convois de camions.
 
@@ -32,8 +32,10 @@ Portée, développement, mise en oeuvre, organisation de la maintenance
 	Les données sont extraites de la base de données au site central accédée également par d'autre applications. L'administration de cette base de données est centralisé. Le Logiciel est utilisable depuis le client Web. Le développement de l'interface Web doit respecter la norme commune prédéfinie pour la partie interface de toutes les sous-projets.
 
 Limites
---------
-	Le système fournit au début quelques indicateurs prédéfinis selon les besoins initiales. Mais dans le file de temps, c'est à utilisateur de choisir des données qui les intéressent avec l'expert métier et d'en définir plus. Il n'a aucune intelligence de prendre des décision à la place des utilisateurs.
+----------
+L'application va afficher les disponibilités des différentes convois mais c'est à l'utilisateur de choisir lequel va utiliser en dépendant de la distance et de la taille du convoi.
+
+Le logiciel permettra de réaliser zoom sur la carte mais ça dépend beaucoup de la carte graphique à utiliser.
 
 Exigences fonctionnelles
 ========================
@@ -48,15 +50,14 @@ Fonctions de base, performances et aptitudes
 
 Contraintes d'utilisation
 ---------------------------------
-	Le système de surveillance de sites peut être utilisé dans de nombreuses situations: surveillance de réservoirs, détection d'incendies, etc.
-	Ainsi, le nombre d'utilisateurs potentiel du système peut varier fortement. Le sous-système Logistique devra être toujours réactif et utilisable avec autant d'utilisateurs connectés. On peut considerer le logiciel utilisable et réactif s'il prends moins de 5 secondes pour charger une page.
-
-	Le sous-système de Logistique sera une des applications les plus ergonomiques du système. En effet, les utilisateurs seront guidés dans les différentes étapes du traitement de la logistique, notamment la mise en place d'un convoi. 
 	
+- Ce logiciel n'est utilisable que par le Responsable Logistique.
+- L'application ne permet pas de traiter plusieurs convois au même temps, par contre elle peut afficher les donnes de tous les convois.
 
-Flexibilité, variation de coût associé
---------------------------------------
-	Dans un soucis de réduction des coûts de transport, on cherchera à optimiser les déplacements des convois. Ainsi, un convoi sortira rarement du parking pour effectuer une mission sur un seul site. En général, il sortira pour certaines missions sur des sites différents. 
+
+Flexibilité
+--------------
+Le sous-système de Logistique sera une des applications les plus flexives du système. En effet, les utilisateurs seront guidés dans les différentes étapes du traitement de la logistique, notamment la mise en place d'un convoi.
 
 
 Contraintes imposées, faisabilité technologiques et éventuellement moyens
