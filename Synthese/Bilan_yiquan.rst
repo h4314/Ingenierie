@@ -9,4 +9,6 @@ Pendant la premi¨¨re phase du projet, j'ai ¨¦tudi¨¦ la production d'¨¦nergie du 
 
 La deuxi¨¨me phase est d¨¦di¨¦ ¨¤ la conception du syst¨¨me et les cahiers des charges de sous-syst¨¨mes. Personnellement, j'ai fait la conception de l'architecture applicative et le cahier des charges de sous-syst¨¨me "aide ¨¤ la d¨¦cision". Notre r¨¦partition de taches ¨¦tait tr¨¨s claire qui nous a permis de consacrer plus de temps sur la r¨¦daction.
 
-En conclusion, je trouve que nous avons bien suivi le planning du projet. On a quasiment pas eu de retard jusqu'avant la derni¨¨re sc¨¦ance. Seul les cahiers de charges d¨¦taill¨¦s des sous-projets nous ont pris un peu plus de temps. De mon cot¨¦, j'ai essay¨¦ de bien avanc¨¦ durant chaque sc¨¦ance. Du coup, j'ai pas pass¨¦ beaucoup d'heure hors sc¨¦ance en tant que GEI. De plus, les outils de travail collaboratif et pour la gestion de projet Redmine et Git n outil, ¨¤ la fois simple d'utilisation et complet.
+Dans ce projet, le sujet est int¨¦ressant. Mais la r¨¦daction des documents est un peu lourde.
+
+En conclusion, je trouve que nous avons bien suivi le planning du projet. On a quasiment pas eu de retard jusqu'avant la derni¨¨re sc¨¦ance. Seul les cahiers de charges d¨¦taill¨¦s des sous-projets nous ont pris un peu plus de temps. Le temps qu'on a pass¨¦ hors sc¨¦ance est relativement moins par rapport aux autre projets en tant que GEI.
