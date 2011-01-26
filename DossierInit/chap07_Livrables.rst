@@ -14,9 +14,16 @@ Le chef de projet devra produire les documents suivants :
 Responsable Qualité
 -------------------
 
+
+ * Document de gestion de la documentation
+
  * La procédure de rédaction d'un Cahier des charges (Best Practices)
 
- TODO
+ * La procédure de rédaction d'une procédure (Best Practices)
+
+ * Plan d'assurance de la qualité du projet (Draft 1)
+
+ * Dossier de synthèse
 
 Groupe d'Étude Informatique
 ---------------------------
