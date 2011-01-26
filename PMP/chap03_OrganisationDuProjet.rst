@@ -90,7 +90,9 @@ L'équipe est composée de deux personnes.
 Schéma récapitulatif
 ~~~~~~~~~~~~~~~~~~~~
 
-TODO ajouter schéma
+.. image:: orga-projet.png
+   :scale: 100%
+   :align: center
 
 La maîtrise d'ouvrage interviendra lors des commités de pilotage et validation
 du projet aurpès des directeur et chef de projet ou de l'architecte technique.

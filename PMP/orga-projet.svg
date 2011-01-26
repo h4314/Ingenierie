@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="31cm" height="19cm" viewBox="1 41 615 365" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="229" y="42" width="141" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="229" y="42" width="141" height="38"/>
+  </g>
+  <text style="fill: #000000;text-anchor:middle;font-size:12.8;font-family:sanserif;font-style:normal;font-weight:normal" x="299.5" y="65.425">
+    <tspan x="299.5" y="65.425">Directeur de projet</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="229.7" y="141.5" width="141" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="229.7" y="141.5" width="141" height="38"/>
+  </g>
+  <text style="fill: #000000;text-anchor:middle;font-size:12.8;font-family:sanserif;font-style:normal;font-weight:normal" x="300.2" y="164.925">
+    <tspan x="300.2" y="164.925">Chef de projet</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="129.4" y="241" width="141" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="129.4" y="241" width="141" height="38"/>
+  </g>
+  <text style="fill: #000000;text-anchor:middle;font-size:12.8;font-family:sanserif;font-style:normal;font-weight:normal" x="199.9" y="264.425">
+    <tspan x="199.9" y="264.425">Responsable Qualité</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="329.7" y="239.5" width="141" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="329.7" y="239.5" width="141" height="38"/>
+  </g>
+  <text style="fill: #000000;text-anchor:middle;font-size:12.8;font-family:sanserif;font-style:normal;font-weight:normal" x="400.2" y="262.925">
+    <tspan x="400.2" y="262.925">Architecte technique</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="2.7" y="366.5" width="141" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2.7" y="366.5" width="141" height="38"/>
+  </g>
+  <text style="fill: #000000;text-anchor:middle;font-size:12.8;font-family:sanserif;font-style:normal;font-weight:normal" x="73.2" y="389.925">
+    <tspan x="73.2" y="389.925">Architecte technique</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="157.4" y="367" width="141" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="157.4" y="367" width="141" height="38"/>
+  </g>
+  <text style="fill: #000000;text-anchor:middle;font-size:12.8;font-family:sanserif;font-style:normal;font-weight:normal" x="227.9" y="390.425">
+    <tspan x="227.9" y="390.425">Architecte technique</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="315.1" y="366.5" width="141" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="315.1" y="366.5" width="141" height="38"/>
+  </g>
+  <text style="fill: #000000;text-anchor:middle;font-size:12.8;font-family:sanserif;font-style:normal;font-weight:normal" x="385.6" y="389.925">
+    <tspan x="385.6" y="389.925">Architecte technique</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="473.8" y="366" width="141" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="473.8" y="366" width="141" height="38"/>
+  </g>
+  <text style="fill: #000000;text-anchor:middle;font-size:12.8;font-family:sanserif;font-style:normal;font-weight:normal" x="544.3" y="389.425">
+    <tspan x="544.3" y="389.425">Architecte technique</tspan>
+  </text>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="73.2,365.49 73.2,321.495 400.2,321.495 400.2,281.972 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="405.2,289.736 400.2,279.736 395.2,289.736 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="227.9,367 227.9,321 400.2,321 400.2,281.972 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="405.2,289.736 400.2,279.736 395.2,289.736 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="544.3,366 544.3,321 400.2,321 400.2,282.748 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="405.2,290.511 400.2,280.511 395.2,290.511 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="385.6,366.5 385.6,321 400.2,321 400.2,282.748 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="405.2,290.511 400.2,280.511 395.2,290.511 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="400.2,239.5 400.2,209.5 300.2,209.5 300.2,183.972 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="305.2,191.736 300.2,181.736 295.2,191.736 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="199.9,241 199.9,210.25 300.2,210.25 300.2,183.972 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="305.2,191.736 300.2,181.736 295.2,191.736 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="300.2" y1="141.5" x2="299.551" y2="84.4718"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="304.639,92.1784 299.525,82.2359 294.64,92.2922 "/>
+  </g>
+</svg>

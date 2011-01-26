@@ -101,6 +101,7 @@ Approche organisationnelle/fonctionnelle :
       * Mise à l'échelle
 
 Approche produit :
+~~~~~~~~~~~~~~~~~~
 
   * Système Embarqué de mesure
 
@@ -216,7 +217,8 @@ Approche produit :
 
         * Aide à la décision
 
+
 Planning prévisionnel
 =====================
 
-TODO ?
+Schéma et cie

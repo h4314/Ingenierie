@@ -9,4 +9,5 @@ TODO depuis redmine
 Digramme de Gantt
 =================
 
-TODO depuis redmine
+.. image:: gantt.png
+   :scale: 100%

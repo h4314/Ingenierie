@@ -17,9 +17,11 @@ l'Europe. Ce projet sera réalisé par une équipe pluri-compétente, qui devra
 maîtriser plusieurs disciplines :
 
   * l'électronique et de l'architecture de systèmes embarqués,
+
   * la programmation informatique dans les domaines du système embarqué, la
     gestion de l'information, la réalisation d'applications à destination
     d'utilisateurs finaux avec IHM sur client léger (web),
+
   * les réseaux et télécoms, et plus particulièrement les réseaux sans fils et
     mobiles.
 
@@ -27,9 +29,11 @@ Le projet intègre trois composantes majeures :
 
   * un système électronique indépendant capable d'effectuer des mesures dans
     des cuves de liquide réparties sur un site et ses composants logiciels,
+
   * un système central de collecte et de manipulation des données capable de
     collecter les données mesurées sur les sites, essentiellement constitué de
     briques logicielles.
+
   * les outils de communication entre le site central et les sites industriels
     distants.
 
@@ -39,7 +43,9 @@ ne pouvons en effet pas prévoir les outils qui devront être développés pour
 traiter les données collectées.
 
 Le périmètre du projet admet les limites suivantes :
+
   * la mise en place d'une infrastructure matérielle pour le système central,
     qui sera à la charge de COPÉVUE ou des prestataires de son choix,
+
   * le traitement d'autres données que celles émises par les capteurs des
     cuves.
