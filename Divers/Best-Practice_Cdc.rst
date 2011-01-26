@@ -1,6 +1,12 @@
-======================================================
+=======================================================
 Bonne Pratique: Rédaction d'un Cahier des Charges (CdC)
-======================================================
+=======================================================
+
+.. contents:: Sommaire
+.. sectnum::
+
+Présentation du document
+------------------------
 
 *Contexte d'application de ce document*: rédaction d'un CdC pour un/ou des sous-ensembles logiciels.
 
@@ -17,7 +23,7 @@ Définition générale d'un CdC
 Définition Cdc pour un produit logiciel:
 	Le CdC doit répondre à la question "Que doit faire le logiciel?".
 
-Remarque: Pour réaliser le CdC d'un sous-ensemble logiciel, il est important de connaître le système dans sa globalité pour savoir et comprendre dans quel contexte le logiciel va s'inscrire. Il est important d'être cohérent avec les autres sous systèmes du projet, et pour cela il faudra être particulèrement attentif aux interactions et aux échanges impliqués.
+Remarque: Pour réaliser le CdC d'un sous-ensemble logiciel, il est important de connaître le système dans sa globalité pour savoir et comprendre dans quel contexte le logiciel va s'inscrire. Il est important d'être cohérent avec les autres sous systèmes du projet, et pour cela il faudra être particulièrement attentif aux interactions et aux échanges impliqués.
 
 * Objectifs du CdC:
 
@@ -44,7 +50,7 @@ réf: (Rappeler la référence de l'appel d'offre concernée)
 #. Présentation du problème
 	#. Objectifs, principe du logiciel
 	#. Formulation des besoins (généraux)
-	#. Portée, développement, mise en oeuvre, organisation de la maintenance
+	#. Portée, développement, mise en œuvre, organisation de la maintenance
 	#. Limites
 #. Exigences fonctionnelles
 	#. Fonctions de base, performances et aptitudes

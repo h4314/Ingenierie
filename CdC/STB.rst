@@ -1,6 +1,8 @@
-====================================
+=====================================
 Spécifications Techniques des Besoins
-====================================
+=====================================
+
+.. contents:: Sommaire
 
 
 1. Axes d'amélioration
@@ -97,7 +99,9 @@ Les interventions doivent être localisables en temps réel : il est possible de
 FO-4-d Aide à la décision
 ```````````````````````````
 
-L'objectif, ici, est d'utiliser les connaissances accumulées depuis la mise en service du système afin d'améliorer son efficacité : accroissement de la qualité de service et réduction des coûts. Il s'agit donc de générer des statistiques globales, par sites et par cuves sur lesquelles les opérationnelles pourront se baser pour prendre des décisions. Mais il s'agit d'aller plus loin : proposer aux opérationnels des axes d'améliorations en mettant en relief les dysfonctionnements, les goulets d'étranglement ainsi que des moyens d'anticiper les problèmes.
+L'objectif, ici, est d'utiliser les connaissances accumulées depuis la mise en service du système afin d'améliorer son efficacité : accroissement de la qualité de service et réduction des coûts.
+
+Il s'agit donc de générer des statistiques globales, par sites et par cuves sur lesquelles les opérationnelles pourront se baser pour prendre des décisions. Mais il s'agit d'aller plus loin : proposer aux opérationnels des axes d'améliorations en mettant en relief les dysfonctionnements, les goulets d'étranglement ainsi que des moyens d'anticiper les problèmes.
 
 FO-5 Traitements sur station
 ============================
@@ -115,17 +119,17 @@ Les données relevées sur par les capteurs doivent être uniformisées sous un 
 FO-5-c Circulation de l'information sur le réseau interne
 `````````````````````````````````````````````````````````
 
-Les données des noeuds esclaves doivent circuler de noeud en noeud jusqu'au noeud maître.
+Les données des nœuds esclaves doivent circuler de nœud en nœud jusqu'au nœud maître.
 
 FO-5-d Communication de l'information vers le site central
 ```````````````````````````````````````````````````````````
 
-Le noeud maître se chargera de transformer puis communiquer les données de l'ensemble des cuves de la station au site central.
+Le nœud maître se chargera de transformer puis communiquer les données de l'ensemble des cuves de la station au site central.
 
 FO-5-e Optimisation de la gestion de l'énergie
 ```````````````````````````````````````````````
 
-Chaque élément du site distant : capteur, noeud esclave et maître devront comprendre des moyens d'optimisation de l'énergie : mise en veille provisoire, etc.
+Chaque élément du site distant (capteur, nœud esclave et maître) devront comprendre des moyens d'optimisation de l'énergie : mise en veille provisoire, etc.
 
 
 FO-6 Traçabilité
@@ -147,33 +151,45 @@ Lot 1 - Besoins immédiats
 
 Ces fonctionnalités doivent être implémentées dès la première version du système car elles sont considérées vitales pour un fonctionnement global. De plus elles prennent en compte fortement les axes d'amélioration retenus.
 
- - FO-1 Monitoring à distance
-	- FO-1-a Monitoring de l'état des cuves
- 	- FO-1-b Monitoring des anomalies
- - FO-2 Maintenance à distance
- - FO-3 Maintenance sur site
- - FO-4 Traitements sur site central
- 	- FO-4-a Agrégation des données provenant des sites distants
- 	- FO-4-b Planification des interventions
- - FO-5 Traitements sur station
-	- FO-5-a Relevé des capteurs
-	- FO-5-b Uniformisation des données
-	- FO-5-c Circulation de l'information sur le réseau interne
-	- FO-5-d Communication de l'information vers le site central
- - FO-6 Traçabilité
+- FO-1 Monitoring à distance
+
+  - FO-1-a Monitoring de l'état des cuves
+  - FO-1-b Monitoring des anomalies
+
+- FO-2 Maintenance à distance
+- FO-3 Maintenance sur site
+- FO-4 Traitements sur site central
+
+  - FO-4-a Aggrégation des données provenant des sites centraux
+  - FO-4-b Planification des interventions
+
+- FO-5 Traitements sur station
+
+  - FO-5-a Relevé des capteurs
+  - FO-5-b Uniformisation des données
+  - FO-5-c Circulation de l'information sur le réseau interne
+  - FO-5-d Communication de l'information vers le site central
+
+- FO-6 Traçabilité
+
   
 Lot 2 - Besoins à long terme
 =============================
 
 Ces fonctionnalités pourront être implémentées dans un deuxième temps car elles ne sont pas vitales pour la création d'un système fonctionnel. Elles sont souvent complexes et donc longues à mettre en place. De plus elles ne répondent que faiblement aux axes d'amélioration.
 
- - FO-1 Monitoring à distance
- 	- FO-1-c Localisation géographique
- - FO-4 Traitements sur site central
- 	- FO-4-c Suivi en temps réel des interventions
-	- FO-4-d Aide à la décision
- - FO-5 Traitements sur station
-	- FO-5-e Optimiser la gestion de l'énergie
+- FO-1 Monitoring à distance
+
+  - FO-1-c Localisation géographique
+
+- FO-4 Traitements sur site central
+
+  - FO-4-c Suivi en temps réel des interventions
+  - FO-4-d Aide à la décision
+
+- FO-5 Traitements sur station
+
+  - FO-5-e Optimiser la gestion de l'énergie
 
 4. Exigences non fonctionnelles
 ##################################
@@ -188,7 +204,7 @@ La réussite de ce projet passe par l'adhésion des exploitants chargés actuell
 4.2. Robustesse 
 ================
 
-Les stations doivent être protégées correctement pour supporter des conditions climatiques extrêmes dans certaines régions (température, humidité, vent, éclairs, etc.). Le système embarqué doit pouvoir revenir à un état stable en cas de reprise. Côté site central, le stockage des données est conséquent et devra se munir de systèmes préventifs pour éviter toute perte de données : par exemple en duplicant les données sur des systèmes externes. Les systèmes embarqués doivent être quasiment ou complètement énergétiquement autonomes. 
+Les stations doivent être protégées correctement pour supporter des conditions climatiques extrêmes dans certaines régions (température, humidité, vent, éclairs, etc.). Le système embarqué doit pouvoir revenir à un état stable en cas de reprise. Côté site central, le stockage des données est conséquent et devra se munir de systèmes préventifs pour éviter toute perte de données : par exemple en dupliquant les données sur des systèmes externes. Les systèmes embarqués doivent être quasiment ou complètement énergétiquement autonomes. 
 
 4.3. Fiabilité 
 ===============
@@ -199,7 +215,7 @@ Les aquisitions faites par les capteurs des cuves doivent être sûres. Il convi
 4.4. Évolutivité et maintenabilité 
 ===================================
 
-Le système peut être amené à évoluer au niveau dimentionnel, fonctionnel et matériel. Il faut donc veiller à l'organiser en sous-systèmes, au comportement normalisé, et qui pourront donc être ajoutés, modifiés, ou retirés par la suite sans impacter le système global. Il faut définir les couches lors du développement de l'application pour faire en sorte que le système soit le plus indépendant possible du matériel. Le système devra être conçu pour supporter une mise à l'échelle européenne, que ce l'augmentation du flux de données, des besoins en termes de stockage ou dans la généricité de ses applications. 
+Le système peut être amené à évoluer au niveau dimensionnel, fonctionnel et matériel. Il faut donc veiller à l'organiser en sous-systèmes, au comportement normalisé, et qui pourront donc être ajoutés, modifiés, ou retirés par la suite sans impacter le système global. Il faut définir les couches lors du développement de l'application pour faire en sorte que le système soit le plus indépendant possible du matériel. Le système devra être conçu pour supporter une mise à l'échelle européenne, que ce l'augmentation du flux de données, des besoins en termes de stockage ou dans la généricité de ses applications. 
 
 4.5. Limitations technologiques 
 ================================
@@ -211,12 +227,12 @@ De plus, afin d'éviter ces problèmes de maîtrise, les équipements seront cho
 ================
 
 Notre système doit être conçu à pouvoir décliner à moindre coût pour d'autre applications de type surveillance. Les applications sont nombreuses, mais le fonctionnement global est souvent proche. L'organisation de notre solution doit donc faire abstraction du domaine d'application. Un grand effort sera mené au niveau du paramétrage global du système afin de garantir une extensibilité flexible et ne nécessitant qu'un travail de surface.
-Les données provenant des mesures effectuées par les capteurs seront uniformisées au plus tôt, dès le noeud esclave pour garantir une communication de données homogènes à travers le réseau interne et pour éviter les impacts aux couches supérieurs : noeud maître et site central. Il en va de même pour les communications longue-distance, celles-ci devront utiliser des protocoles standards et des structures de données génériques. Le site central et les stations distantes devront fournir des interfaces de communication définies et génériques, abstraites du système sous-jacent. Globalement le développement tiendra compte de ces contraintes par la systémisation d'une architecture en couches et en modules interchangeables. A visée européenne, le logiciel devra être disponible sous l'ensemble des langues des pays concernés.
+Les données provenant des mesures effectuées par les capteurs seront uniformisées au plus tôt, dès le nœud esclave pour garantir une communication de données homogènes à travers le réseau interne et pour éviter les impacts aux couches supérieurs : nœud maître et site central. Il en va de même pour les communications longue-distance, celles-ci devront utiliser des protocoles standards et des structures de données génériques. Le site central et les stations distantes devront fournir des interfaces de communication définies et génériques, abstraites du système sous-jacent. Globalement le développement tiendra compte de ces contraintes par la systémisation d'une architecture en couches et en modules interchangeables. A visée européenne, le logiciel devra être disponible sous l'ensemble des langues des pays concernés.
 
 4.7. Réutilisation 
 ==================
 
-Les techniques employées ne sont pas fondamentalement nouvelles, nous pouvons donc en profiter pour réutiliser des composants (matériel, logiciels, libraries, patterns, bonnes pratiques, etc.) qui ont fait leurs preuves. Symétriquement, il faut que les composants de notre propre système puissent être réutilisés à leur tour. Le développement logiciel sera découpé en sous-projets mais cependant un effort en amont sera mené afin de garder une cohérence et une réutilisation à travers les différents sous-projets.
+Les techniques employées ne sont pas fondamentalement nouvelles, nous pouvons donc en profiter pour réutiliser des composants (matériel, logiciels, bibliothèques, patterns, bonnes pratiques, etc.) qui ont fait leurs preuves. Symétriquement, il faut que les composants de notre propre système puissent être réutilisés à leur tour. Le développement logiciel sera découpé en sous-projets mais cependant un effort en amont sera mené afin de garder une cohérence et une réutilisation à travers les différents sous-projets.
 
 4.8. Ergonomie 
 ===============
@@ -232,7 +248,7 @@ Le serveur central, qui est en communication avec l'ensemble du système, doit g
 Bilan des améliorations
 #########################
 
-Au final le nouveau système présente l'avantage de répondre en grande partie aux axes d'amélioration selectionnés en collaboration avec COPEVUE. Il répondra donc aux exigences de centralisation de la gestion des sites, de réduction des coûts et d'augmentation de la qualité du monitoring.
+Au final le nouveau système présente l'avantage de répondre en grande partie aux axes d'amélioration sélectionnés en collaboration avec COPEVUE. Il répondra donc aux exigences de centralisation de la gestion des sites, de réduction des coûts et d'augmentation de la qualité du monitoring.
 
 
 
