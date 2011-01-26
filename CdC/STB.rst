@@ -8,13 +8,13 @@ Spécifications Techniques des Besoins
 
 Ce document a pour objectif de détailler les besoins du nouveau système. Ces exigences sont basées sur les axes d'améliorations provenant de l'analyse de l'existant. 
 
-L'objectif premier est d'effectuer des économies en termes de coûts directs car le système doit être appliquer massivement à travers l'Europe.
+L'objectif premier est d'effectuer des économies en termes de coûts directs car le système doit être appliqué massivement à travers l'Europe.
 
    * Centralisation de la surveillance : économies d'échelle.
    * Une meilleure logistique, notamment en termes de transport.
    * Des ressources humaines mieux utilisées. Les opérationnels doivent passer moins de temps à la surveillance (faible valeur ajoutée) pour se concentrer sur leur métier.
 
-Un deuxième objectif se situe aux niveau de la des réductions de coûts indirects par une qualité de surveillance accrue.
+Un deuxième objectif se situe aux niveau de la réduction des coûts indirects par une qualité de surveillance accrue.
 
    * Un meilleur contrôle des risques environnementaux
    * Un gaspillage des ressources réduit au minimum (énergie, déchets, contenant des cuves)
@@ -178,7 +178,7 @@ Ces fonctionnalités pourront être implémentées dans un deuxième temps car e
 4. Exigences non fonctionnelles
 ##################################
 
-Sont définis ci-après les besoins non fonctionnels classés par ordre d'importance. Ils proposent la mise en place de contraintes et de bonnes pratiques à appliquer sur les fonctionnalités énoncées ci-dessus. Dans un deuxième temps, il conviendra d'établir un tableau croisé des fonctionnalités et des contraintes non fonctionnelles à respecter pour chacune d'elles.
+Sont définis ci-après les besoins non-fonctionnels classés par ordre d'importance. Ils proposent la mise en place de contraintes et de bonnes pratiques à appliquer sur les fonctionnalités énoncées ci-dessus. Dans un deuxième temps, il conviendra d'établir un tableau croisé des fonctionnalités et des contraintes non fonctionnelles à respecter pour chacune d'elles.
 
 4.1. Intégration de l'existant 
 ==============================
@@ -188,13 +188,13 @@ La réussite de ce projet passe par l'adhésion des exploitants chargés actuell
 4.2. Robustesse 
 ================
 
-Les stations doit être protégées correctement pour supporter des conditions climatiques extrêmes dans certaines régions (température, humidité, vent, éclairs, etc.). Le système embarqué doit pouvoir revenir à un état stable en cas de reprise. Côté site central, le stockage des données est conséquent et devra se munir de systèmes préventifs pour éviter toute perte de données : par exemple en duplicant les données sur des systèmes externes. Les systèmes embarqués doivent être quasiment ou complètement énergétiquement autonomes.
+Les stations doivent être protégées correctement pour supporter des conditions climatiques extrêmes dans certaines régions (température, humidité, vent, éclairs, etc.). Le système embarqué doit pouvoir revenir à un état stable en cas de reprise. Côté site central, le stockage des données est conséquent et devra se munir de systèmes préventifs pour éviter toute perte de données : par exemple en duplicant les données sur des systèmes externes. Les systèmes embarqués doivent être quasiment ou complètement énergétiquement autonomes. 
 
 4.3. Fiabilité 
 ===============
 
 On doit éviter toute intervention humaine vis à vis du système. Il doit disposer de mécanismes garantissant leur fonctionnement en continu.
-Les aquisitions faites par les capteurs des cuves doivent être sures. Il conviendra donc d'effectuer une série de mesures pour déterminer la valeur réelle de la mesure captée et donc d'éviter la prises en compte de valeurs extraordinaires.
+Les aquisitions faites par les capteurs des cuves doivent être sûres. Il conviendra donc d'effectuer une série de mesures pour déterminer la valeur réelle de la mesure captée et donc d'éviter la prises en compte de valeurs extraordinaires.
 
 4.4. Évolutivité et maintenabilité 
 ===================================
