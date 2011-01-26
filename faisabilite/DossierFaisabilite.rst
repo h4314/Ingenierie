@@ -353,8 +353,9 @@ réduite et son design bien pensé font de ce produit une alternative économiqu
 pratique et fiable aux appareils de mesure de hauteur d'eau classiques.
 
 Reférences :
-    http://www.hydrolab.com/web/ott_hach.nsf/id/pa_radar_level_sensor.html
-    http://www.ottfrance.com/web/ott_fr.nsf/id/pa_rls_fr.html
+
+- http://www.hydrolab.com/web/ott_hach.nsf/id/pa_radar_level_sensor.html
+- http://www.ottfrance.com/web/ott_fr.nsf/id/pa_rls_fr.html
 
 Solution 2 : Capteur VEGAPULS 62 
 ````````````````````````````````
@@ -373,8 +374,7 @@ de stockage et les réservoirs, également à une température de -200 °C à +4
 Grâce à la technologie radar, le capteur de niveau mesure le niveau des liquides
 sans contact et fournit en continu des valeurs de mesure très précises.
 
-Référence: 
-    http://www.vega.com/fr/Mesure_de_niveau_Radar_VEGAPULS62.htm
+Référence: http://www.vega.com/fr/Mesure_de_niveau_Radar_VEGAPULS62.htm
 
 Conclusion
 ```````````
@@ -393,15 +393,16 @@ Problématique
 Cette étude a pour objectifs d'effectuer un état de l'art en termes de communication longue distance. En l'occurence, ici, il s'agit de trouver des solutions potentielles permettant de répondre à la question suivante : *comment s'effectuera la communication entre les sites distants et le site central de monitoring ?*
 
 Pour répondre à cette question, il convient dans un premier temps de rappeller les contraintes inhérentes :
- * le site central pourra être déployé (voir migré à tout moment) partout en Europe, et a forciori n'importe où dans le monde.
- * les sites distants sont situés n'importe où en Europe, y compris les endroits les plus reculés et les moins bien desservis, que ce soit en terme de d'énergie, de télécommunications ou d'infrastructures routières.
- * la communication devra être fiable
-   * les informations ne doivent pas être perdues
-   * certaines stations critiques doivent inclure des capacité de reprise ou de capacité de redondance pour garder une disponibilité maximale
- * la communication doit être la moins coûteuse possible
- * le matériel devra supporter des conditions climatiques extremes
 
-Dans un deuxième temps, les critères de selection d'une solution se porteront également sur la teneur des communications : *quelles données seront amenées à circuler dans un sens, comme dans l'autre ?*
+* le site central pourra être déployé (voir migré à tout moment) partout en Europe, et a forciori n'importe où dans le monde.
+* les sites distants sont situés n'importe où en Europe, y compris les endroits les plus reculés et les moins bien desservis, que ce soit en terme de d'énergie, de télécommunications ou d'infrastructures routières.
+* la communication devra être fiable
+  * les informations ne doivent pas être perdues
+  * certaines stations critiques doivent inclure des capacité de reprise ou de capacité de redondance pour garder une disponibilité maximale
+  * la communication doit être la moins coûteuse possible
+  * le matériel devra supporter des conditions climatiques extrêmes
+
+Dans un deuxième temps, les critères de sélection d'une solution se porteront également sur la teneur des communications : *quelles données seront amenées à circuler dans un sens, comme dans l'autre ?*
 
 Du site central vers les sites distants :
 
@@ -482,7 +483,7 @@ Sources :
 Utilisation du réseau GPS
 -------------------------
 
-Les stations à distance pourraient communniquer avec la station centrale via satellite. Cette technique nécessite l'installation d'une antenne emetrice/receptrice satellite et d'un modem dédié.
+Les stations à distance pourraient communniquer avec la station centrale via satellite. Cette technique nécessite l'installation d'une antenne emetrice/réceptrice satellite et d'un modem dédié.
 
 Les prérequis sont :
  * être dans un milieu dégagé
