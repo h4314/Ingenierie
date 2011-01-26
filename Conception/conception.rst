@@ -18,6 +18,7 @@ Modèle du domaine
 L'objectif du diagramme suivant est de présenter de manière synthétique l'ensemble des acteurs et entités du système ainsi que leurs relations.
 
 .. image:: images/modele_domaine.png
+  :width: 100%
 
 A priori il n'existera qu'un site central chargé du monitoring à distance. Celui-ci sera opéré par des téléopérateurs.
 Le site distant est chargé de la surveillance d'une multitude de stations distantes, elles même composées par un ensemble de cuves.
@@ -28,10 +29,19 @@ Les prestataires sont les organisations ou entreprises chargées d'effectuer les
 Architecture globale détaillée 
 ################################
 
-.. image:: images/architecture.png
-   :scale: 50%
+.. image:: architecture.png
+  :width: 100%
 
-+ description nécessaire ?
+Légende :
+
+#. Réveil toute les x unité de temps. Capteur de n valeurs toute les y secondes. 
+#. Uniformisation des données brutes des capteur, filtrage (moyenne, etc.). 
+#. Communication interne dans le réseau maillé, des nœuds émetteurs vers le nœud maître.
+#. Transformation des données vers un protocole standard de communication. Transmission vers le serveur, par GPRS.
+#. Stockage des données en base de donnée.
+#. Les clients peuvent alors interroger les données, et ont des alertes sur problèmes : irregularités dans les resultats, états des cuves, batteries de capteurs, etc.     
+#. Les cliens peuvent demander une mise à jour des systèmes des capteurs, ou changer les paramètres (temps entre deux  mesure, nombre de mesure à faire à chaque prise, etc.).     
+
 
 Architecture matérielle
 ########################
@@ -98,9 +108,10 @@ maintenance réduite et bénéficie d'une longue durée de vie. Sa consommation
 réduite et son design bien pensé font de ce produit une alternative économique,
 pratique et fiable aux appareils de mesure de hauteur d'eau classiques.
 
-Reférences :
-    http://www.hydrolab.com/web/ott_hach.nsf/id/pa_radar_level_sensor.html
-    http://www.ottfrance.com/web/ott_fr.nsf/id/pa_rls_fr.html
+Références :
+
+- http://www.hydrolab.com/web/ott_hach.nsf/id/pa_radar_level_sensor.html
+- http://www.ottfrance.com/web/ott_fr.nsf/id/pa_rls_fr.html
 
 Système embarqué
 ------------------

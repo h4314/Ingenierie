@@ -3,6 +3,8 @@ ____________________________
 
 H4314 - Projet Ingénierie - 2011 - Insa de Lyon
 
+**Ce document est à l'état de brouillon**
+
 Introduction
 ------------
 
