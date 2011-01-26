@@ -28,7 +28,7 @@ Le projet intègre trois composantes majeures :
   * un système électronique indépendant capable d'effectuer des mesures dans
     des cuves de liquide réparties sur un site et ses composants logiciels,
   * un système central de collecte et de manipulation des données capable de
-	collecter les données mesurées sur les sites, essentiellement constitué de
+    collecter les données mesurées sur les sites, essentiellement constitué de
     briques logicielles.
   * les outils de communication entre le site central et les sites industriels
     distants.

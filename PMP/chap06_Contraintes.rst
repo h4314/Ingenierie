@@ -1,10 +1,12 @@
 Contraintes
 -----------
 
+ON VERRA SI IL RESTE DU TEMPS
+
 Contraintes organisationnelles
 ==============================
 
-TODO
+
 
 Contraintes liées à la planification
 ====================================
