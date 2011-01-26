@@ -77,9 +77,12 @@ Configuration cible
 
 Matériel et Logiciels
 -----------------------------
-- Le sous-système gestion de Logistique sera sous forme d'une application web.
-- Il faut disposer d'un serveur d'application sur lequel seront stockés le service web.
+- Les convois sont équipés d'équipements GPS pour être localisés.
 - Le sous-système nécessite un accès aux bases de données. La base de donnée est sur le serveur de bases de données.
+<<<<<<< HEAD
 - Elle sera accessible à distance, les applications web seront développés en J2EE (Java Entreprise Edition).
 - Les applications web seront accessibles via navigateur web. 
 - Aucune application ne sera à installer sur les postes distants.
+=======
+- Les applications web seront accessibles via navigateur web. 
+>>>>>>> f4987df0e2d85921536ea7a63a6be1d8c99942e7
