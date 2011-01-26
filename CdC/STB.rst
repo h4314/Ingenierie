@@ -67,7 +67,7 @@ Chaque site doit posséder des moyens de connexion au système pour qu'un opéra
 FO-4 Traitements sur site central
 =================================
 
-FO-4-a Aggrégation des données provenant des sites centraux
+FO-4-a Agrégation des données provenant des sites centraux
 ``````````````````````````````````````````````````````````` 
 
 Le site central doit pouvoir stocker de manière structurée l'ensemble des données émises par les sites distants.
@@ -82,7 +82,7 @@ A partir des données relevées, le système doit pouvoir générer des planning
 
 L'objectif ici est d'optimiser la logistique, notamment grouper les opérations pour rentabiliser les déplacements au maximum : ravitailler plusieurs sites en un trajet et essayer d'optimiser les chargements d'un camion. Dans l'idéal un camion doit transporter sa charge maximale et l'utiliser totalement. Certains camions pourraient également être toujours pleins, que ce soit à l'aller et au retour dans le cas où les ravitaillement et enlèvement peuvent être compatibles.
 
-La planification est donc basée sur la posibilité de définir des routes de maintenance entre diverses cuves et zones homogènes.
+La planification est donc basée sur la possibilité de définir des routes de maintenance entre diverses cuves et zones homogènes.
 
 La planification inclut des sous fonctionnalités :
 
@@ -92,7 +92,7 @@ La planification inclut des sous fonctionnalités :
 FO-4-c Suivi en temps réel des interventions
 `````````````````````````````````````````````
 
-Les interventions doivent être localisables en temps réel : il est possible de connaître la position géographique exacte des opérationnels et des camions, ces derniers ayant bien souvent un système de balise GPS intégré.
+Les interventions doivent être localisables en temps réel : il est possible de connaître la position géographique exacte des opérationnels et des camions, ces derniers ayant bien souvent un système de balise GPS intégrée.
 
 FO-4-d Aide à la décision
 ```````````````````````````
