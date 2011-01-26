@@ -3,13 +3,13 @@ Cahier des charges détaillé du sous-projet "Logistique"
 #######################################################
 
 Introduction
-=============
+=========
 Présentation du projet 
 -------------------------------
         Ce projet a pour but de réaliser la meilleur gestion des convois à utiliser pour traiter les différentes besoins et sauvegarder la trace de tout le procès.
 	
 Présentation du document
-------------------------
+--------------------------------------
 	Ce document est un cahier des charges détaillé, ses fonctionnalités répondront aux exigences fonctionnelles et non fonctionnelles émises par le client. Il sera important de indiquer les éléments du logiciel qui répondront aux exigences. Il ne faut pas oublier que le cahier des charges a une valeur contractuelle et que l'on s'engage à réaliser ce que l'on décrit.
 
 
@@ -55,7 +55,7 @@ Contraintes d'utilisation
 
 Flexibilité
 --------------
-Le sous-système de Logistique sera une des applications les plus flexives du système. En effet, les utilisateurs seront guidés dans les différentes étapes du traitement de la logistique, notamment la mise en place d'un convoi.
+Le sous-système de Logistique sera une des applications les plus flexibles du système. En effet, les utilisateurs seront guidés dans les différentes étapes du traitement de la logistique, notamment la mise en place d'un convoi.
 
 
 Contraintes imposées, faisabilité technologiques et éventuellement moyens
@@ -63,8 +63,8 @@ Contraintes imposées, faisabilité technologiques et éventuellement moyens
 
 Sûreté, planning, organisation, communication
 -------------------------------------------------------------------
-Le sous-système de Logistique permet de gérer le trajet des camions et leurs interventions. Cette application ne doit pas être utilisable par n'importe quel technicien. Un niveau de sécurité minimum est donc requis. Pour lancer l'application de gestion des interventions, une identification de l'utilisateur avec mot de passe est nécessaire.
-De la même façon, permet d'avoir accès à des données qui pourraient être confidentielles, comme la position stratégique de sites. Alors, il est essentiel de protéger l'accès à ces informations.
+
+Il faut tout d'abord obtenir les données des différentes convois afin de savoir lesquelles sont prêt. Afin de pouvoir réagir correctement à chaque demande pour gérer le trajet des camions et leurs interventions cette application ne doit pas être utilisable par n'importe quelle personne. Un niveau de sécurité minimum est donc requis. Pour lancer l'application, une identification de l'utilisateur avec mot de passe est nécessaire.
 
 Complexité
 ----------------
