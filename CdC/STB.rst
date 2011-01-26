@@ -229,11 +229,6 @@ Le système s'adresse à des acteurs plus ou moins habitués à travailler avec 
 Le serveur central, qui est en communication avec l'ensemble du système, doit garder une trace de toutes les informations qui transitent et les états de fonctionnement de chaque station. Il en va de même pour l'enregistrement de toutes les opérations de maintenance. Du côté des stations, les systèmes embarqués doivent également assurer une traçabilité indépendante du serveur en cas de communications impossible ou d'erreurs graves. L'idée est d'offrir une possibilité de remonter dans l'historique des opérations dans le cas d'erreurs mais aussi dans le but d'analyser ces données (cf. FO-4-d).
 
 
-Fonctionnement global du système
-##################################
-
-_ TODO: faire un schema global du systeme _
-
 Bilan des améliorations
 #########################
 
