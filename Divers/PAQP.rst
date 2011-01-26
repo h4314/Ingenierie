@@ -7,6 +7,11 @@ Ce document a deux objectifs:
 - donner la feuille de route pour la réalisation du système conçu
 - définir les relations entre les différents acteurs
 
+.. contents:: Sommaire
+  
+.. sectnum::
+
+
 Préliminaires
 #################
 

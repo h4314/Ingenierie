@@ -6,7 +6,6 @@ Dossier d'interface
     :depth: 3
 .. sectnum::
 
-.. page::
 
 Découpage du projet
 ###################
@@ -27,7 +26,6 @@ développement en parallèle. Les lecteurs qui ont des connaissances en
 programmations trouverons peut être plus facile de lire directement la dernière
 section, celle-ci étant plus formelle que les précédentes.
 
-.. page::
 
 Description des blocs
 #####################
@@ -89,7 +87,6 @@ Traitement des données au niveau site
   fonctionnement déconnecté.
 
 
-.. page::
 
 Définition des interfaces
 #########################
@@ -122,7 +119,6 @@ protocole standard n'était disponible, l'approche a été de suivre l'idiome KI
 texte, extrêmement simple à comprendre, implémenter, et étendre.
 
 
-.. page::
 
 API des blocs
 #############
@@ -284,7 +280,6 @@ fichier de journalisation associé à la tâche de maintenance.
   Ces données sont fournies par l'appareillage du technicien envoyé sur site (de
   type *smartphone*).
 
-.. page::
 
 Communication longue distance
 =============================
@@ -366,7 +361,6 @@ Envoi de données du site central vers un site distant
 ``void sha512Encode(inputData, inputLength, outputData)``
   Fonction permettant de calculer le *hash* SHA-512 d'une donnée.
 
-.. page::
 
 Site distant
 ============
