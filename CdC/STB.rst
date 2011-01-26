@@ -8,13 +8,13 @@ Spécifications Techniques des Besoins
 
 Ce document a pour objectif de détailler les besoins du nouveau système. Ces exigences sont basées sur les axes d'améliorations provenant de l'analyse de l'existant. 
 
-L'objectif premier est d'effectuer des économies en termes de coûts directs car le système doit être appliquer massivement à travers l'Europe.
+L'objectif premier est d'effectuer des économies en termes de coûts directs car le système doit être appliqué massivement à travers l'Europe.
 
    * Centralisation de la surveillance : économies d'échelle.
    * Une meilleure logistique, notamment en termes de transport.
    * Des ressources humaines mieux utilisées. Les opérationnels doivent passer moins de temps à la surveillance (faible valeur ajoutée) pour se concentrer sur leur métier.
 
-Un deuxième objectif se situe aux niveau de la des réductions de coûts indirects par une qualité de surveillance accrue.
+Un deuxième objectif se situe aux niveau de la réduction des coûts indirects par une qualité de surveillance accrue.
 
    * Un meilleur contrôle des risques environnementaux
    * Un gaspillage des ressources réduit au minimum (énergie, déchets, contenant des cuves)
@@ -29,7 +29,7 @@ Un deuxième objectif se situe aux niveau de la des réductions de coûts indire
 FO-1 Monitoring à distance
 ==========================
 
-Un des enjeux majeur de ce nouveau système est sa capacité à surveiller à distance l'état des sites. Cette surveillance sera donc possible à partir du site central mais aussi via d'autres plateformes décentralisées que ce soit des postes fixes ou des appareils mobiles de type smartphone utiles pour les opérationnels.
+Un des enjeux majeurs de ce nouveau système est sa capacité à surveiller à distance l'état des sites. Cette surveillance sera donc possible à partir du site central mais aussi via d'autres plateformes décentralisées que ce soit des postes fixes ou des appareils mobiles de type smartphone utiles pour les opérationnels.
 
 FO-1-a Monitoring de l'état des cuves
 ``````````````````````````````````````
@@ -67,7 +67,7 @@ Chaque site doit posséder des moyens de connexion au système pour qu'un opéra
 FO-4 Traitements sur site central
 =================================
 
-FO-4-a Agrégation des données provenant des sites centraux
+FO-4-a Agrégation des données provenant des sites distants
 ``````````````````````````````````````````````````````````` 
 
 Le site central doit pouvoir stocker de manière structurée l'ensemble des données émises par les sites distants.
@@ -153,7 +153,7 @@ Ces fonctionnalités doivent être implémentées dès la première version du s
  - FO-2 Maintenance à distance
  - FO-3 Maintenance sur site
  - FO-4 Traitements sur site central
- 	- FO-4-a Aggrégation des données provenant des sites centraux
+ 	- FO-4-a Agrégation des données provenant des sites distants
  	- FO-4-b Planification des interventions
  - FO-5 Traitements sur station
 	- FO-5-a Relevé des capteurs
@@ -178,7 +178,7 @@ Ces fonctionnalités pourront être implémentées dans un deuxième temps car e
 4. Exigences non fonctionnelles
 ##################################
 
-Sont définis ci-après les besoins non fonctionnels classés par ordre d'importance. Ils proposent la mise en place de contraintes et de bonnes pratiques à appliquer sur les fonctionnalités énoncées ci-dessus. Dans un deuxième temps, il conviendra d'établir un tableau croisé des fonctionnalités et des contraintes non fonctionnelles à respecter pour chacune d'elles.
+Sont définis ci-après les besoins non-fonctionnels classés par ordre d'importance. Ils proposent la mise en place de contraintes et de bonnes pratiques à appliquer sur les fonctionnalités énoncées ci-dessus. Dans un deuxième temps, il conviendra d'établir un tableau croisé des fonctionnalités et des contraintes non fonctionnelles à respecter pour chacune d'elles.
 
 4.1. Intégration de l'existant 
 ==============================
@@ -188,13 +188,13 @@ La réussite de ce projet passe par l'adhésion des exploitants chargés actuell
 4.2. Robustesse 
 ================
 
-Les stations doit être protégées correctement pour supporter des conditions climatiques extrêmes dans certaines régions (température, humidité, vent, éclairs, etc.). Le système embarqué doit pouvoir revenir à un état stable en cas de reprise. Côté site central, le stockage des données est conséquent et devra se munir de systèmes préventifs pour éviter toute perte de données : par exemple en duplicant les données sur des systèmes externes. Les systèmes embarqués doivent être quasiment ou complètement énergétiquement autonomes.
+Les stations doivent être protégées correctement pour supporter des conditions climatiques extrêmes dans certaines régions (température, humidité, vent, éclairs, etc.). Le système embarqué doit pouvoir revenir à un état stable en cas de reprise. Côté site central, le stockage des données est conséquent et devra se munir de systèmes préventifs pour éviter toute perte de données : par exemple en duplicant les données sur des systèmes externes. Les systèmes embarqués doivent être quasiment ou complètement énergétiquement autonomes. 
 
 4.3. Fiabilité 
 ===============
 
 On doit éviter toute intervention humaine vis à vis du système. Il doit disposer de mécanismes garantissant leur fonctionnement en continu.
-Les aquisitions faites par les capteurs des cuves doivent être sures. Il conviendra donc d'effectuer une série de mesures pour déterminer la valeur réelle de la mesure captée et donc d'éviter la prises en compte de valeurs extraordinaires.
+Les aquisitions faites par les capteurs des cuves doivent être sûres. Il conviendra donc d'effectuer une série de mesures pour déterminer la valeur réelle de la mesure captée et donc d'éviter la prises en compte de valeurs extraordinaires.
 
 4.4. Évolutivité et maintenabilité 
 ===================================
@@ -228,11 +228,6 @@ Le système s'adresse à des acteurs plus ou moins habitués à travailler avec 
 
 Le serveur central, qui est en communication avec l'ensemble du système, doit garder une trace de toutes les informations qui transitent et les états de fonctionnement de chaque station. Il en va de même pour l'enregistrement de toutes les opérations de maintenance. Du côté des stations, les systèmes embarqués doivent également assurer une traçabilité indépendante du serveur en cas de communications impossible ou d'erreurs graves. L'idée est d'offrir une possibilité de remonter dans l'historique des opérations dans le cas d'erreurs mais aussi dans le but d'analyser ces données (cf. FO-4-d).
 
-
-Fonctionnement global du système
-##################################
-
-_ TODO: faire un schema global du systeme _
 
 Bilan des améliorations
 #########################

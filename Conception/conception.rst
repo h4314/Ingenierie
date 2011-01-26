@@ -65,6 +65,37 @@ Capteurs
 Chaque cuve sera équipé d'un ou plusieurs capteurs. Bien que générique, ce système ne considérera pour l'instant que la mise en place de capteur de niveau de liquide.
 Le choix est porté vers un capteur peu cher, autonome et interfaçable avec le système embarqué de la cuve :  Capteur OTT RLS (75 dollars pièce).
 
+OTT RLS (Radar Level Sensor)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+OTT FRANCE est la filiale française du groupe OTT Messtechnik.
+
+L'activité s'étend de la fourniture de capteurs hydrométéorologiques à
+l'installation complète de réseaux de mesure, avec les équipements suivants:
+
+- Capteurs de mesure de hauteur, de vitesse d'écoulement et de débit, de précipitations et de qualité des eaux - système d'acquisition de mesures.
+- Systèmes de transmission de données permettant l'utilisation des vecteurs de communication tels que modems RTC et GSM, radio, satellite.
+- Logiciels de communication et de traitement.
+
+Elle propose le produit OTT RLS (Radar Level Sensor), qui est un capteur radar
+pour la mesure sans contact du niveau des eaux de surface. Il utilise la
+technologie à impulsions radar pour déterminer le niveau de l'eau.
+
+Pour que les impulsions radar émises atteignent la surface de l'eau, OTT RLS est
+placé directement au-dessus du niveau d'eau à mesurer. Étant donné que le
+capteur est placé hors de l'eau, les problèmes de mesures liés à la présence de
+végétation ne peuvent pas apparaître. Le RLS couvre une plage de mesure allant de
+0,8 à 35 m. Les interfaces standard permettent le raccordement d'autres capteurs
+et la communication avec différents enregistreurs et systèmes de
+télétransmission.  Compact et insubmersible, le RLS ne nécessite qu'une
+maintenance réduite et bénéficie d'une longue durée de vie. Sa consommation
+réduite et son design bien pensé font de ce produit une alternative économique,
+pratique et fiable aux appareils de mesure de hauteur d'eau classiques.
+
+Reférences :
+    http://www.hydrolab.com/web/ott_hach.nsf/id/pa_radar_level_sensor.html
+    http://www.ottfrance.com/web/ott_fr.nsf/id/pa_rls_fr.html
+
 Système embarqué
 ------------------
 
@@ -72,11 +103,149 @@ Chaque cuve comprendra un système embarqué. La solution intégrée Ember EM250
 La noeud maitre ne sera pas différent des autres mis à part son module indépendant de gestion de la communication longue distance : modem GSM/GPRS (100€ - 300€ pièce).
 De plus il contiendra une carte de stockage utilisée pour bufferiser les données à envoyer au site central (cas du mode déconnecté).
 
+Ember EM250
+~~~~~~~~~~~
+Ember est une société américaine créée en 2001, qui s'est spécialisée dans la
+production et la commercialisation de solutions ZigBee. Membre de la Zigbee
+Alliance, ses solutions sont reconnues pour leur efficacité et leur
+interopérabilité.
+
+Elle propose un ensemble de solutions intégrées à base de microcontrôleurs ARM,
+comportant des mémoires flash et RAM, pouvant fonctionner sur secteur ou
+batteries, avec une grande durée de vie. Le système est conçu pour être intégré
+avec des périphériques externes, et propose par là même un grand nombre de
+convertisseurs analogique-numérique, permettant de brancher une grande variété
+de capteurs (Nom commercial EM250).
+
+Les produits Ember sont conçus pour fonctionner dans des environnements variés.
+Il est aussi possible de n'utiliser que le coprocesseur réseau Ember, et de le
+coupler avec un processeur d'un autre fabricant, afin de bénéficier de plus de
+flexibilité quant au choix des composants (Nom commercial EM260). 
+
+Les solutions Ember sont capables de fonctionner en réseau de type maillé, et
+proposent une portée en extérieur d'environ 100m. La consommation est très basse
+(40mA en émission/réception, pour 1 à 1.5µA en mode veille), ce qui assure un
+fonctionnement sur batterie de longue durée.
+
+Ember a conçu un environnement de développement intégré, adapté à ses produits
+(aussi bien ceux de type System on Chip (SoC) tout intégré que les solutions plus
+modulaires), qui sont conçus pour le développement et le débogage
+d'applications réseau maillé, et propose donc des outils spécifiquement
+adaptés.
+
+Il est possible d'acquérir des kits de tests, peu onéreux, qui sont
+spécifiquement conçus pour que des ingénieurs testent des solutions dans leur
+environnement spécifique, pour s'assurer de l'adéquation du matériel avec la
+résolution de leur problème.
+
+
+
+Communication
+-------------
+
+Utilisation du réseau GPRS
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Cette solution nécessite l'utilisation du réseau des télécommunications GSM. Le réseau GPRS est en réalité une extension s'appuyant sur le réseau GSM et a l'avantage d'une part de pouvoir rester connecté et d'autre part d'utiliser en plus des canaux de type voix, une passerelle vers le réseau internet. La facturation ne se fait non plus à la durée mais au débit.
+
+Architecture du réseau GSM/GPRS
+
+.. image:: images/reseau_gsm.png
+   :scale: 50%
+
+Les pré-requis sont :
+
+* être à portée d'une antenne de télécommunication (BTS)
+* nécessite un abonnement auprès d'un FAI/opérateur téléphonique par site distant
+
+La couverture du réseau GPRS (et donc GSM) sur le territoire européen est quasi totale. Il faudra s'assurer préalablement de choisir l'opérateur mobile offrant la meilleure couverture, ce qui sera donc variable suivant les pays. Dans la même idée il faudra veiller à traiter avec un opérateur présent dans la majorité des pays européens afin de négocier des prix intéressants avec un support de qualité.
+
+Un exemple de couverture, en Norvège (opérateur : Telenor), qui comprend un certains nombres de sites isolés, notamment dans le nord :
+
+.. image:: images/telenor.png
+   :scale: 50%
+
+Concernant son implémentation, il nécessite la mise en place d'un modem compatible GSM/GPRS. Deux solutions se détachent :
+
+* L'achat de composants et leur adaptation avec le système embarqué du site distant 
+* L'achat d'une solution complète
+
+De nombreux fabricants proposent des solutions de modems GSM/GPRS embarqués
+particulièrement adaptés aux contraintes. Les prix varient d'une centaine
+d'euros l'unité à 400€ pour les modèles hauts de gamme, avec des
+caractéristiques techniques qui satisfont les contraintes (données prises sur les
+modèles hauts de gamme) : 
+
+* Température de fonctionnement : -20°C à +85°C
+* Tolérance à l'humidité : 90%
+* Taille : 10cm*5cm*10cm
+* Consommation en communication : (< 200mA sous 14 Vdc)
+* Consommation au repos : (< 10mA sous 14 Vdc)
+
+L'utilisation du réseau UMTS ou 3G (qui utilise une partie du réseau GSM), bien qu'apportant une capacité de débit bien plus élevé, est écarté car son territoire de couverture reste très faible dans les zones reculées (ce type de réseau n'utilise pas les antennes BTS du réseau GSM). Ensuite, pour ce système, le débit offert par le réseau GPRS sera suffisant.
+
+Sources :
+
+* couverture GSM :
+    http://www.mobileworldlive.com/maps/
+* comparatifs modems chez Ercogener :
+    http://www.ercogener.com/comparatif-modem-gsm-gprs-gps.html
+* Prix (erco&gener) :
+    http://www.kamosis.com/store/index-n-Modems_GSM_GPRS_EDGE_3G-cp-555.html
+
+
 Production d'énergie
 ----------------------
 
 Chaque composant sera hautement indépendant vis à vis de sa consommation électrique. Chaque composant consomme peu, et de plus est capable de rentrer en mode veille extrêmement peu consommateur.
 Ils seront alimentés via des piles et pour certaines régions couplés avec un mini panneau solaire pour la recharge (50€ par panneau et 50€ - 200€ par pile).
+
+Pile
+~~~~
+La pile doit pouvoir fournir continuellement et pendant le maximum de temps l'énergie nécessaire au système embarqué et ses annexes. La pile ne doit pas avoir besoin des maintenances pour ajouter de l'électrolyte à l'acide. Dans le cas où cette pile serait couplée à d'autres sources électriques, elle devrait se recharger.
+
+Exemples de piles
+
+==================  ===============================     ====================    ==============================
+Caractéristiques    Acker Drill Company Ace Battery     BA22NF Solar Battery    6 Volt Solar Panel Charger
+==================  ===============================     ====================    ==============================
+Prix                $169.95                             $191.95                 $24.95
+Poids               54.5kg                              38.5Kg                  3kg
+Taille              10.25*6.13*9.13 cm                  9.38*5.5*9.25 cm        6.0" x 3.5" x 0.75"
+Voltage             12V                                 12V                     6V
+Amperage/wattage    75A*h                               55A*h                   630mW
+Référence           http://bit.ly/ehm2OG                http://bit.ly/fL36k7    http://bit.ly/hQRVVU
+Remarques           Pas besoin de maintenance           Garantie 1 an           Garantie 1 an, étanche.
+==================  ===============================     ====================    ==============================
+
+Énergie solaire
+~~~~~~~~~~~~~~~~~~
+
+L'utilisation de panneaux solaires est favorable dans des
+régions méditerranéennes. On peut les coupler avec des piles qui se rechargent
+lors que les panneaux solaires fournissent plus que les besoins du système. Dans
+le cas contraire, elles fournissent le manque. Aujourd'hui, les technologies de
+panneaux solaires sont assez développées et la durée de vie dépasse 20 ans.
+Les petits panneaux fonctionnent dans toutes les conditions météo.
+
+Dans les pays nordiques où l'ensoleillement est moins élevé par rapport à d'autres
+régions, les panneaux solaires peuvent également fonctionner. En Norvège par
+exemple, depuis les années 1970, les panneaux photovoltaïques ont été
+fréquemment utilisés pour produire de l'électricité dans les coins reculés non
+raccordés au réseau électrique: chalets en montagne et près de la mer, phares et
+installations techniques. Plus de 2000 phares de la côte norvégienne
+s'alimentent en énergie solaire !
+
+=================== ==================== =====================  ==================
+Caractéristiques    Bp Sx305M            Power Up Bsp-112       OEM Solar Panel                               
+=================== ==================== =====================  ==================
+Prix                $47.58               $28.99                 $103.45                   
+Taille              269 * 251 * 23mm     98 x 238 * 16mm        537*1200*46 mm                      
+Wattage             5W                   1W                     5W                 
+Voltage             12V                  16V                    12V                  
+Référence           http://bit.ly/fA5KmP http://bit.ly/h4KWIs   -                                                       
+Remarque                                                        Garantie 10 ans
+=================== ==================== =====================  ==================
 
 Architecture applicative
 #########################

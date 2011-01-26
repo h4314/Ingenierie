@@ -30,10 +30,10 @@ Choix, installation, configuration et interconnection des équipements matériel
 A2 - Harmonisation du développement logiciel
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-L'ensemble des projets logiciels suivants ou modules (A3 à A8) doivent s'appuyer sur un référentiel unique et ce afin de de garder une cohérence (notamment au niveau des IHM) mais surtout dans un souci de réutilisabilité et de fiabilité. Il s'agit dans ce projet d'établir les grands choix en termes de développement (environnements de développements, langages, librairies, normes, etc.). Il est nécessaire, par exemple, que chaque projet suivent les mêmes pratiques aux niveaux de :
+L'ensemble des projets logiciels suivants ou modules (A3 à A8) doivent s'appuyer sur un référentiel unique et ce afin de garder une cohérence (notamment au niveau des IHM) mais surtout dans un souci de réutilisabilité et de fiabilité. Il s'agit dans ce projet d'établir les grands choix en termes de développement (environnements de développements, langages, librairies, normes, etc.). Il est nécessaire, par exemple, que chaque projet suive les mêmes pratiques au niveau de :
 - la couche des données
 - la couche applicative
-- la couche de présentation. Les IHM doivent être cohérente en terme de designe et d'utilisabilité à travers les modules.
+- la couche de présentation. Les IHM doivent être cohérentes en termes de design et d'utilisabilité à travers les modules.
 
 Les livrables de ce projet sont donc des outils, des méthodes, des normes et des documents (ex : PAQL).
 
@@ -84,7 +84,7 @@ B2 - Infrastructure matérielle
 Pour chaque station :
 
 - Installation capteurs
-- Installation noeuds esclave
+- Installation noeuds esclaves
 - Installation du noeud maître
 
 C - Communication entre le site central et les sites distants
@@ -108,17 +108,17 @@ Développement des services webs et configuration sur site.
 D - Accompagnement de projet
 ==============================
 
-Ce projet est beaucoup plus transversal que ne l'est les précédents.
+Ce projet est beaucoup plus transversal que ne le sont les précédents.
 
-D1 - Aide dans la démarche de Copevue
+D1 - Aide dans la démarche de COPEVUE
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Support technique dans le discours de Copevue dans l'optique de fédérer un maxiumu de pays et d'organisation d'Europe.
+Support technique dans le discours de COPEVUE dans l'optique de fédérer un maxiumu de pays et d'organisation d'Europe.
 
 D2 - Projet pilote
 ~~~~~~~~~~~~~~~~~~~
 
-L'enjeu du projet est de démontrer avec un échantillon que le système peut être effectué à l'échelle européenne. Cela passe par la mise en place d'un site central fonctionnel et d'un site distant. Cette cible pilote servira de base pour répliquer les méthodes de déploiement de d'alignement sur d'autres sites.
+L'enjeu du projet est de démontrer avec un échantillon que le système peut être effectué à l'échelle européenne. Cela passe par la mise en place d'un site central fonctionnel et d'un site distant. Cette cible pilote servira de base pour dupliquer les méthodes de déploiement de d'alignement sur d'autres sites.
 
 
 D3 - Formation
@@ -129,5 +129,5 @@ Préalablement à la mise en exploitation du système des formations de personne
 Planning prévisionnel
 ######################
 
-gantt ? estimation fin projet ?
+
 
