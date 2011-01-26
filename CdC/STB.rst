@@ -1,5 +1,5 @@
 ====================================
-Spécifications Technique des Besoins
+Spécifications Techniques des Besoins
 ====================================
 
 
@@ -137,7 +137,8 @@ Le système doit archiver tout un ensemble d'évènements :
 - ensemble des actions prises par les différents acteurs : opérations de maintenance, ravitaillement/enlèvement du contenu d'une cuve, etc.
 
 
-3. Priorisation des exigences fonctionnelles#############################################
+3. Priorisation des exigences fonctionnelles
+#############################################
 
 Certaines fonctionnalités sont à prévoir immédiatement tandis que d'autres peuvent être considérées comme moins prioritaires car complexes ou impactant faiblement les axes d'améliorations. Il convient donc de les classer en deux lots.
 
@@ -174,32 +175,58 @@ Ces fonctionnalités pourront être implémentées dans un deuxième temps car e
  - FO-5 Traitements sur station
 	- FO-5-e Optimiser la gestion de l'énergie
 
-4. Exigences non fonctionnelles##################################
+4. Exigences non fonctionnelles
+##################################
 
 Sont définies ci-après les besoins non fonctionnelles classés par ordre d'importance. Ils proposent la mises en place de contraintes et de bonnes pratiques à appliquer sur les fonctionnalités énoncées ci-dessus. Dans un deuxième temps, il conviendra d'établir un tableau croisé des fonctionnalités et des contraintes non fonctionnelles à respecter pour chacune d'elles.
 
 4.1. Intégration de l'existant 
 ==============================
-La réussite de ce projet passe par l'adhésion des exploitants chargés actuellement de la surveillance de ces sites ainsi que des prestataires. Il convient donc de comprendre comment ceux-ci fonctionne et en quoi le nouveau système affectera leurs opérations. Il s'agira donc de faire participer ces personnes dans l'élaboration de la solution et de l'organisation fonctionnelle qui en découlera. Ces personnes doivent être convaincues de la nécessité d'un tel projet. Ils devront être régulièrement être informés et des sessions de formations et de la mise à disposition de documentation devront être anticipés.4.2. Robustesse 
+
+La réussite de ce projet passe par l'adhésion des exploitants chargés actuellement de la surveillance de ces sites ainsi que des prestataires. Il convient donc de comprendre comment ceux-ci fonctionne et en quoi le nouveau système affectera leurs opérations. Il s'agira donc de faire participer ces personnes dans l'élaboration de la solution et de l'organisation fonctionnelle qui en découlera. Ces personnes doivent être convaincues de la nécessité d'un tel projet. Ils devront être régulièrement être informés et des sessions de formations et de la mise à disposition de documentation devront être anticipés.
+
+4.2. Robustesse 
 ================
-Les stations doit être protégées correctement pour supporter des conditions climatiques extrêmes dans certaines régions (température, humidité, vent, éclairs, etc.). Le système embarqué doit pouvoir revenir à un état stable en cas de reprise. Côté site central, le stockage des données est conséquent et devra être se munir de système préventif pour éviter tout perte de données : exemple par la réplication des données sur des systèmes externes. Les systèmes embarqués doivent être quasiment ou complètement énergiquement autonomes.4.3. Fiabilité 
+
+Les stations doit être protégées correctement pour supporter des conditions climatiques extrêmes dans certaines régions (température, humidité, vent, éclairs, etc.). Le système embarqué doit pouvoir revenir à un état stable en cas de reprise. Côté site central, le stockage des données est conséquent et devra être se munir de système préventif pour éviter tout perte de données : exemple par la réplication des données sur des systèmes externes. Les systèmes embarqués doivent être quasiment ou complètement énergiquement autonomes.
+
+4.3. Fiabilité 
 ===============
-On doit éviter toute intervention humaine vis à vis du système. Il doit disposer de mécanismes garantissant leur fonctionnement en continu.
-Les aquisitions faites par les capteurs des cuves doivent être sures. Il conviendra donc d'effectuer une série de mesures pour déterminer la valeur réelle de la mesure captée et donc d'éviter la prises en compte de valeurs extraordinaires.4.4. Evolutivité et maintenabilité 
+
+On doit éviter toute intervention humaine vis à vis du système. Il doit disposer de mécanismes garantissant leur fonctionnement en continu.
+Les aquisitions faites par les capteurs des cuves doivent être sures. Il conviendra donc d'effectuer une série de mesures pour déterminer la valeur réelle de la mesure captée et donc d'éviter la prises en compte de valeurs extraordinaires.
+
+4.4. Evolutivité et maintenabilité 
 ===================================
-Le système peut être amené à évoluer au niveau dimentionnel, fonctionnel et matériel. Il faut donc veiller à l'organiser en sous-systèmes, au comportement normalisé, et qui pourront donc être ajouté, modifiés, ou retiré par la suite sans impacter le système global. Il faut définir les couches lors du développement de l'application pour faire en sorte que le système soit le plus indépendant possible du matériel. Le système devra être conçu pour supporter une mise à l'échelle européenne, que ce l'augmentation du flux de données, des besoins en termes de stockage ou dans la généricité de ses applications. 4.5. Limitations technologiques 
+
+Le système peut être amené à évoluer au niveau dimentionnel, fonctionnel et matériel. Il faut donc veiller à l'organiser en sous-systèmes, au comportement normalisé, et qui pourront donc être ajouté, modifiés, ou retiré par la suite sans impacter le système global. Il faut définir les couches lors du développement de l'application pour faire en sorte que le système soit le plus indépendant possible du matériel. Le système devra être conçu pour supporter une mise à l'échelle européenne, que ce l'augmentation du flux de données, des besoins en termes de stockage ou dans la généricité de ses applications. 
+
+4.5. Limitations technologiques 
 ================================
-Le système repose sur certaines technologies dont nous ne maîtrisons pas le fonctionnement (par exemple, le GSM ou le GPS). Il faut donc considérer la différence entre les technologies internes et externes mais surtout travailler les relations avec les prestataires responsables de ces technologies.
-De plus, afin d'éviter ces problèmes de maîtrise, les équipements seront choisis chez des fournisseurs de confiance et les technologies devront généralement être open source avec une forte communauté. L'objectif est de garder un maximum de contrôle tout en évitant de voir la technologie et donc son support disparaître.4.6. Généricité 
+
+Le système repose sur certaines technologies dont nous ne maîtrisons pas le fonctionnement (par exemple, le GSM ou le GPS). Il faut donc considérer la différence entre les technologies internes et externes mais surtout travailler les relations avec les prestataires responsables de ces technologies.
+De plus, afin d'éviter ces problèmes de maîtrise, les équipements seront choisis chez des fournisseurs de confiance et les technologies devront généralement être open source avec une forte communauté. L'objectif est de garder un maximum de contrôle tout en évitant de voir la technologie et donc son support disparaître.
+
+4.6. Généricité 
 ================
-Notre système doit être conçu à pouvoir décliner à moindre coût pour d'autre applications de type surveillance. Les applications sont nombreuses, mais le fonctionnement global est souvent proche. L'organisation de notre solution doit donc faire abstraction du domaine d'application. Un grand effort sera mené au niveau du paramétrage global du système afin de garantir une extensibilité flexible et ne nécessitant qu'un travail de surface.
-Les données provenant des mesures effectuées par les capteurs seront uniformisées au plus tôt, dès le noeud esclave pour garantir une communication de données homogènes à travers le réseau interne et pour éviter les impacts aux couches supérieurs : noeud maître et site central. Il en va de même pour les communications longues distantes, celles-ci devront utiliser des protocles standards et des structures de données génériques. Le site central et les stations distantes devront fournir des interfaces de communication définies et génériques, abstraites du système sous-jacent. Globalement le développement tiendra compte de ces contraintes par la systémisation d'une architecture en couches et en modules interchangeables. A visée européenne, le logiciel devra être disponible sous l'ensemle des langues des pays concernés.4.7. Réutilisation 
+
+Notre système doit être conçu à pouvoir décliner à moindre coût pour d'autre applications de type surveillance. Les applications sont nombreuses, mais le fonctionnement global est souvent proche. L'organisation de notre solution doit donc faire abstraction du domaine d'application. Un grand effort sera mené au niveau du paramétrage global du système afin de garantir une extensibilité flexible et ne nécessitant qu'un travail de surface.
+Les données provenant des mesures effectuées par les capteurs seront uniformisées au plus tôt, dès le noeud esclave pour garantir une communication de données homogènes à travers le réseau interne et pour éviter les impacts aux couches supérieurs : noeud maître et site central. Il en va de même pour les communications longues distantes, celles-ci devront utiliser des protocles standards et des structures de données génériques. Le site central et les stations distantes devront fournir des interfaces de communication définies et génériques, abstraites du système sous-jacent. Globalement le développement tiendra compte de ces contraintes par la systémisation d'une architecture en couches et en modules interchangeables. A visée européenne, le logiciel devra être disponible sous l'ensemle des langues des pays concernés.
+
+4.7. Réutilisation 
 ==================
-Les techniques employées ne sont pas fondamentalement nouvelles, nous pouvons donc en profiter pour réutiliser des composants (matériel, logiciels, libraries, patterns, bonnes pratiques, etc.) qui ont fait leurs preuves. Symétriquement, il faut que les composants de notre propre système puissent être réutilisés à leur tour. Le développement logiciel sera découpé en sous-projets mais cependant un effort en amont sera mené afin de garder une cohérence et une réutilisation à travers les différents sous-projets.4.8. Ergonomie 
+
+Les techniques employées ne sont pas fondamentalement nouvelles, nous pouvons donc en profiter pour réutiliser des composants (matériel, logiciels, libraries, patterns, bonnes pratiques, etc.) qui ont fait leurs preuves. Symétriquement, il faut que les composants de notre propre système puissent être réutilisés à leur tour. Le développement logiciel sera découpé en sous-projets mais cependant un effort en amont sera mené afin de garder une cohérence et une réutilisation à travers les différents sous-projets.
+
+4.8. Ergonomie 
 ===============
-Le système s'adresse à des différents acteurs plus ou moins habitués à travailler avec l'informatique (opérationnels, camioneurs, télésurveillant). Il faut donc que l'interface s'adapte à l'utilisateur et que ce soit facile et convivial pour exploiter le système. Le besoin d'apprentissage doit être minimisé. Il faut aussi assurer la qualité de l'interface sur un appareil portable de type PDA, afin de faciliter son utilisation sur le terrain.4.9. Traçabilité 
+
+Le système s'adresse à des différents acteurs plus ou moins habitués à travailler avec l'informatique (opérationnels, camioneurs, télésurveillant). Il faut donc que l'interface s'adapte à l'utilisateur et que ce soit facile et convivial pour exploiter le système. Le besoin d'apprentissage doit être minimisé. Il faut aussi assurer la qualité de l'interface sur un appareil portable de type PDA, afin de faciliter son utilisation sur le terrain.
+
+4.9. Traçabilité 
 =================
-Le serveur central, qui est en communication avec l'ensemble du système, doit garder une trace de toutes les informations qui transitent et les états de fonctionnement de chaque station. Il en va de même pour l'enregistrement de toutes les opérations de maintenance. Du côté des stations, les systèmes embarqués doivent également assurer une traçabilité indépendante du serveur en cas de communications impossible ou d'erreurs graves. L'idée est d'offrir une possibilité de remonter dans l'historique des opérations dans le cas d'erreurs mais aussi dans le but d'analyser ces données (cf. FO-4-d).
+
+Le serveur central, qui est en communication avec l'ensemble du système, doit garder une trace de toutes les informations qui transitent et les états de fonctionnement de chaque station. Il en va de même pour l'enregistrement de toutes les opérations de maintenance. Du côté des stations, les systèmes embarqués doivent également assurer une traçabilité indépendante du serveur en cas de communications impossible ou d'erreurs graves. L'idée est d'offrir une possibilité de remonter dans l'historique des opérations dans le cas d'erreurs mais aussi dans le but d'analyser ces données (cf. FO-4-d).
 
 
 Fonctionnement global du système
