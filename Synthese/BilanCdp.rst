@@ -28,10 +28,11 @@ objectifs. L'implémentation est complétement irréalisable à l'Insa, et nous 
 savons, ce qui fait que nous avons parfois l'impression de "bluffer". On est un
 peu frustré comme quand ont était enfant et qu'on jouait avec des jeux qui
 ressemblaient à ce que nos parents utilisaient (les dinettes, les ordinateurs
-Vtech, le radio-cassette Playskook).
+Vtech, le radio-cassette Playskook). Le fait que le projet se déroule en même
+temps que le PLD renforce ce sentiment.
 
-Le fait que le projet se déroule en même temps que le PLD renforce ce
-sentiment.
+Je ne parlerai pas non plus des problèmes de réseau que nous avons eu, qui sont
+totalement indépendants du projet.
 
 Le sujet du projet offrait tout de même de nombreuses pistes techniques qu'il
 était intéressant d'explorer : il nous a été possible de découvrir des
