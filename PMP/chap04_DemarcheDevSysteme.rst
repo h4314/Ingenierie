@@ -221,4 +221,5 @@ Approche produit :
 Planning prévisionnel
 =====================
 
-Schéma et cie
+.. image:: decoupage.png
+   :scale: 100%
